@@ -35,15 +35,9 @@ if pm:
     for r in pm.split('~'):
         if r: f=r.split('|'); meta[f[0]]=f[1:]
 
-def pub(pk):
-    try:
-        with urllib.request.urlopen('https://flatfox.ch/api/v1/public-listing/%s/'%pk,timeout=20) as r:
-            j=json.load(r); return pk,(j.get('published') or j.get('created') or '')[:10]
-    except Exception: return pk,''
-need=[pk for pk in N if not pk.startswith('u') and not (meta.get(pk) and meta[pk][1])]
-pubs={}
-with cf.ThreadPoolExecutor(16) as ex:
-    for pk,d in ex.map(pub,need): pubs[pk]=d
+import os
+# publish dates come only from the verified browser scrape (PUBS json); never fetched here
+pubs=json.load(open(os.environ['PUBS'])) if os.environ.get('PUBS') else {}
 M={}
 for pk in N:
     old=meta.get(pk,['',''])
