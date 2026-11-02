@@ -35,8 +35,8 @@ zc=collections.defaultdict(list)
 for f in P.values():zc[f[7]].append((47.3+int(f[8])/1e4,8.4+int(f[9])/1e4))
 def km(a,b,c,e):
     x=(e-b)*math.cos(math.radians((a+c)/2))*111.32;y=(c-a)*110.57;return math.hypot(x,y)
-SUB=['befristet','zwischenmiete','untermiete','sublet','sublease','temporary','temporär','temporaer']
-WG=['wg-zimmer','wg zimmer','wg-room','room in a shared','shared flat','shared apartment','mitbewohner','flatmate','zimmer in einer','in einer wg']
+SUB=['limited till','limited until','begrenzt bis','befristet','zwischenmiete','untermiete','sublet','sublease','temporary','temporär','temporaer']
+WG=['roommate','rooms for rent in shared','wg-zimmer','wg zimmer','wg-room','room in a shared','shared flat','shared apartment','mitbewohner','flatmate','zimmer in einer','in einer wg']
 new=[];sk=collections.Counter()
 for pk,d in D.items():
     if pk in P:continue
