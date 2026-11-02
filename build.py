@@ -1,5 +1,9 @@
 import json,re,os,sys,time,math,urllib.request,urllib.parse,collections,subprocess
-RUN='2026-11-02'
+import datetime,zoneinfo
+RUN=os.environ.get('RUN') or datetime.datetime.now(zoneinfo.ZoneInfo('Europe/Zurich')).date().isoformat()
+_d=datetime.date.fromisoformat(RUN)
+while _d.weekday()>=5:_d+=datetime.timedelta(days=1)
+TTDATE=_d.strftime('%m/%d/%Y')
 h=open('/work/m/live.html',encoding='utf-8').read()
 def g(h,n):
     k='const %s=`'%n;i=h.find(k)
@@ -64,7 +68,7 @@ print('existing kept',sum(1 for k in N if k in P),'dropped',dict(dropped))
 print('new',len(new),'skipped',dict(sk))
 MAP={'bus':'bus','tram':'tram','strain':'S-Bahn','ship':'boat'}
 def route(lat,lon,to):
-    q=urllib.parse.urlencode({'from':'%.6f,%.6f'%(lat,lon),'to':to,'date':'11/02/2026','time':'08:00','num':4})
+    q=urllib.parse.urlencode({'from':'%.6f,%.6f'%(lat,lon),'to':to,'date':TTDATE,'time':'08:00','num':4})
     for a in range(3):
         try:
             with urllib.request.urlopen('https://timetable.search.ch/api/route.json?'+q,timeout=30) as r:j=json.load(r)
@@ -97,6 +101,7 @@ json.dump(pubs,open('/work/m/pubs.json','w'))
 fails=[]
 def patch(a,b,n=1):
     global h
+    if b in h:return
     c=h.count(a)
     if c!=n:fails.append((a[:70],c));return
     h=h.replace(a,b)
@@ -124,10 +129,4 @@ h=setc(h,'TS','~'.join(TSrows.values()))
 open('/work/m/prev2.html','w',encoding='utf-8').write(h)
 recs=sorted(N.values(),key=lambda f:int(f[1]))
 open('/work/m/new_raw.txt','w',encoding='utf-8').write('~'.join('|'.join(f) for f in recs))
-s=open('/work/m/augment.py',encoding='utf-8').read()
-if 'def pub(pk):' in s:
-    a=s.index('def pub(pk):');b=s.index('M={}')
-    s=s[:a]+"import os\n# publish dates come only from the verified browser scrape (PUBS json); never fetched here\npubs=json.load(open(os.environ['PUBS'])) if os.environ.get('PUBS') else {}\n"+s[b:]
-    open('/work/m/augment.py','w',encoding='utf-8').write(s)
-r=subprocess.run(['python3','/work/m/augment.py','/work/m/prev2.html','/work/m/new_raw.txt',RUN,'/work/m/index.html'],env=dict(os.environ,PUBS='/work/m/pubs.json'),capture_output=True,text=True);print('augment',r.returncode,r.stdout[-600:],r.stderr[-800:])
 for rec,_,_ in new[:60]:print('NEW',rec[0],'CHF',rec[1],rec[4],'rooms',rec[5] and rec[5]+' m2',rec[6],rec[7],'|',TSrows[rec[0]])
