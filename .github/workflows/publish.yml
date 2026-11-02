@@ -1,0 +1,34 @@
+name: Publish bundle
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Link to a .tgz with index.html and scripts
+        required: true
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack bundle
+        env:
+          SRC: ${{ inputs.url }}
+        run: |
+          curl -fsSL "$SRC" -o /tmp/b.tgz
+          tar xzf /tmp/b.tgz -C .
+          git config user.name blue-bot
+          git config user.email blue-bot@users.noreply.github.com
+          git add -A
+          git commit -m "Publish report" || echo nochange
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
