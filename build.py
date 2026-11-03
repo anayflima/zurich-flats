@@ -119,7 +119,7 @@ patch('o.sgmin<=f.sg&&o.thb<=f.thb&&o.tfs<=f.tfs','(f.sg>=999||o.sgmin!=null&&o.
 patch('sg:(a,b)=>a.sgmin-b.sgmin,thb:(a,b)=>a.thb-b.thb,tfs:(a,b)=>a.tfs-b.tfs','sg:(a,b)=>(a.sgmin??1e9)-(b.sgmin??1e9),thb:(a,b)=>(a.thb??1e9)-(b.thb??1e9),tfs:(a,b)=>(a.tfs??1e9)-(b.tfs??1e9)')
 patch('med(v.map(o=>o.thb))','med(v.map(o=>o.thb).filter(x=>x!=null))')
 patch('med(v.map(o=>o.sgmin))','med(v.map(o=>o.sgmin).filter(x=>x!=null))')
-patch("else if(o.uh)a.push('UrbanHome does not show a publish date')","else if(o.uh)a.push('UrbanHome listing, last checked 1 Nov 2026 and not re-checked since (UrbanHome shows no publish date)')")
+if 'UrbanHome does not show a publish date' in h:patch("else if(o.uh)a.push('UrbanHome does not show a publish date')","else if(o.uh)a.push('UrbanHome listing, last checked 1 Nov 2026 and not re-checked since (UrbanHome shows no publish date)')")
 patch('const $=id=>document.getElementById(id);',"function ct(m,l){return m==null?'not looked up':tt(m)+(l?' ('+l+')':'')}const $=id=>document.getElementById(id);")
 h,n1=re.subn(r'Times marked est\.[^<]*','Times that could not be looked up show as "not looked up"; nothing on this page is estimated.',h);print('note fixed',n1)
 h,n2=re.subn(r' and the University of St\. Gallen \(HSG\)','',h);print('header HSG removed',n2)
