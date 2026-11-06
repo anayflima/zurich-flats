@@ -6,10 +6,10 @@ def g(n):
 P={x.split('|')[0]:x.split('|') for x in g('RAW').split('~') if x.strip()}
 ff=[pk for pk in P if not pk.startswith('u')]
 PIN='/api/v1/pin/?east=8.63&west=8.44&north=47.44&south=47.32&max_count=1000&ordering=-insertion&offer_type=RENT&object_category=APARTMENT&max_price=2500'
-CTRL={'86478389':(680,'2.5'),'86451008':(862,'5.5'),'86417608':(1200,'4.0')}
+CTRL={'86478389':(680,'2.5'),'86451008':(862,'5.5'),'825717':(1850,'1.0')}
 with Camoufox(headless=True,humanize=True,locale='en-US',os='windows',i_know_what_im_doing=True) as b:
     pg=b.new_page()
-    pg.goto('https://flatfox.ch/en/86417608/',wait_until='domcontentloaded',timeout=90000)
+    pg.goto('https://flatfox.ch/en/86478389/',wait_until='domcontentloaded',timeout=90000)
     pg.wait_for_timeout(8000)
     print('page title',pg.title())
     pins=pg.evaluate('async u=>{const r=await fetch(u);return await r.json()}',PIN)
