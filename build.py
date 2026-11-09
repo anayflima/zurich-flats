@@ -20,11 +20,15 @@ def price(d):
     if d.get('price_display_type')=='TOTAL' and d.get('price_display'):return int(d['price_display'])
     if d.get('rent_gross'):return int(d['rent_gross'])
     return None
+TEMPW=('für den zeitraum','fuer den zeitraum','for the period')
+TEMPRX=re.compile(r'\bvom\s+\d{1,2}\.\s*\w+\s*\d{0,4}\s+bis\s+\d{1,2}\.')
 N={};dropped=collections.Counter()
 for pk,f in P.items():
     if pk.startswith('u'):N[pk]=f;continue
     d=D.get(pk)
     if not d or d.get('status')!='act' or d.get('reserved'):dropped['no longer active']+=1;continue
+    _t=((d.get('description') or '')+' '+(d.get('description_title') or '')).lower().replace('unbefristet','').replace('nicht befristet','')
+    if any(w in _t for w in TEMPW) or TEMPRX.search(_t):dropped['temporary wording']+=1;print('DROP_TEMP',pk,f[6] if len(f)>6 else '');continue
     p=price(d)
     if p is None or p>2500:dropped['price unknown/over']+=1;continue
     f=list(f)
@@ -50,7 +54,7 @@ for pk,d in D.items():
     md=d.get('moving_date') or ''
     if md and md>'2027-04-30':sk['late']+=1;continue
     t=((d.get('description') or '')+' '+(d.get('description_title') or '')+' '+(d.get('short_title') or '')).lower().replace('unbefristet','').replace('nicht befristet','')
-    if any(w in t for w in SUB):sk['sublet/temporary wording']+=1;continue
+    if any(w in t for w in SUB) or any(w in t for w in TEMPW) or TEMPRX.search(t):sk['sublet/temporary wording']+=1;continue
     if any(w in t for w in WG):sk['room in shared flat']+=1;continue
     lat,lon=d.get('latitude'),d.get('longitude')
     if lat is None or lon is None:sk['no location']+=1;continue
