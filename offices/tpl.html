@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zurich office rooms for two</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;margin:0;background:#f6f7f9;color:#1d2330}
+header{padding:16px 20px;background:#1d3557;color:#fff}header h1{margin:0;font-size:20px}header p{margin:4px 0 0;font-size:13px;opacity:.9}
+.wrap{padding:12px 14px;max-width:1400px;margin:auto}
+.ctrl{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0;font-size:14px}
+.tab{border:1px solid #c9cfda;background:#fff;border-radius:16px;padding:5px 12px;cursor:pointer;font-size:13px}.tab.on{background:#1d3557;color:#fff;border-color:#1d3557}
+.tw{overflow:auto;max-height:75vh;background:#fff;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;border-bottom:1px solid #eceef2;text-align:left;vertical-align:top;white-space:nowrap}
+th{background:#eef1f6;position:sticky;top:0;z-index:2;cursor:pointer;user-select:none;font-weight:600}
+th.sorted:after{content:attr(data-d)}
+td.w{white-space:normal;min-width:170px;max-width:260px}
+tr.fit td{background:#effaf2}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px}
+.p-yes{background:#d8f3dc;color:#1b5e20}.p-maybe{background:#fff3cd;color:#7a5b00}.p-no{background:#fde2e1;color:#8a1c1c}
+.sm{font-size:12px;color:#5d6575}.b{font-weight:600}
+#map{height:380px;border-radius:10px;margin:14px 0}
+.act button{border:none;background:none;cursor:pointer;font-size:16px;padding:0 2px}
+a{color:#1d5fbf}
+</style></head><body>
+<header><h1>Zurich office rooms for two</h1><p>Small offices and desks to sublet, aiming for max CHF 500/month for 2 people, near Zürich HB and Home (Hottingen). Last updated <span id="upd"></span>.</p></header>
+<div class="wrap">
+<div class="ctrl" id="tabs"></div>
+<div class="ctrl"><label><input type="checkbox" id="fBudget"> Only ≤ CHF 500 for 2</label><label><input type="checkbox" id="fPriv"> Only own room</label><span class="sm" id="cnt"></span></div>
+<div class="tw"><table><thead><tr id="hd"></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="sm">Times are minutes on foot / by bike via OpenStreetMap routing. ≈ = the listing gives only the street, so it is measured to the middle of the street. “Cost for 2” is shown only when the listing makes it clear; “?” means ask the owner. Green rows are ≤ CHF 500 for two. Tap a column header to sort. Source: Ron Orp marketplace.</p>
+<div id="map"></div>
+<div class="ctrl"><button class="tab" id="exp">Export stars</button><button class="tab" id="imp">Import stars</button></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA=__DATA__;const META=__META__;
+const KEY='zurichOffices.v1';let st;try{st=JSON.parse(localStorage.getItem(KEY))||{}}catch(e){st={}}st.star=st.star||{};st.rm=st.rm||{};
+function save(){try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
+let tab='all',sk='cost2',sd=1;
+const C=[['act',''],['title','Office'],['area','Area'],['cost2','Cost for 2'],['price','Listed CHF'],['basis','Price basis'],['privacy','Privacy'],['size','Size'],['hbw','HB walk'],['hbb','HB bike'],['hmw','Home walk'],['hmb','Home bike'],['avail','Available'],['found','Found']];
+const T={hbw:['hb_walk',1],hbb:['hb_bike',1],hmw:['home_walk',1],hmb:['home_bike',1]};
+function val(d,k){if(T[k]){const x=d[T[k][0]];return x?x[1]:1e9}if(k=='cost2')return d.cost2==null?1e8+d.price:d.cost2;if(k=='privacy')return {yes:0,maybe:1,no:2}[d.privcls];return d[k]}
+function tm(d,k){const x=d[k];return x?x[1]+'':'<span class=sm>not looked up</span>'}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function chf(n){return 'CHF '+n.toLocaleString('de-CH')}
+function vis(){const b=document.getElementById('fBudget').checked,p=document.getElementById('fPriv').checked;return DATA.filter(d=>{if(tab=='rm')return st.rm[d.id];if(st.rm[d.id])return false;if(tab=='star'&&!st.star[d.id])return false;if(tab=='new'&&d.found!=META.run)return false;if(b&&!(d.cost2!=null&&d.cost2<=500))return false;if(p&&d.privcls!='yes')return false;return true})}
+function tabs(){const n=DATA.filter(d=>!st.rm[d.id]).length,s=DATA.filter(d=>st.star[d.id]&&!st.rm[d.id]).length,r=DATA.filter(d=>st.rm[d.id]).length,nw=DATA.filter(d=>d.found==META.run&&!st.rm[d.id]).length;const L=[['all','All ('+n+')'],['new','New today ('+nw+')'],['star','★ Starred ('+s+')'],['rm','Removed ('+r+')']];document.getElementById('tabs').innerHTML=L.map(x=>'<button class="tab'+(tab==x[0]?' on':'')+'" data-t="'+x[0]+'">'+x[1]+'</button>').join('');document.querySelectorAll('#tabs .tab').forEach(e=>e.onclick=()=>{tab=e.dataset.t;draw()})}
+function head(){document.getElementById('hd').innerHTML=C.map(c=>'<th data-k="'+c[0]+'"'+(sk==c[0]?' class=sorted data-d="'+(sd>0?' ▲':' ▼')+'"':'')+'>'+c[1]+'</th>').join('');document.querySelectorAll('#hd th').forEach(e=>e.onclick=()=>{const k=e.dataset.k;if(k=='act')return;if(sk==k)sd=-sd;else{sk=k;sd=1}draw()})}
+function row(d){const a=d.precise?'':'≈';const fit=d.cost2!=null&&d.cost2<=500;return '<tr class="'+(fit?'fit':'')+'"><td class=act>'+(tab=='rm'?'<button data-r="'+d.id+'" title=Restore>↩</button>':'<button data-s="'+d.id+'" title=Star>'+(st.star[d.id]?'★':'☆')+'</button><button data-x="'+d.id+'" title=Remove>✕</button>')+'</td><td class=w><a href="'+esc(d.url)+'" target=_blank rel=noopener class=b>'+esc(d.title)+'</a><div class=sm>'+esc(d.address)+(d.note?' · '+esc(d.note):'')+'</div></td><td>'+esc(d.area)+'</td><td class="n b">'+(d.cost2==null?'?':chf(d.cost2))+'</td><td class=n>'+chf(d.price)+'</td><td class=w>'+esc(d.basis)+'</td><td><span class="pill p-'+d.privcls+'">'+esc(d.privacy)+'</span></td><td>'+esc(d.size)+'</td><td class=n>'+a+tm(d,'hb_walk')+'</td><td class=n>'+a+tm(d,'hb_bike')+'</td><td class=n>'+a+tm(d,'home_walk')+'</td><td class=n>'+a+tm(d,'home_bike')+'</td><td class=w>'+esc(d.avail)+'</td><td>'+esc(d.found)+'</td></tr>'}
+function draw(){tabs();head();const v=vis().sort((x,y)=>{const a=val(x,sk),b=val(y,sk);return (a>b?1:a<b?-1:0)*sd});document.getElementById('tb').innerHTML=v.map(row).join('');document.getElementById('cnt').textContent=v.length+' shown';document.querySelectorAll('[data-s]').forEach(e=>e.onclick=()=>{const i=e.dataset.s;if(st.star[i])delete st.star[i];else st.star[i]=1;save();draw()});document.querySelectorAll('[data-x]').forEach(e=>e.onclick=()=>{st.rm[e.dataset.x]=1;save();draw()});document.querySelectorAll('[data-r]').forEach(e=>e.onclick=()=>{delete st.rm[e.dataset.r];save();draw()});pins(v)}
+let map,layer;function pins(v){if(typeof L=='undefined')return;if(!map){map=L.map('map').setView([47.377,8.535],13);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);L.marker(META.hb).addTo(map).bindPopup('<b>Zürich HB</b>');L.marker(META.home).addTo(map).bindPopup('<b>Home (Hottingen)</b>');layer=L.layerGroup().addTo(map)}layer.clearLayers();v.forEach(d=>{if(d.lat==null)return;const fit=d.cost2!=null&&d.cost2<=500;L.circleMarker([d.lat,d.lon],{radius:8,color:fit?'#1b7f3b':d.privcls=='yes'?'#1d5fbf':'#c0392b',fillOpacity:.8}).addTo(layer).bindPopup('<b>'+esc(d.title)+'</b><br>'+esc(d.address)+'<br>Cost for 2: '+(d.cost2==null?'?':chf(d.cost2))+'<br>HB '+tm(d,'hb_walk')+' min walk · Home '+tm(d,'home_bike')+' min bike<br><a href="'+esc(d.url)+'" target=_blank>Listing</a>')})}
+document.getElementById('upd').textContent=META.run;
+document.getElementById('fBudget').onchange=draw;document.getElementById('fPriv').onchange=draw;
+document.getElementById('exp').onclick=()=>{const s=JSON.stringify(st);if(navigator.clipboard)navigator.clipboard.writeText(s);prompt('Copy this',s)};
+document.getElementById('imp').onclick=()=>{const s=prompt('Paste exported stars');if(!s)return;try{const o=JSON.parse(s);st.star=Object.assign(st.star,o.star||{});st.rm=Object.assign(st.rm,o.rm||{});save();draw()}catch(e){alert('Could not read that')}};
+draw();
+</script></body></html>
