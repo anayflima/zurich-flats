@@ -1,0 +1,16 @@
+const {JSDOM,VirtualConsole}=require('jsdom');const fs=require('fs');
+let bad=0;const vc=new VirtualConsole();vc.on('jsdomError',e=>{if(!/Not implemented/.test(e.message)){console.log('JSERR',e.message);bad=1}});
+const dom=new JSDOM(fs.readFileSync('offices/index.html','utf8'),{runScripts:'dangerously',url:'https://anayflima.github.io/zurich-flats/offices/',virtualConsole:vc});
+const D=dom.window.document,$=i=>D.getElementById(i),n=s=>D.querySelectorAll(s).length;
+console.log('fgrid',n('#fgrid .card'),'deals',n('#dgrid .card'),'ask',n('#agrid .card'),'kpis',n('#kpis .kpi'),'top1',n('#t1 .card'));
+console.log('anaPriv rows',n('#aPriv tr'),'area rows',n('#aArea tr'),'hb rows',n('#aHb tr'),'svg',n('#sc1 circle'),n('#sc2 circle'),'hist',n('#hist tr'));
+console.log('KPI',$('kpis').textContent);console.log('INS',$('aIns').textContent);
+D.querySelector('[data-p=b500]').click();console.log('b500',n('#fgrid .card'));D.querySelector('[data-p=reset]').click();
+D.querySelector('[data-p=own]').click();console.log('own',n('#fgrid .card'));D.querySelector('[data-p=reset]').click();
+D.querySelector('#fgrid [data-act=st]').click();console.log('star',$('nStar').textContent);
+D.querySelectorAll('#fgrid [data-act=cp]')[0].click();D.querySelectorAll('#fgrid [data-act=cp]')[1].click();console.log('cmp rows',n('#ctab tr'),'best',n('#ctab td.best'));
+const s=D.querySelector('#fgrid .stsel');s.value='Contacted';s.dispatchEvent(new dom.window.Event('change',{bubbles:true}));console.log('pipe',$('nPipe').textContent,n('#pgrid .card'));
+const a=$('nAll').textContent;D.querySelector('#fgrid [data-act=rm]').click();console.log('rm',a,'->',$('nAll').textContent,'removed',n('#rgrid .card'));
+D.querySelector('#ttab th[data-k=hb_walk]').click();console.log('table first by HB',D.querySelector('#ttab tr:nth-child(2) a').textContent);
+D.querySelector('#nav .tab[data-v=cmp]').click();console.log('body',D.body.className);
+process.exit(bad||n('#fgrid .card')<10?1:0);

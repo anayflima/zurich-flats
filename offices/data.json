@@ -14,9 +14,13 @@
   "url": "https://ronorp.net/market/posts/ruhiges-buro-im-kreis-5",
   "note": "Unfurnished, desk and shelf can be taken over, shared WC",
   "found": "2026-11-12",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "pp": 220.0,
+  "sqm": 12,
+  "psqm": 36.7,
   "lat": 47.3826748,
   "lon": 8.532606,
-  "precise": 0,
   "hb_walk": [
    0.88,
    12
@@ -32,7 +36,8 @@
   "home_bike": [
    3.35,
    15
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "technopark",
@@ -49,9 +54,13 @@
   "url": "https://ronorp.net/market/posts/buro-zur-gemeinsamen-nutzung-nahe-escherwyssplatzbahnhof-hardbrucke",
   "note": "Only 1 desk free",
   "found": "2026-11-12",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3899675,
   "lon": 8.5156319,
-  "precise": 1,
   "hb_walk": [
    2.49,
    33
@@ -67,7 +76,8 @@
   "home_bike": [
    4.81,
    21
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "morgarten",
@@ -84,9 +94,13 @@
   "url": "https://ronorp.net/market/posts/zwei-arbeitsplatze-zu-vermieten-einzeln-oder-zusammen",
   "note": "Furnished; meeting room, kitchen, internet, printer, cleaning, showers incl.",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.371136,
   "lon": 8.5300868,
-  "precise": 0,
   "hb_walk": [
    1.2,
    16
@@ -102,7 +116,8 @@
   "home_bike": [
    2.66,
    16
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "schaff",
@@ -119,9 +134,13 @@
   "url": "https://ronorp.net/market/posts/zwei-buroplatze-in-burogemeinschaft-zentraler-altbau-mit-charme",
   "note": "Internet, printer, newspapers, coffee incl.",
   "found": "2026-11-12",
+  "plz": "8006",
+  "kreis": "Kreis 6 (Unterstrass)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3895926,
   "lon": 8.5388082,
-  "precise": 1,
   "hb_walk": [
    1.62,
    22
@@ -137,7 +156,8 @@
   "home_bike": [
    2.59,
    12
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "neptun",
@@ -154,9 +174,13 @@
   "url": "https://ronorp.net/market/posts/arbeitsplatz-in-hottingen",
   "note": "Furnished; meeting room, kitchen, garden",
   "found": "2026-11-12",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "pp": 375.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.36745,
   "lon": 8.555767,
-  "precise": 1,
   "hb_walk": [
    2.04,
    27
@@ -172,7 +196,8 @@
   "home_bike": [
    0.66,
    3
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "selnau",
@@ -189,9 +214,13 @@
   "url": "https://ronorp.net/market/posts/buroarbeitsplatz-im-gemeinschaftsburo-am-stauffacher-zu-vermieten",
   "note": "2–3 desks free; internet, printer, kitchen",
   "found": "2026-11-12",
+  "plz": "8001",
+  "kreis": "Kreis 1 (City)",
+  "pp": 395.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.372809,
   "lon": 8.5329428,
-  "precise": 1,
   "hb_walk": [
    0.87,
    12
@@ -207,7 +236,8 @@
   "home_bike": [
    2.32,
    14
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "freya",
@@ -224,9 +254,13 @@
   "url": "https://ronorp.net/market/posts/atelierburoraum-freyastr-14-in-8004-zurich-zu-vermieten-1",
   "note": "2 of 3 shares = CHF 716; 1 min from Bahnhof Wiedikon",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": 358.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3721154,
   "lon": 8.5243789,
-  "precise": 1,
   "hb_walk": [
    1.59,
    21
@@ -242,7 +276,8 @@
   "home_bike": [
    3.45,
    18
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "fabrik",
@@ -259,9 +294,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Fabrikstrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "pp": 340.0,
+  "sqm": 16,
+  "psqm": 42.5,
   "lat": 47.3847088,
   "lon": 8.5259757,
-  "precise": 0,
   "hb_walk": [
    1.46,
    19
@@ -277,7 +316,8 @@
   "home_bike": [
    3.68,
    16
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "badener",
@@ -294,9 +334,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Badenerstrasse%20134",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": 332.5,
+  "sqm": 17.5,
+  "psqm": 38.0,
   "lat": 47.3745218,
   "lon": 8.5231289,
-  "precise": 1,
   "hb_walk": [
    1.57,
    21
@@ -312,7 +356,8 @@
   "home_bike": [
    3.87,
    18
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "sihlfeld",
@@ -329,9 +374,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Sihlfeldstrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8003",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "pp": 375.0,
+  "sqm": 23.4,
+  "psqm": 32.1,
   "lat": 47.3733042,
   "lon": 8.5173238,
-  "precise": 0,
   "hb_walk": [
    2.12,
    28
@@ -347,7 +396,8 @@
   "home_bike": [
    3.98,
    19
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "hofacker",
@@ -364,9 +414,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Hofackerstrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "pp": 400.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3620322,
   "lon": 8.5623994,
-  "precise": 1,
   "hb_walk": [
    2.92,
    39
@@ -382,7 +436,8 @@
   "home_bike": [
    1.27,
    7
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "bernina",
@@ -399,9 +454,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Berninaplatz",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8057",
+  "kreis": "Kreis 11 (Oerlikon)",
+  "pp": 282.5,
+  "sqm": 15,
+  "psqm": 37.7,
   "lat": 47.403601,
   "lon": 8.548263,
-  "precise": 0,
   "hb_walk": [
    3.49,
    47
@@ -417,7 +476,8 @@
   "home_bike": [
    4.13,
    18
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "schindler",
@@ -434,9 +494,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Schindlerstrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8006",
+  "kreis": "Kreis 6 (Unterstrass)",
+  "pp": 500.0,
+  "sqm": 14,
+  "psqm": 71.4,
   "lat": 47.3891101,
   "lon": 8.5387737,
-  "precise": 1,
   "hb_walk": [
    1.59,
    21
@@ -452,7 +516,8 @@
   "home_bike": [
    2.59,
    12
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "burg",
@@ -469,9 +534,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Atelier-Tische",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8037",
+  "kreis": "Kreis 10 (Wipkingen)",
+  "pp": 320.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3912043,
   "lon": 8.5272871,
-  "precise": 1,
   "hb_walk": [
    2.13,
    28
@@ -487,7 +556,8 @@
   "home_bike": [
    3.67,
    18
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "raeffel",
@@ -504,9 +574,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=R%C3%A4ffelstrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8045",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "pp": 390.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3630674,
   "lon": 8.5137907,
-  "precise": 1,
   "hb_walk": [
    3.05,
    41
@@ -522,7 +596,8 @@
   "home_bike": [
    4.47,
    20
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "gruben38",
@@ -539,9 +614,13 @@
   "url": "https://ronorp.net/market/posts/arbeitsplatzeburoflache-in-loft-zu-vermieten",
   "note": "Kitchen and meeting room incl.",
   "found": "2026-11-12",
+  "plz": "8045",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "pp": 400.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3615712,
   "lon": 8.513251,
-  "precise": 1,
   "hb_walk": [
    3.05,
    41
@@ -557,7 +636,8 @@
   "home_bike": [
    4.46,
    21
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "gruben9",
@@ -574,9 +654,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Grubenstrasse%209",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8045",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "pp": 550.0,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3616266,
   "lon": 8.5167099,
-  "precise": 1,
   "hb_walk": [
    2.81,
    37
@@ -592,7 +676,8 @@
   "home_bike": [
    4.21,
    19
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "lessing",
@@ -609,9 +694,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Lessingstrasse",
   "note": "Only 1 place",
   "found": "2026-11-12",
+  "plz": "8002",
+  "kreis": "Kreis 2 (Enge)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3588637,
   "lon": 8.5241999,
-  "precise": 1,
   "hb_walk": [
    2.75,
    37
@@ -627,7 +716,8 @@
   "home_bike": [
    4.16,
    17
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "aemtler",
@@ -644,9 +734,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Aemtlerstrasse",
   "note": "Only 1 place",
   "found": "2026-11-12",
+  "plz": "8003",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3742481,
   "lon": 8.5133274,
-  "precise": 1,
   "hb_walk": [
    2.44,
    32
@@ -662,7 +756,8 @@
   "home_bike": [
    4.37,
    21
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "zimmerli",
@@ -679,9 +774,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Zimmerlistrasse",
   "note": "Only 1 place",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3839079,
   "lon": 8.5097228,
-  "precise": 0,
   "hb_walk": [
    2.75,
    37
@@ -697,7 +796,8 @@
   "home_bike": [
    5.81,
    22
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "albis",
@@ -714,9 +814,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Albisriederstrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8047",
+  "kreis": "Kreis 9 (Albisrieden)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3780883,
   "lon": 8.494011,
-  "precise": 1,
   "hb_walk": [
    4.04,
    54
@@ -732,7 +836,8 @@
   "home_bike": [
    6.1,
    29
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "glasmaler",
@@ -749,9 +854,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Glasmalergasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3744961,
   "lon": 8.5300772,
-  "precise": 1,
   "hb_walk": [
    1.04,
    14
@@ -767,7 +876,8 @@
   "home_bike": [
    3.29,
    16
-  ]
+  ],
+  "precise": 1
  },
  {
   "id": "lochergut",
@@ -784,9 +894,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Lochergut",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3755342,
   "lon": 8.517227,
-  "precise": 0,
   "hb_walk": [
    2.06,
    28
@@ -802,7 +916,8 @@
   "home_bike": [
    4.35,
    21
-  ]
+  ],
+  "precise": 0
  },
  {
   "id": "kanzlei",
@@ -819,9 +934,13 @@
   "url": "https://ronorp.net/zurich/market/search?keyword=Kanzleistrasse",
   "note": "",
   "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
   "lat": 47.3783169,
   "lon": 8.5173711,
-  "precise": 1,
   "hb_walk": [
    2.07,
    28
@@ -837,6 +956,7 @@
   "home_bike": [
    4.45,
    20
-  ]
+  ],
+  "precise": 1
  }
 ]
