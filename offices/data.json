@@ -958,5 +958,125 @@
    20
   ],
   "precise": 1
+ },
+ {
+  "id": "jfloor",
+  "title": "J floor startup base",
+  "address": "Josefstrasse 206, 8005",
+  "area": "Kreis 5",
+  "price": 0,
+  "basis": "Free: no fees, no equity; apply to join",
+  "cost2": 0,
+  "privcls": "no",
+  "privacy": "Shared founder community space",
+  "size": "—",
+  "avail": "Apply at thejfloor.com",
+  "url": "https://thejfloor.com/",
+  "note": "For early-stage founders and small teams. Found via the J floor ZH WhatsApp community. Address from web search, confirm when applying",
+  "found": "2026-11-12",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "pp": 0.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3870702,
+  "lon": 8.5236872,
+  "hb_walk": [
+   1.79,
+   24
+  ],
+  "hb_bike": [
+   1.81,
+   8
+  ],
+  "home_walk": [
+   3.36,
+   45
+  ],
+  "home_bike": [
+   3.92,
+   17
+  ],
+  "precise": 1
+ },
+ {
+  "id": "sph",
+  "title": "ETH Student Project House Zentrum",
+  "address": "Clausiusstrasse 16, 8006",
+  "area": "Kreis 6",
+  "price": 0,
+  "basis": "Free for ETH students; both of you must qualify",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared coworking desks",
+  "size": "—",
+  "avail": "Register as ETH student project",
+  "url": "https://sph.ethz.ch/",
+  "note": "ETH students only (from web search); makerspace and events",
+  "found": "2026-11-12",
+  "plz": "8006",
+  "kreis": "Kreis 6 (Unterstrass)",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3817374,
+  "lon": 8.5445085,
+  "hb_walk": [
+   0.89,
+   12
+  ],
+  "hb_bike": [
+   1.71,
+   10
+  ],
+  "home_walk": [
+   1.63,
+   22
+  ],
+  "home_bike": [
+   1.55,
+   8
+  ],
+  "precise": 1
+ },
+ {
+  "id": "uto",
+  "title": "Atelier Uto, 2 Atelier/Büroplätze",
+  "address": "Flüelastrasse 16, 8048",
+  "area": "Altstetten",
+  "price": 475,
+  "basis": "Per fixed desk (floating CHF 275 each = CHF 550 for 2)",
+  "cost2": 950,
+  "privcls": "no",
+  "privacy": "Shared atelier community",
+  "size": "—",
+  "avail": "Now",
+  "url": "https://ronorp.net/market/posts/2-atelierburoplatze-mit-studio-und-werkstatt",
+  "note": "Studio, workshop, kitchen, meeting room, balcony",
+  "found": "2026-11-12",
+  "plz": "8048",
+  "kreis": "Kreis 9 (Altstetten)",
+  "pp": 475.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3830584,
+  "lon": 8.495919,
+  "hb_walk": [
+   4.04,
+   54
+  ],
+  "hb_bike": [
+   4.8,
+   19
+  ],
+  "home_walk": [
+   5.21,
+   69
+  ],
+  "home_bike": [
+   6.9,
+   28
+  ],
+  "precise": 1
  }
 ]

@@ -27,4 +27,7 @@ ROWS=[
 ('glasmaler','Schaufensterbüro am Stauffacher','Glasmalergasse 5, 8004','Kreis 4',550,'Unclear: per desk?',None,'no','Shared office','—','—',S+'Glasmalergasse',''),
 ('lochergut','Büroplätze nähe Lochergut','Badenerstrasse (Lochergut), 8004','Kreis 4',550,'Unclear: per desk?',None,'no','Shared office','—','—',S+'Lochergut',''),
 ('kanzlei','Arbeitsplatz nähe Bullingerplatz','Kanzleistrasse 200, 8004','Kreis 4',1100,'Unclear',None,'no','Shared atelier','—','—',S+'Kanzleistrasse',''),
+('jfloor','J floor startup base','Josefstrasse 206, 8005','Kreis 5',0,'Free: no fees, no equity; apply to join',0,'no','Shared founder community space','—','Apply at thejfloor.com','https://thejfloor.com/','For early-stage founders and small teams. Found via the J floor ZH WhatsApp community. Address from web search, confirm when applying'),
+('sph','ETH Student Project House Zentrum','Clausiusstrasse 16, 8006','Kreis 6',0,'Free for ETH students; both of you must qualify',None,'no','Shared coworking desks','—','Register as ETH student project','https://sph.ethz.ch/','ETH students only (from web search); makerspace and events'),
+('uto','Atelier Uto, 2 Atelier/Büroplätze','Flüelastrasse 16, 8048','Altstetten',475,'Per fixed desk (floating CHF 275 each = CHF 550 for 2)',950,'no','Shared atelier community','—','Now','https://ronorp.net/market/posts/2-atelierburoplatze-mit-studio-und-werkstatt','Studio, workshop, kitchen, meeting room, balcony'),
 ]
