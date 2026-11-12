@@ -6,7 +6,7 @@ if os.path.exists('prev_data.json'):
     prev={d['id']:d for d in json.load(open('prev_data.json'))}
 RUN=os.environ.get('RUN',F)
 HB=[47.3781008,8.5393635];HOME=[47.3706746,8.554512]
-PC={'8001':'Kreis 1 (City)','8002':'Kreis 2 (Enge)','8003':'Kreis 3 (Wiedikon)','8045':'Kreis 3 (Wiedikon)','8004':'Kreis 4 (Aussersihl)','8005':'Kreis 5 (Industrie)','8006':'Kreis 6 (Unterstrass)','8032':'Kreis 7 (Hottingen)','8008':'Kreis 8 (Seefeld)','8047':'Kreis 9 (Albisrieden)','8048':'Kreis 9 (Altstetten)','8037':'Kreis 10 (Wipkingen)','8057':'Kreis 11 (Oerlikon)'}
+PC={'8001':'Kreis 1 (City)','8002':'Kreis 2 (Enge)','8003':'Kreis 3 (Wiedikon)','8045':'Kreis 3 (Wiedikon)','8004':'Kreis 4 (Aussersihl)','8005':'Kreis 5 (Industrie)','8006':'Kreis 6 (Unterstrass)','8032':'Kreis 7 (Hottingen)','8008':'Kreis 8 (Seefeld)','8047':'Kreis 9 (Albisrieden)','8048':'Kreis 9 (Altstetten)','8037':'Kreis 10 (Wipkingen)','8057':'Kreis 11 (Oerlikon)','8051':'Kreis 12 (Schwamendingen)'}
 KW=['Schreibtisch','Büro','Büroraum','Bürogemeinschaft','Arbeitsplatz','Büroplatz','Arbeitsraum','Atelier','Atelierplatz','Hottingen']
 def sqm(pc,s):
     if pc!='yes' or re.search('total|area',s): return None

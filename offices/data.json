@@ -1198,5 +1198,165 @@
    16
   ],
   "precise": 1
+ },
+ {
+  "id": "zschokke",
+  "title": "1-room flat, 34 m², Wipkingen",
+  "address": "Zschokkestrasse 5, 8037",
+  "area": "Wipkingen",
+  "price": 990,
+  "basis": "Whole flat, incl. utilities (plus electricity)",
+  "cost2": 990,
+  "privcls": "yes",
+  "privacy": "Own studio",
+  "size": "34 m²",
+  "avail": "1 Dec 2026; fixed lease until 31 Mar 2027",
+  "url": "https://flatfox.ch/en/flat/zschokkestrasse-5-8037-zurich/86497688/",
+  "note": "Biggest studio found. Ad says the room works for living and working; meant for individuals, so ask about 2 people working there",
+  "found": "2026-11-12",
+  "plz": "8037",
+  "kreis": "Kreis 10 (Wipkingen)",
+  "pp": 495.0,
+  "sqm": 34,
+  "psqm": 29.1,
+  "lat": 47.3954007,
+  "lon": 8.525509,
+  "hb_walk": [
+   2.71,
+   36
+  ],
+  "hb_bike": [
+   3.25,
+   16
+  ],
+  "home_walk": [
+   3.96,
+   53
+  ],
+  "home_bike": [
+   4.52,
+   21
+  ],
+  "precise": 1
+ },
+ {
+  "id": "stauff",
+  "title": "Furnished 1-room flat near Stauffacher",
+  "address": "Stauffacher, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 1085,
+  "basis": "Whole flat, incl. utilities, furnished",
+  "cost2": 1085,
+  "privcls": "yes",
+  "privacy": "Own studio",
+  "size": "16 m²",
+  "avail": "1 Dec 2026 (Nachmieter)",
+  "url": "https://flatfox.ch/en/flat/8004-zurich/86480014/",
+  "note": "You must buy the furniture (Ablöse). Ad says 10 min walk to HB; shared roof terrace",
+  "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": 542.5,
+  "sqm": 16,
+  "psqm": 67.8,
+  "lat": 47.3734946,
+  "lon": 8.5292588,
+  "hb_walk": [
+   1.11,
+   15
+  ],
+  "hb_bike": [
+   1.63,
+   9
+  ],
+  "home_walk": [
+   2.25,
+   30
+  ],
+  "home_bike": [
+   2.61,
+   17
+  ],
+  "precise": 0
+ },
+ {
+  "id": "schmiede",
+  "title": "Furnished studio, Schmiede Wiedikon",
+  "address": "Schmiede Wiedikon, 8003",
+  "area": "Kreis 3 (Wiedikon)",
+  "price": 1100,
+  "basis": "Whole flat, incl. utilities, furnished",
+  "cost2": 1100,
+  "privcls": "yes",
+  "privacy": "Own studio",
+  "size": "17 m²",
+  "avail": "1 Dec 2026",
+  "url": "https://flatfox.ch/en/flat/8003-zurich/86402081/",
+  "note": "3rd floor, no lift; balcony; furniture stays",
+  "found": "2026-11-12",
+  "plz": "8003",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "pp": 550.0,
+  "sqm": 17,
+  "psqm": 64.7,
+  "lat": 47.3699769,
+  "lon": 8.5195391,
+  "hb_walk": [
+   2.0,
+   27
+  ],
+  "hb_bike": [
+   2.66,
+   14
+  ],
+  "home_walk": [
+   3.1,
+   41
+  ],
+  "home_bike": [
+   3.65,
+   19
+  ],
+  "precise": 0
+ },
+ {
+  "id": "hirzen",
+  "title": "2-room flat for 1–2 people, Hirzenbach",
+  "address": "Hirzenbach, 8051",
+  "area": "Schwamendingen",
+  "price": 1050,
+  "basis": "Whole flat, incl. utilities",
+  "cost2": 1050,
+  "privcls": "yes",
+  "privacy": "Own flat, 2 rooms",
+  "size": "47 m²",
+  "avail": "Mid/end Jan 2027",
+  "url": "https://flatfox.ch/en/flat/8000-zurich/86539369/",
+  "note": "Two rooms for CHF 525 each, but far from HB and home. Flatfox lets you message the advertiser only after 14 days without Priority",
+  "found": "2026-11-12",
+  "plz": "8051",
+  "kreis": "Kreis 12 (Schwamendingen)",
+  "pp": 525.0,
+  "sqm": 47,
+  "psqm": 22.3,
+  "lat": 47.4049996,
+  "lon": 8.5724143,
+  "hb_walk": [
+   5.01,
+   66
+  ],
+  "hb_bike": [
+   5.25,
+   25
+  ],
+  "home_walk": [
+   5.48,
+   73
+  ],
+  "home_bike": [
+   5.43,
+   24
+  ],
+  "precise": 0
  }
 ]
