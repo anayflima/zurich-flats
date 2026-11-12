@@ -1078,5 +1078,125 @@
    28
   ],
   "precise": 1
+ },
+ {
+  "id": "englisch",
+  "title": "Studio 24 m² (1-room flat)",
+  "address": "Englischviertelstrasse 22, 8032",
+  "area": "Kreis 7 (Hottingen)",
+  "price": 1067,
+  "basis": "Whole flat, incl. utilities",
+  "cost2": 1067,
+  "privcls": "yes",
+  "privacy": "Own studio",
+  "size": "24 m²",
+  "avail": "Now; fixed lease until 31 Mar 2027",
+  "url": "https://flatfox.ch/en/flat/englischviertelstrasse-22-8032-zurich/86523078/",
+  "note": "Residential flat: ask the landlord if working from it is OK. Own kitchen and bath",
+  "found": "2026-11-12",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "pp": 533.5,
+  "sqm": 24,
+  "psqm": 44.5,
+  "lat": 47.3676417,
+  "lon": 8.5563564,
+  "hb_walk": [
+   2.05,
+   27
+  ],
+  "hb_bike": [
+   2.08,
+   13
+  ],
+  "home_walk": [
+   0.45,
+   6
+  ],
+  "home_bike": [
+   0.46,
+   3
+  ],
+  "precise": 1
+ },
+ {
+  "id": "obstgarten",
+  "title": "Furnished studio with balcony",
+  "address": "Obstgartenstrasse 22, 8006",
+  "area": "Kreis 6",
+  "price": 917,
+  "basis": "Whole flat, incl. utilities, furnished",
+  "cost2": 917,
+  "privcls": "yes",
+  "privacy": "Own studio",
+  "size": "16 m²",
+  "avail": "15 Nov 2026; open-ended (Nachmieter)",
+  "url": "https://flatfox.ch/en/flat/obstgartenstrasse-22-8006-zurich/86494023/",
+  "note": "Residential flat taken over from the current tenant; ask if working from it is OK. Furniture for sale",
+  "found": "2026-11-12",
+  "plz": "8006",
+  "kreis": "Kreis 6 (Unterstrass)",
+  "pp": 458.5,
+  "sqm": 16,
+  "psqm": 57.3,
+  "lat": 47.3827138,
+  "lon": 8.5425879,
+  "hb_walk": [
+   0.84,
+   11
+  ],
+  "hb_bike": [
+   0.81,
+   7
+  ],
+  "home_walk": [
+   1.88,
+   25
+  ],
+  "home_bike": [
+   1.86,
+   8
+  ],
+  "precise": 1
+ },
+ {
+  "id": "waffenplatz",
+  "title": "Single studio",
+  "address": "Waffenplatzstrasse 4, 8002",
+  "area": "Kreis 2 (Enge)",
+  "price": 1160,
+  "basis": "Whole flat, incl. utilities",
+  "cost2": 1160,
+  "privcls": "yes",
+  "privacy": "Own studio",
+  "size": "17 m²",
+  "avail": "1 Dec 2026",
+  "url": "https://flatfox.ch/en/flat/waffenplatzstrasse-4-8002-zurich/86507765/",
+  "note": "Landlord rents only to a single person; residential",
+  "found": "2026-11-12",
+  "plz": "8002",
+  "kreis": "Kreis 2 (Enge)",
+  "pp": 580.0,
+  "sqm": 17,
+  "psqm": 68.2,
+  "lat": 47.3615108,
+  "lon": 8.5263168,
+  "hb_walk": [
+   2.38,
+   32
+  ],
+  "hb_bike": [
+   3.57,
+   13
+  ],
+  "home_walk": [
+   2.76,
+   37
+  ],
+  "home_bike": [
+   3.05,
+   16
+  ],
+  "precise": 1
  }
 ]
