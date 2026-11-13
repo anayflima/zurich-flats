@@ -824,5 +824,64 @@
    31
   ],
   "psqm": null
+ },
+ {
+  "id": "hohl",
+  "title": "Room in a 3-person flat, three weeks",
+  "address": "Hohlstrasse 365, 8004",
+  "area": "Hard (Kreis 4)",
+  "price": 950,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Room in a 3-person flat",
+  "rooms": "1 of 3½",
+  "sqm": 16,
+  "lease": "temp",
+  "leasetxt": "Only 23 Nov – 14 Dec 2026",
+  "avail": "23 Nov 2026",
+  "furn": false,
+  "url": "https://ronorp.net/market/posts/zimmer-untermiete-nahe-schlachthof",
+  "note": "From Ron Orp. Shared with two flatmates; living room, kitchen and balcony.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3848261,
+  "lon": 8.5084679,
+  "hb_walk": [
+   2.82,
+   38
+  ],
+  "hb_bike": [
+   3.52,
+   13
+  ],
+  "hb_pt": [
+   null,
+   19
+  ],
+  "mg_walk": [
+   6.4,
+   85
+  ],
+  "mg_bike": [
+   6.4,
+   23
+  ],
+  "mg_pt": [
+   null,
+   28
+  ],
+  "home_walk": [
+   4.33,
+   58
+  ],
+  "home_bike": [
+   5.63,
+   22
+  ],
+  "home_pt": [
+   null,
+   27
+  ],
+  "psqm": 59.4
  }
 ]

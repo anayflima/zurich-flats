@@ -594,5 +594,47 @@
  "_home": [
   47.3706746,
   8.554512
- ]
+ ],
+ "hohl": {
+  "lat": 47.3848261,
+  "lon": 8.5084679,
+  "precise": 1,
+  "geo": "365, Hohlstrasse, Hard, Kreis 4, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8004, ",
+  "hb_walk": [
+   2.82,
+   38
+  ],
+  "hb_bike": [
+   3.52,
+   13
+  ],
+  "hb_pt": [
+   null,
+   19
+  ],
+  "mg_walk": [
+   6.4,
+   85
+  ],
+  "mg_bike": [
+   6.4,
+   23
+  ],
+  "mg_pt": [
+   null,
+   28
+  ],
+  "home_walk": [
+   4.33,
+   58
+  ],
+  "home_bike": [
+   5.63,
+   22
+  ],
+  "home_pt": [
+   null,
+   27
+  ]
+ }
 }
