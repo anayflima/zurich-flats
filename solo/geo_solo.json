@@ -31,6 +31,18 @@
   "mg_pt": [
    null,
    31
+  ],
+  "home_walk": [
+   0.98,
+   13
+  ],
+  "home_bike": [
+   1.06,
+   5
+  ],
+  "home_pt": [
+   null,
+   11
   ]
  },
  "leimbach": {
@@ -61,6 +73,18 @@
   "mg_pt": [
    null,
    9
+  ],
+  "home_walk": [
+   7.14,
+   95
+  ],
+  "home_bike": [
+   8.65,
+   33
+  ],
+  "home_pt": [
+   null,
+   34
   ]
  },
  "obstgarten": {
@@ -91,6 +115,18 @@
   "mg_pt": [
    null,
    31
+  ],
+  "home_walk": [
+   1.88,
+   25
+  ],
+  "home_bike": [
+   1.86,
+   8
+  ],
+  "home_pt": [
+   null,
+   16
   ]
  },
  "zschokke": {
@@ -121,6 +157,18 @@
   "mg_pt": [
    null,
    32
+  ],
+  "home_walk": [
+   3.96,
+   53
+  ],
+  "home_bike": [
+   4.52,
+   21
+  ],
+  "home_pt": [
+   null,
+   22
   ]
  },
  "wydacker": {
@@ -151,6 +199,18 @@
   "mg_pt": [
    null,
    27
+  ],
+  "home_walk": [
+   4.99,
+   67
+  ],
+  "home_bike": [
+   6.28,
+   27
+  ],
+  "home_pt": [
+   null,
+   34
   ]
  },
  "gold": {
@@ -181,6 +241,18 @@
   "mg_pt": [
    null,
    20
+  ],
+  "home_walk": [
+   3.56,
+   48
+  ],
+  "home_bike": [
+   4.31,
+   20
+  ],
+  "home_pt": [
+   null,
+   24
   ]
  },
  "rengger": {
@@ -211,6 +283,18 @@
   "mg_pt": [
    null,
    9
+  ],
+  "home_walk": [
+   4.33,
+   58
+  ],
+  "home_bike": [
+   4.45,
+   21
+  ],
+  "home_pt": [
+   null,
+   22
   ]
  },
  "altstetter": {
@@ -241,6 +325,18 @@
   "mg_pt": [
    null,
    31
+  ],
+  "home_walk": [
+   6.03,
+   80
+  ],
+  "home_bike": [
+   7.55,
+   28
+  ],
+  "home_pt": [
+   null,
+   34
   ]
  },
  "hongg": {
@@ -271,6 +367,18 @@
   "mg_pt": [
    null,
    45
+  ],
+  "home_walk": [
+   6.54,
+   87
+  ],
+  "home_bike": [
+   6.83,
+   31
+  ],
+  "home_pt": [
+   null,
+   35
   ]
  },
  "turner": {
@@ -301,6 +409,18 @@
   "mg_pt": [
    null,
    32
+  ],
+  "home_walk": [
+   2.16,
+   29
+  ],
+  "home_bike": [
+   2.09,
+   10
+  ],
+  "home_pt": [
+   null,
+   19
   ]
  },
  "betahouse": {
@@ -331,6 +451,18 @@
   "mg_pt": [
    null,
    38
+  ],
+  "home_walk": [
+   0.92,
+   12
+  ],
+  "home_bike": [
+   0.97,
+   5
+  ],
+  "home_pt": [
+   null,
+   12
   ]
  },
  "roland": {
@@ -361,6 +493,18 @@
   "mg_pt": [
    null,
    26
+  ],
+  "home_walk": [
+   2.78,
+   37
+  ],
+  "home_bike": [
+   3.61,
+   17
+  ],
+  "home_pt": [
+   null,
+   22
   ]
  },
  "brugg": {
@@ -391,6 +535,18 @@
   "mg_pt": [
    null,
    45
+  ],
+  "home_walk": [
+   4.95,
+   66
+  ],
+  "home_bike": [
+   5.45,
+   23
+  ],
+  "home_pt": [
+   null,
+   30
   ]
  },
  "regens": {
@@ -421,6 +577,22 @@
   "mg_pt": [
    null,
    40
+  ],
+  "home_walk": [
+   6.8,
+   91
+  ],
+  "home_bike": [
+   7.09,
+   30
+  ],
+  "home_pt": [
+   null,
+   31
   ]
- }
+ },
+ "_home": [
+  47.3706746,
+  8.554512
+ ]
 }
