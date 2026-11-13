@@ -20,7 +20,7 @@ def price(d):
     if d.get('price_display_type')=='TOTAL' and d.get('price_display'):return int(d['price_display'])
     if d.get('rent_gross'):return int(d['rent_gross'])
     return None
-TEMPW=('für den zeitraum','fuer den zeitraum','for the period','blueground','1-12 months','1–12 months')
+TEMPW=('für den zeitraum','fuer den zeitraum','for the period','blueground','1-12 months','1–12 months','untermiet','subrent')
 TEMPRX=re.compile(r'\bvom\s+\d{1,2}\.\s*\w+\s*\d{0,4}\s+bis\s+\d{1,2}\.')
 N={};dropped=collections.Counter()
 for pk,f in P.items():
