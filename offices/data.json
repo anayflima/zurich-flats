@@ -1358,5 +1358,45 @@
    24
   ],
   "precise": 0
+ },
+ {
+  "id": "zbstudio",
+  "title": "Studio / shop space to share, Zürichbergstrasse",
+  "address": "Zürichbergstrasse (near ETH/UZH)",
+  "area": "Kreis 7 (Fluntern)",
+  "price": 450,
+  "basis": "Unclear: what CHF 450 covers",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared use with a tailor (by appointment)",
+  "size": "—",
+  "avail": "Now, permanent",
+  "url": "https://ronorp.net/market/posts/studio-laden-mitnutzung-an-bester-lage",
+  "note": "Bright ground-floor shop with big shop windows, furnished; owner uses it for appointments only. Ask what the price covers and if two can work there",
+  "found": "2026-11-12",
+  "plz": "",
+  "kreis": "Other",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.376186,
+  "lon": 8.5598145,
+  "hb_walk": [
+   2.07,
+   28
+  ],
+  "hb_bike": [
+   2.23,
+   13
+  ],
+  "home_walk": [
+   0.95,
+   13
+  ],
+  "home_bike": [
+   1.04,
+   5
+  ],
+  "precise": 0
  }
 ]
