@@ -1,0 +1,660 @@
+[
+ {
+  "id": "fluntern",
+  "title": "Furnished studio near Kirche Fluntern",
+  "address": "8044 Zürich (Fluntern)",
+  "area": "Fluntern",
+  "price": 680,
+  "util": "incl. utilities",
+  "type": "own",
+  "kind": "Own studio (listed as 2½ rooms)",
+  "rooms": "studio",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/8044-zurich/86478389/",
+  "note": "Furniture, kitchen gear and appliances can be taken over for CHF 100. Tram stop Kirche Fluntern and a Coop 1 min away; ETH/UZH 5 min by tram.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.3763535,
+  "lon": 8.5594426,
+  "hb_walk": [
+   2.05,
+   27
+  ],
+  "hb_bike": [
+   2.33,
+   13
+  ],
+  "hb_pt": [
+   null,
+   18
+  ],
+  "mg_walk": [
+   6.39,
+   85
+  ],
+  "mg_bike": [
+   7.28,
+   27
+  ],
+  "mg_pt": [
+   null,
+   31
+  ],
+  "psqm": null
+ },
+ {
+  "id": "leimbach",
+  "title": "Cooperative 1½-room flat with big terrace",
+  "address": "Leimbachstrasse 215, 8041",
+  "area": "Leimbach",
+  "price": 890,
+  "util": "excl. utilities (add Nebenkosten)",
+  "type": "own",
+  "kind": "1½-room flat",
+  "rooms": "1½",
+  "sqm": 31,
+  "lease": "open",
+  "leasetxt": "Regular lease with Baugenossenschaft Zurlinden (you become a member)",
+  "avail": "1 Dec 2026",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/leimbachstrasse-215-8041-zurich/86528354/",
+  "note": "Cooperative flat taken over from the current tenant; lift, balcony, dishwasher. Flatfox only lets you message after about 10 days unless you pay for Priority.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3267067,
+  "lon": 8.5148191,
+  "hb_walk": [
+   7.01,
+   93
+  ],
+  "hb_bike": [
+   7.93,
+   28
+  ],
+  "hb_pt": [
+   null,
+   31
+  ],
+  "mg_walk": [
+   1.64,
+   22
+  ],
+  "mg_bike": [
+   1.76,
+   11
+  ],
+  "mg_pt": [
+   null,
+   9
+  ],
+  "psqm": 28.7
+ },
+ {
+  "id": "obstgarten",
+  "title": "Furnished studio with balcony",
+  "address": "Obstgartenstrasse 22, 8006",
+  "area": "Unterstrass",
+  "price": 917,
+  "util": "incl. utilities",
+  "type": "own",
+  "kind": "Own studio",
+  "rooms": "1",
+  "sqm": 16,
+  "lease": "open",
+  "leasetxt": "Open-ended (you take over the lease)",
+  "avail": "15 Nov 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/obstgartenstrasse-22-8006-zurich/86494023/",
+  "note": "Own kitchenette and bathroom; furniture for sale; Minergie building.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3827138,
+  "lon": 8.5425879,
+  "hb_walk": [
+   0.84,
+   11
+  ],
+  "hb_bike": [
+   0.81,
+   7
+  ],
+  "hb_pt": [
+   null,
+   9
+  ],
+  "mg_walk": [
+   6.22,
+   83
+  ],
+  "mg_bike": [
+   6.48,
+   22
+  ],
+  "mg_pt": [
+   null,
+   31
+  ],
+  "psqm": 57.3
+ },
+ {
+  "id": "zschokke",
+  "title": "1-room flat, 34 m²",
+  "address": "Zschokkestrasse 5, 8037",
+  "area": "Wipkingen",
+  "price": 990,
+  "util": "incl. utilities, plus electricity",
+  "type": "own",
+  "kind": "1-room flat",
+  "rooms": "1",
+  "sqm": 34,
+  "lease": "temp",
+  "leasetxt": "Fixed lease until 31 Mar 2027",
+  "avail": "1 Dec 2026",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/zschokkestrasse-5-8037-zurich/86497688/",
+  "note": "Bright ground-floor flat meant for one person; Bahnhof Wipkingen in walking distance.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3954007,
+  "lon": 8.525509,
+  "hb_walk": [
+   2.71,
+   36
+  ],
+  "hb_bike": [
+   3.25,
+   16
+  ],
+  "hb_pt": [
+   null,
+   13
+  ],
+  "mg_walk": [
+   7.65,
+   102
+  ],
+  "mg_bike": [
+   7.81,
+   30
+  ],
+  "mg_pt": [
+   null,
+   32
+  ],
+  "psqm": 29.1
+ },
+ {
+  "id": "wydacker",
+  "title": "2½-room flat sublet, 70 m²",
+  "address": "Wydäckerring 77, 8047",
+  "area": "Triemli",
+  "price": 850,
+  "util": "incl. utilities",
+  "type": "own",
+  "kind": "2½-room flat (sublet)",
+  "rooms": "2½",
+  "sqm": 70,
+  "lease": "temp",
+  "leasetxt": "Sublet until end of January",
+  "avail": "Now",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/wydackering-77-8047-zurich/86488853/",
+  "note": "Near Triemli hospital; trams 9 and 14, buses 33 and 80.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3692635,
+  "lon": 8.496236,
+  "hb_walk": [
+   3.84,
+   51
+  ],
+  "hb_bike": [
+   5.56,
+   23
+  ],
+  "hb_pt": [
+   null,
+   23
+  ],
+  "mg_walk": [
+   4.53,
+   60
+  ],
+  "mg_bike": [
+   5.69,
+   22
+  ],
+  "mg_pt": [
+   null,
+   27
+  ],
+  "psqm": 12.1
+ },
+ {
+  "id": "gold",
+  "title": "Furnished 1½-room flat, one month",
+  "address": "8055 Zürich (near Goldbrunnenplatz)",
+  "area": "Wiedikon",
+  "price": 1000,
+  "util": "incl. utilities",
+  "type": "own",
+  "kind": "1½-room flat (sublet)",
+  "rooms": "1½",
+  "sqm": 35,
+  "lease": "temp",
+  "leasetxt": "Only 20 Nov – 17 Dec 2026",
+  "avail": "20 Nov 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/8055-zurich/86358197/",
+  "note": "Renovated 2024, balcony, lift.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.3701442,
+  "lon": 8.5137671,
+  "hb_walk": [
+   2.42,
+   32
+  ],
+  "hb_bike": [
+   3.06,
+   16
+  ],
+  "hb_pt": [
+   null,
+   12
+  ],
+  "mg_walk": [
+   4.42,
+   59
+  ],
+  "mg_bike": [
+   4.57,
+   15
+  ],
+  "mg_pt": [
+   null,
+   20
+  ],
+  "psqm": 28.6
+ },
+ {
+  "id": "rengger",
+  "title": "Shared-use 1½-room flat incl. garage",
+  "address": "Renggerstrasse, 8038",
+  "area": "Wollishofen",
+  "price": 600,
+  "util": "incl. utilities",
+  "type": "shared",
+  "kind": "Flat shared with the owners",
+  "rooms": "1½",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "Ongoing; the owners use it a few weekdays a month",
+  "avail": "By agreement",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/renggerstrasse-8038-zurich/86535962/",
+  "note": "Owners use it some days a month (never weekends); you use the rest. Garage space included. Message possible in about 13 days without Priority.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.3436926,
+  "lon": 8.5337305,
+  "hb_walk": [
+   4.24,
+   56
+  ],
+  "hb_bike": [
+   6.15,
+   21
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   1.64,
+   22
+  ],
+  "mg_bike": [
+   1.87,
+   9
+  ],
+  "mg_pt": [
+   null,
+   9
+  ],
+  "psqm": null
+ },
+ {
+  "id": "altstetter",
+  "title": "Room in a shared flat",
+  "address": "Altstetterstrasse, 8048",
+  "area": "Altstetten",
+  "price": 805,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Room, shared kitchen and bath",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "Sublet, no end date stated",
+  "avail": "1 Dec 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/altstetterstrasse-8048-zurich/86461112/",
+  "note": "Ad says Zürich HB is about 10 min away; bike parking.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.3883859,
+  "lon": 8.486757,
+  "hb_walk": [
+   4.8,
+   64
+  ],
+  "hb_bike": [
+   5.44,
+   19
+  ],
+  "hb_pt": [
+   null,
+   13
+  ],
+  "mg_walk": [
+   7.14,
+   95
+  ],
+  "mg_bike": [
+   7.59,
+   28
+  ],
+  "mg_pt": [
+   null,
+   31
+  ],
+  "psqm": null
+ },
+ {
+  "id": "hongg",
+  "title": "WG room near ETH Hönggerberg",
+  "address": "8049 Zürich (near ETH Hönggerberg)",
+  "area": "Höngg",
+  "price": 862,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Room in a 3-person WG",
+  "rooms": "1 of 5½",
+  "sqm": 12.4,
+  "lease": "open",
+  "leasetxt": "Regular WG room, no end date",
+  "avail": "By agreement",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8049-zurich/86451008/",
+  "note": "110 m² flat with two bathrooms; calm WG of two 28-year-olds.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.4085765,
+  "lon": 8.5075367,
+  "hb_walk": [
+   5.13,
+   68
+  ],
+  "hb_bike": [
+   5.78,
+   27
+  ],
+  "hb_pt": [
+   null,
+   28
+  ],
+  "mg_walk": [
+   9.93,
+   133
+  ],
+  "mg_bike": [
+   10.53,
+   39
+  ],
+  "mg_pt": [
+   null,
+   45
+  ],
+  "psqm": 69.5
+ },
+ {
+  "id": "turner",
+  "title": "WG room in an Art Nouveau villa",
+  "address": "Turnerstrasse 37, 8006",
+  "area": "Unterstrass",
+  "price": 950,
+  "util": "incl. utilities and internet, plus 3.8% VAT",
+  "type": "room",
+  "kind": "Room in a 4-person WG",
+  "rooms": "1",
+  "sqm": 20,
+  "lease": "temp",
+  "leasetxt": "Until 31 Jan 2027",
+  "avail": "Now",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/turnerstrasse-37-8006-zurich/86527258/",
+  "note": "Roof terrace with view; near ETH and UZH.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3864659,
+  "lon": 8.5428225,
+  "hb_walk": [
+   1.36,
+   18
+  ],
+  "hb_bike": [
+   1.61,
+   10
+  ],
+  "hb_pt": [
+   null,
+   15
+  ],
+  "mg_walk": [
+   6.73,
+   90
+  ],
+  "mg_bike": [
+   6.91,
+   24
+  ],
+  "mg_pt": [
+   null,
+   32
+  ],
+  "psqm": 47.5
+ },
+ {
+  "id": "betahouse",
+  "title": "betahouse co-living room (students only)",
+  "address": "Bergstrasse 55, 8032",
+  "area": "Hottingen",
+  "price": 999,
+  "util": "all-inclusive",
+  "type": "room",
+  "kind": "Co-living room",
+  "rooms": "1",
+  "sqm": 12,
+  "lease": "temp",
+  "leasetxt": "1 Nov 2026 – 16 Aug 2027",
+  "avail": "Now",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/bergstrasse-55-8032-zurich/86503126/",
+  "note": "Students only; deposit 3 months (CHF 2,997); shared kitchens, garden, two roof terraces.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.3732682,
+  "lon": 8.562956,
+  "hb_walk": [
+   2.54,
+   34
+  ],
+  "hb_bike": [
+   2.53,
+   14
+  ],
+  "hb_pt": [
+   null,
+   24
+  ],
+  "mg_walk": [
+   6.58,
+   88
+  ],
+  "mg_bike": [
+   7.4,
+   27
+  ],
+  "mg_pt": [
+   null,
+   38
+  ],
+  "psqm": 83.2
+ },
+ {
+  "id": "roland",
+  "title": "Furnished room, five weeks",
+  "address": "Rolandstrasse, 8004",
+  "area": "Langstrasse",
+  "price": 950,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Furnished room with kitchen",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "temp",
+  "leasetxt": "Only 7 Nov – 13 Dec 2026",
+  "avail": "Now",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/rolandstrasse-8004-zurich/86535806/",
+  "note": "Short sublet in the Langstrasse nightlife area.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.3793707,
+  "lon": 8.5260975,
+  "hb_walk": [
+   1.24,
+   17
+  ],
+  "hb_bike": [
+   1.51,
+   8
+  ],
+  "hb_pt": [
+   null,
+   10
+  ],
+  "mg_walk": [
+   5.64,
+   75
+  ],
+  "mg_bike": [
+   5.33,
+   18
+  ],
+  "mg_pt": [
+   null,
+   26
+  ],
+  "psqm": null
+ },
+ {
+  "id": "brugg",
+  "title": "WG room with pool, own bathroom",
+  "address": "Brüggliäcker 35, 8050",
+  "area": "Oerlikon",
+  "price": 1000,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "WG room, own bathroom",
+  "rooms": "1",
+  "sqm": 15,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/bruggliacker-35-8050-zurich/86299257/",
+  "note": "Ad says CHF 1,000–1,300 depending on how much extra space you use.",
+  "precise": 1,
+  "found": "2026-11-13",
+  "lat": 47.4077787,
+  "lon": 8.5610645,
+  "hb_walk": [
+   4.49,
+   60
+  ],
+  "hb_bike": [
+   5.46,
+   23
+  ],
+  "hb_pt": [
+   null,
+   24
+  ],
+  "mg_walk": [
+   9.77,
+   130
+  ],
+  "mg_bike": [
+   10.59,
+   39
+  ],
+  "mg_pt": [
+   null,
+   45
+  ],
+  "psqm": 66.7
+ },
+ {
+  "id": "regens",
+  "title": "WG room in a multi-generation house",
+  "address": "Regensdorferstrasse, 8049",
+  "area": "Höngg",
+  "price": 750,
+  "util": "not stated",
+  "type": "room",
+  "kind": "WG room",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "temp",
+  "leasetxt": "28 Dec 2026 – 18 Feb 2027",
+  "avail": "28 Dec 2026",
+  "furn": false,
+  "url": "https://ronorp.net/zurich/market/search?keyword=1-Zimmer",
+  "note": "From Ron Orp (search \"1-Zimmer\"); full ad not opened yet.",
+  "precise": 0,
+  "found": "2026-11-13",
+  "lat": 47.4066339,
+  "lon": 8.4908564,
+  "hb_walk": [
+   5.39,
+   72
+  ],
+  "hb_bike": [
+   6.26,
+   24
+  ],
+  "hb_pt": [
+   null,
+   30
+  ],
+  "mg_walk": [
+   9.37,
+   125
+  ],
+  "mg_bike": [
+   10.31,
+   36
+  ],
+  "mg_pt": [
+   null,
+   40
+  ],
+  "psqm": null
+ }
+]
