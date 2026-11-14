@@ -636,5 +636,47 @@
    null,
    27
   ]
+ },
+ "grimsel": {
+  "lat": 47.3855328,
+  "lon": 8.4887354,
+  "precise": 0,
+  "geo": "Grimselstrasse, Altstetten, Kreis 9, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
+  "hb_walk": [
+   4.68,
+   63
+  ],
+  "hb_bike": [
+   5.47,
+   20
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   6.7,
+   89
+  ],
+  "mg_bike": [
+   7.47,
+   27
+  ],
+  "mg_pt": [
+   null,
+   32
+  ],
+  "home_walk": [
+   5.88,
+   78
+  ],
+  "home_bike": [
+   7.58,
+   29
+  ],
+  "home_pt": [
+   null,
+   35
+  ]
  }
 }

@@ -118,65 +118,6 @@
   "psqm": 28.7
  },
  {
-  "id": "obstgarten",
-  "title": "Furnished studio with balcony",
-  "address": "Obstgartenstrasse 22, 8006",
-  "area": "Unterstrass",
-  "price": 917,
-  "util": "incl. utilities",
-  "type": "own",
-  "kind": "Own studio",
-  "rooms": "1",
-  "sqm": 16,
-  "lease": "open",
-  "leasetxt": "Open-ended (you take over the lease)",
-  "avail": "15 Nov 2026",
-  "furn": true,
-  "url": "https://flatfox.ch/en/flat/obstgartenstrasse-22-8006-zurich/86494023/",
-  "note": "Own kitchenette and bathroom; furniture for sale; Minergie building.",
-  "precise": 1,
-  "found": "2026-11-13",
-  "lat": 47.3827138,
-  "lon": 8.5425879,
-  "hb_walk": [
-   0.84,
-   11
-  ],
-  "hb_bike": [
-   0.81,
-   7
-  ],
-  "hb_pt": [
-   null,
-   9
-  ],
-  "mg_walk": [
-   6.22,
-   83
-  ],
-  "mg_bike": [
-   6.48,
-   22
-  ],
-  "mg_pt": [
-   null,
-   31
-  ],
-  "home_walk": [
-   1.88,
-   25
-  ],
-  "home_bike": [
-   1.86,
-   8
-  ],
-  "home_pt": [
-   null,
-   16
-  ],
-  "psqm": 57.3
- },
- {
   "id": "zschokke",
   "title": "1-room flat, 34 m²",
   "address": "Zschokkestrasse 5, 8037",
@@ -883,5 +824,64 @@
    27
   ],
   "psqm": 59.4
+ },
+ {
+  "id": "grimsel",
+  "title": "Room in a 3-room city flat (FLINTA only)",
+  "address": "8048 Zürich (near tram Grimselstrasse)",
+  "area": "Altstetten",
+  "price": 650,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Room in a 2-person flat",
+  "rooms": "1 of 3",
+  "sqm": 10,
+  "lease": "open",
+  "leasetxt": "Permanent sublet",
+  "avail": "Now",
+  "furn": false,
+  "url": "https://ronorp.net/market/posts/wunderschones-zimmer-in-3-zimmer-wohnung-in-altstetten-650-chf-monat-flinta-only-ab-sofort",
+  "note": "From Ron Orp. FLINTA only. City-owned flat, so the city of Zurich occupancy rules for sublets apply. Empty room, balcony, 8 min walk to Bahnhof Altstetten.",
+  "precise": 0,
+  "found": "2026-11-14",
+  "lat": 47.3855328,
+  "lon": 8.4887354,
+  "hb_walk": [
+   4.68,
+   63
+  ],
+  "hb_bike": [
+   5.47,
+   20
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   6.7,
+   89
+  ],
+  "mg_bike": [
+   7.47,
+   27
+  ],
+  "mg_pt": [
+   null,
+   32
+  ],
+  "home_walk": [
+   5.88,
+   78
+  ],
+  "home_bike": [
+   7.58,
+   29
+  ],
+  "home_pt": [
+   null,
+   35
+  ],
+  "psqm": 65.0
  }
 ]
