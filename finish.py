@@ -36,6 +36,32 @@ def route(lat,lon,to):
         except Exception as e:
             time.sleep(5*(a+1))
     return None
+
+def route_od(lat,lon,to):
+    import re as _re
+    q=urllib.parse.urlencode({'from':'%.5f,%.5f'%(lat,lon),'to':to,'date':TTDATE,'time':'08:00','limit':4})
+    CAT={'T':'tram','B':'bus','BAT':'boat','FUN':'funicular'}
+    for a in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request('https://transport.opendata.ch/v1/connections?'+q,headers={'User-Agent':'zurich-flats/1.0'}),timeout=40) as r:j=json.load(r)
+            best=None
+            for c in j.get('connections',[]):
+                mm=_re.match(r'(\d+)d(\d+):(\d+):(\d+)',c.get('duration') or '')
+                if not mm:continue
+                dd=int(mm.group(1))*1440+int(mm.group(2))*60+int(mm.group(3))+int(mm.group(4))/60
+                if best is None or dd<best[0]:best=(dd,c)
+            if not best:return None
+            ls=[]
+            for s in best[1].get('sections',[]):
+                jn=s.get('journey')
+                if not jn:continue
+                ca=(jn.get('category') or '').strip();nu=(jn.get('number') or '').strip()
+                l=('S-Bahn '+(nu if nu.upper().startswith('S') else ca+nu)) if ca in ('S','SN') else ((CAT[ca]+' '+nu).strip() if ca in CAT else (ca+' '+nu).strip())
+                if l and (not ls or ls[-1]!=l):ls.append(l)
+            return [str(round(best[0])),', '.join(ls) or 'walk']
+        except Exception:
+            time.sleep(10*(a+1))
+    return None
 DEST=['Zürich HB','Freiestrasse 38, 8032 Zürich','St. Gallen','Zürich Oerlikon']
 fixed=left=0;t0=time.time()
 for pk,row in TS.items():
@@ -47,6 +73,7 @@ for pk,row in TS.items():
         f=R.get(pk)
         if not f: left+=1;continue
         r=route(47.3+int(f[8])/1e4,8.4+int(f[9])/1e4,dst);time.sleep(1.2)
+        if not r: r=route_od(47.3+int(f[8])/1e4,8.4+int(f[9])/1e4,dst)
         if r: row[i],row[i+1]=r;fixed+=1
         else: left+=1
     TS[pk]=row
