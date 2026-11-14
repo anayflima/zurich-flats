@@ -36,10 +36,10 @@ def route(lat,lon,to):
         except Exception as e:
             time.sleep(5*(a+1))
     return None
-DEST=['Zürich HB','Freiestrasse 38, 8032 Zürich','St. Gallen']
+DEST=['Zürich HB','Freiestrasse 38, 8032 Zürich','St. Gallen','Zürich Oerlikon']
 fixed=left=0;t0=time.time()
 for pk,row in TS.items():
-    row=(row+['']*7)[:7]
+    row=(row+['']*9)[:9]
     for k,dst in enumerate(DEST):
         i=1+2*k
         if row[i]:continue
@@ -60,3 +60,10 @@ if 'def pub(pk):' in s:
 open(M+'augment.py','w',encoding='utf-8').write(s)
 r=subprocess.run(['python3',M+'augment.py',M+'prev2.html',M+'new_raw.txt',RUN,M+'index.html'],env=dict(os.environ,PUBS=M+'pubs.json'),capture_output=True,text=True)
 print('augment',r.returncode,r.stdout[-700:],r.stderr[-800:])
+# Flatfox Premium (priority) badge data, only from the verified browser scrape
+try:
+    sj=json.load(open('/work/scrape.json'));pr={pk:(v.get('d') or {}).get('flatfox_priority_exclusive_until') for pk,v in sj['det'].items()}
+    prm='~'.join('%s|%s'%(k,pr[k][:10]) for k in sorted(pr) if pr[k])
+    x=open(M+'index.html',encoding='utf-8').read()
+    if 'const PRM=`' in x:x=setc(x,'PRM',prm);open(M+'index.html','w',encoding='utf-8').write(x);print('premium',prm.count('|'))
+except Exception as e:print('premium skipped',e)
