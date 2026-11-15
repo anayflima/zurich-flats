@@ -5,6 +5,10 @@ on:
       url:
         description: Link to a .tgz with index.html and scripts
         required: true
+      message:
+        description: Commit message (what changed)
+        required: false
+        default: ""
 permissions:
   contents: write
   pages: write
@@ -19,13 +23,17 @@ jobs:
       - name: Unpack bundle
         env:
           SRC: ${{ inputs.url }}
+          MSG: ${{ inputs.message }}
         run: |
           curl -fsSL "$SRC" -o /tmp/b.tgz
           tar xzf /tmp/b.tgz -C .
+          if [ -z "$MSG" ] && [ -f COMMIT_MSG ]; then MSG="$(cat COMMIT_MSG)"; fi
+          rm -f COMMIT_MSG
+          [ -n "$MSG" ] || MSG="Update report (no description given)"
           git config user.name blue-bot
           git config user.email blue-bot@users.noreply.github.com
           git add -A
-          git commit -m "Publish report" || echo nochange
+          git commit -m "$MSG" || echo nochange
           git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
