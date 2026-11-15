@@ -883,5 +883,64 @@
    35
   ],
   "psqm": 65.0
+ },
+ {
+  "id": "trotten",
+  "title": "Furnished studio, 21 m²",
+  "address": "Trottenstrasse 33, 8037",
+  "area": "Wipkingen",
+  "price": 595,
+  "util": "incl. utilities",
+  "type": "own",
+  "kind": "Own studio",
+  "rooms": "1",
+  "sqm": 21,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/trottenstrasse-33-8037-zurich/86544815/",
+  "note": "Kitchen with induction hob, sofa bed, separate WC and shower room. Very cheap for its size, so view it before paying anything. Flatfox lets you message only after about 13 days unless you pay for Priority.",
+  "precise": 1,
+  "found": "2026-11-15",
+  "lat": 47.3951865,
+  "lon": 8.5214922,
+  "hb_walk": [
+   2.78,
+   37
+  ],
+  "hb_bike": [
+   2.93,
+   14
+  ],
+  "hb_pt": [
+   null,
+   16
+  ],
+  "mg_walk": [
+   7.68,
+   102
+  ],
+  "mg_bike": [
+   7.5,
+   28
+  ],
+  "mg_pt": [
+   null,
+   37
+  ],
+  "home_walk": [
+   4.16,
+   55
+  ],
+  "home_bike": [
+   4.29,
+   19
+  ],
+  "home_pt": [
+   null,
+   24
+  ],
+  "psqm": 28.3
  }
 ]

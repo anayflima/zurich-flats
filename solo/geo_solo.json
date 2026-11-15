@@ -678,5 +678,47 @@
    null,
    35
   ]
+ },
+ "trotten": {
+  "lat": 47.3951865,
+  "lon": 8.5214922,
+  "precise": 1,
+  "geo": "33, Trottenstrasse, Wipkingen, Kreis 10, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
+  "hb_walk": [
+   2.78,
+   37
+  ],
+  "hb_bike": [
+   2.93,
+   14
+  ],
+  "hb_pt": [
+   null,
+   16
+  ],
+  "mg_walk": [
+   7.68,
+   102
+  ],
+  "mg_bike": [
+   7.5,
+   28
+  ],
+  "mg_pt": [
+   null,
+   37
+  ],
+  "home_walk": [
+   4.16,
+   55
+  ],
+  "home_bike": [
+   4.29,
+   19
+  ],
+  "home_pt": [
+   null,
+   24
+  ]
  }
 }
