@@ -720,5 +720,89 @@
    null,
    24
   ]
+ },
+ "reben": {
+  "lat": 47.3344788,
+  "lon": 8.5160472,
+  "precise": 1,
+  "geo": "54, Rebenstrasse, Leimbach, Kreis 2, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
+  "hb_walk": [
+   6.04,
+   81
+  ],
+  "hb_bike": [
+   6.85,
+   23
+  ],
+  "hb_pt": [
+   null,
+   28
+  ],
+  "mg_walk": [
+   0.66,
+   9
+  ],
+  "mg_bike": [
+   0.68,
+   6
+  ],
+  "mg_pt": [
+   null,
+   8
+  ],
+  "home_walk": [
+   6.17,
+   82
+  ],
+  "home_bike": [
+   7.57,
+   28
+  ],
+  "home_pt": [
+   null,
+   31
+  ]
+ },
+ "triemroom": {
+  "lat": 47.3669602,
+  "lon": 8.4955497,
+  "precise": 0,
+  "geo": "Triemli, Friesenberg, Kreis 3, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8063, Sc",
+  "hb_walk": [
+   3.93,
+   52
+  ],
+  "hb_bike": [
+   5.6,
+   22
+  ],
+  "hb_pt": [
+   null,
+   21
+  ],
+  "mg_walk": [
+   4.49,
+   60
+  ],
+  "mg_bike": [
+   5.74,
+   20
+  ],
+  "mg_pt": [
+   null,
+   25
+  ],
+  "home_walk": [
+   5.07,
+   68
+  ],
+  "home_bike": [
+   6.32,
+   26
+  ],
+  "home_pt": [
+   null,
+   32
+  ]
  }
 }
