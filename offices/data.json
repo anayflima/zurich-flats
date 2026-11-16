@@ -1318,5 +1318,45 @@
    19
   ],
   "precise": 1
+ },
+ {
+  "id": "anker",
+  "title": "Own 4-desk team island in a creative coworking",
+  "address": "Ankerstrasse 3, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 400,
+  "basis": "Per desk, all included",
+  "cost2": 800,
+  "privcls": "no",
+  "privacy": "Team desk island in a shared office",
+  "size": "—",
+  "avail": "Now, permanent",
+  "url": "https://ronorp.net/market/posts/eigene-4er-buroinsel-in-kreativem-zurcher-workspace-400-pro-arbeitsplatz-alles-inklusive",
+  "note": "Desks rentable singly or as a block of 4. Desk, chair, printer, WiFi, meeting room, coffee, snacks and weekly cleaning included. 3rd floor with lift, 1 min to Bahnhof Wiedikon",
+  "found": "2026-11-12",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "pp": 400.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3726465,
+  "lon": 8.5235124,
+  "hb_walk": [
+   1.63,
+   22
+  ],
+  "hb_bike": [
+   2.26,
+   11
+  ],
+  "home_walk": [
+   2.77,
+   37
+  ],
+  "home_bike": [
+   3.57,
+   18
+  ],
+  "precise": 1
  }
 ]
