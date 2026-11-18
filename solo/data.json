@@ -1001,5 +1001,182 @@
    32
   ],
   "psqm": 41.2
+ },
+ {
+  "id": "letzi",
+  "title": "Cooperative 2-room flat with garden seat, 46 m²",
+  "address": "Letzigraben 213, 8047",
+  "area": "Albisrieden",
+  "price": 877,
+  "util": "incl. utilities (CHF 724 + 153)",
+  "type": "own",
+  "kind": "2-room flat (cooperative GBL)",
+  "rooms": "2",
+  "sqm": 46,
+  "lease": "open",
+  "leasetxt": "Regular cooperative lease; you buy shares of CHF 4,000",
+  "avail": "1 Jan 2027 at the earliest",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/letzigraben-213-8047-zurich/86541909/",
+  "note": "Parquet, separate kitchen, garden seat, cellar. Apply only via Flatfox; only some applicants get a viewing. No dogs.",
+  "precise": 1,
+  "found": "2026-11-18",
+  "lat": 47.3717377,
+  "lon": 8.4945901,
+  "hb_walk": [
+   4.23,
+   56
+  ],
+  "hb_bike": [
+   5.44,
+   23
+  ],
+  "hb_pt": [
+   null,
+   18
+  ],
+  "mg_walk": [
+   5.07,
+   68
+  ],
+  "mg_bike": [
+   6.48,
+   24
+  ],
+  "mg_pt": [
+   null,
+   25
+  ],
+  "home_walk": [
+   5.37,
+   72
+  ],
+  "home_bike": [
+   6.22,
+   29
+  ],
+  "home_pt": [
+   null,
+   35
+  ],
+  "psqm": 19.1
+ },
+ {
+  "id": "luisen",
+  "title": "Furnished room, weekly cleaning",
+  "address": "Luisenstrasse 31, 8005",
+  "area": "Kreis 5",
+  "price": 800,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Room, shared kitchen, WC and shower on the floor",
+  "rooms": "1",
+  "sqm": 13,
+  "lease": "open",
+  "leasetxt": "Take over the room, no end date stated",
+  "avail": "1 Dec 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/luisenstrasse-31-8005-zurich/86549051/",
+  "note": "Sink and small fridge in the room; weekly room cleaning and fresh bed linen included; no pets. Flatfox lets you message only after about 13 days unless you pay for Priority.",
+  "precise": 1,
+  "found": "2026-11-18",
+  "lat": 47.3838697,
+  "lon": 8.5295654,
+  "hb_walk": [
+   1.18,
+   16
+  ],
+  "hb_bike": [
+   1.18,
+   6
+  ],
+  "hb_pt": [
+   null,
+   8
+  ],
+  "mg_walk": [
+   6.21,
+   82
+  ],
+  "mg_bike": [
+   6.38,
+   21
+  ],
+  "mg_pt": [
+   null,
+   27
+  ],
+  "home_walk": [
+   2.75,
+   37
+  ],
+  "home_bike": [
+   3.35,
+   15
+  ],
+  "home_pt": [
+   null,
+   23
+  ],
+  "psqm": 61.5
+ },
+ {
+  "id": "juwo",
+  "title": "JUWO WG room (students, age 16-28)",
+  "address": "Forchstrasse 193, 8032",
+  "area": "Hirslanden",
+  "price": 500,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Room in a 3-person JUWO WG",
+  "rooms": "1",
+  "sqm": 12,
+  "lease": "temp",
+  "leasetxt": "Until June 2028",
+  "avail": "1 Dec 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/forchstrasse-193-8032-zurich/86549130/",
+  "note": "JUWO rules: age 16-28, gross income max CHF 30,000, studying or apprenticed. English-speaking WG (ETH master student and a medical student). Bed and table free to take over.",
+  "precise": 1,
+  "found": "2026-11-18",
+  "lat": 47.3604717,
+  "lon": 8.5674875,
+  "hb_walk": [
+   3.29,
+   44
+  ],
+  "hb_bike": [
+   3.4,
+   19
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   6.74,
+   90
+  ],
+  "mg_bike": [
+   8.23,
+   28
+  ],
+  "mg_pt": [
+   null,
+   33
+  ],
+  "home_walk": [
+   1.59,
+   21
+  ],
+  "home_bike": [
+   1.56,
+   9
+  ],
+  "home_pt": [
+   null,
+   16
+  ],
+  "psqm": 41.7
  }
 ]
