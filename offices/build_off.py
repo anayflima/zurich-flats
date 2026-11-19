@@ -4,6 +4,7 @@ g=json.load(open('geo.json')) if os.path.exists('geo.json') else {}
 prev={}
 if os.path.exists('prev_data.json'):
     prev={d['id']:d for d in json.load(open('prev_data.json'))}
+POSTED=json.load(open('posted.json')) if os.path.exists('posted.json') else {}
 RUN=os.environ.get('RUN',F)
 HB=[47.3781008,8.5393635];HOME=[47.3706746,8.554512]
 PC={'8001':'Kreis 1 (City)','8002':'Kreis 2 (Enge)','8003':'Kreis 3 (Wiedikon)','8045':'Kreis 3 (Wiedikon)','8004':'Kreis 4 (Aussersihl)','8005':'Kreis 5 (Industrie)','8006':'Kreis 6 (Unterstrass)','8032':'Kreis 7 (Hottingen)','8008':'Kreis 8 (Seefeld)','8047':'Kreis 9 (Albisrieden)','8048':'Kreis 9 (Altstetten)','8037':'Kreis 10 (Wipkingen)','8057':'Kreis 11 (Oerlikon)','8051':'Kreis 12 (Schwamendingen)'}
@@ -16,9 +17,10 @@ def sqm(pc,s):
 out=[]
 for r in ROWS:
     k,t,a,ar,p,b,c2,pc,pv,sz,av,u,n=r[:13]
-    found=r[13] if len(r)>13 else (prev.get(k,{}).get('found') or F)
+    found=r[13] if len(r)>13 else (prev.get(k,{}).get('found') or RUN)
     m=re.search(r'\b(80\d\d)\b',a); z=m.group(1) if m else ''
     d=dict(id=k,title=t,address=a,area=ar,price=p,basis=b,cost2=c2,privcls=pc,privacy=pv,size=sz,avail=av,url=u,note=n,found=found,plz=z,kreis=PC.get(z,'Other'))
+    d['posted']=POSTED.get(k)
     d['pp']=c2/2 if c2 is not None else None
     s=sqm(pc,sz); d['sqm']=s; d['psqm']=round(c2/s,1) if (s and c2 is not None) else None
     x=g.get(k) or {}
