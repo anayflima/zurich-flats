@@ -1178,5 +1178,123 @@
    16
   ],
   "psqm": 41.7
+ },
+ {
+  "id": "hofacker",
+  "title": "Furnished single room in a shared house",
+  "address": "Hofackerstrasse 25, 8032",
+  "area": "Hirslanden",
+  "price": 863,
+  "util": "total incl. CHF 89 charges",
+  "type": "room",
+  "kind": "Furnished room, 5 rooms per floor share a shower/WC",
+  "rooms": "1",
+  "sqm": 12,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "1 Dec 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/hofackerstr-25-8032-zurich/86381887/",
+  "note": "Shared kitchen and living room on the ground floor, washing tower; near Klusplatz and Hegibachplatz.",
+  "precise": 1,
+  "found": "2026-11-19",
+  "lat": 47.3615297,
+  "lon": 8.5637224,
+  "hb_walk": [
+   3.09,
+   41
+  ],
+  "hb_bike": [
+   3.13,
+   17
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   6.49,
+   86
+  ],
+  "mg_bike": [
+   8.06,
+   26
+  ],
+  "mg_pt": [
+   null,
+   31
+  ],
+  "home_walk": [
+   1.48,
+   20
+  ],
+  "home_bike": [
+   1.73,
+   8
+  ],
+  "home_pt": [
+   null,
+   16
+  ],
+  "psqm": 71.9
+ },
+ {
+  "id": "betahouse57",
+  "title": "betahouse co-living room, house 57 (students only)",
+  "address": "Bergstrasse 57, 8032",
+  "area": "Hottingen",
+  "price": 999,
+  "util": "all-inclusive",
+  "type": "room",
+  "kind": "Co-living room",
+  "rooms": "1",
+  "sqm": 12,
+  "lease": "temp",
+  "leasetxt": "Until 16 Aug 2027, interim use without notice period",
+  "avail": "Now",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/bergstrasse-57-8032-zurich/86503123/",
+  "note": "Students only; deposit 3 months (CHF 2,997); guarantor needed without own income; shared kitchens, garden, two roof terraces.",
+  "precise": 1,
+  "found": "2026-11-19",
+  "lat": 47.3729749,
+  "lon": 8.563219,
+  "hb_walk": [
+   2.55,
+   34
+  ],
+  "hb_bike": [
+   2.56,
+   14
+  ],
+  "hb_pt": [
+   null,
+   24
+  ],
+  "mg_walk": [
+   6.59,
+   88
+  ],
+  "mg_bike": [
+   7.38,
+   27
+  ],
+  "mg_pt": [
+   null,
+   38
+  ],
+  "home_walk": [
+   0.93,
+   12
+  ],
+  "home_bike": [
+   0.94,
+   5
+  ],
+  "home_pt": [
+   null,
+   12
+  ],
+  "psqm": 83.2
  }
 ]

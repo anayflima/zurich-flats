@@ -930,5 +930,89 @@
    null,
    23
   ]
+ },
+ "hofacker": {
+  "lat": 47.3615297,
+  "lon": 8.5637224,
+  "precise": 1,
+  "geo": "25, Hofackerstrasse, Hirslanden, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcric",
+  "hb_walk": [
+   3.09,
+   41
+  ],
+  "hb_bike": [
+   3.13,
+   17
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   6.49,
+   86
+  ],
+  "mg_bike": [
+   8.06,
+   26
+  ],
+  "mg_pt": [
+   null,
+   31
+  ],
+  "home_walk": [
+   1.48,
+   20
+  ],
+  "home_bike": [
+   1.73,
+   8
+  ],
+  "home_pt": [
+   null,
+   16
+  ]
+ },
+ "betahouse57": {
+  "lat": 47.3729749,
+  "lon": 8.563219,
+  "precise": 1,
+  "geo": "57, Bergstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
+  "hb_walk": [
+   2.55,
+   34
+  ],
+  "hb_bike": [
+   2.56,
+   14
+  ],
+  "hb_pt": [
+   null,
+   24
+  ],
+  "mg_walk": [
+   6.59,
+   88
+  ],
+  "mg_bike": [
+   7.38,
+   27
+  ],
+  "mg_pt": [
+   null,
+   38
+  ],
+  "home_walk": [
+   0.93,
+   12
+  ],
+  "home_bike": [
+   0.94,
+   5
+  ],
+  "home_pt": [
+   null,
+   12
+  ]
  }
 }
