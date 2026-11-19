@@ -62,7 +62,7 @@ for pk,d in D.items():
         cl=sum(a for a,b in zc[str(z)])/len(zc[str(z)]);co=sum(b for a,b in zc[str(z)])/len(zc[str(z)])
         if km(lat,lon,cl,co)>2.5:sk['location does not match postcode']+=1;continue
     r=str(d.get('number_of_rooms') or '');r=r[:-2] if r.endswith('.0') else r
-    if d.get('number_of_rooms') is not None and float(d.get('number_of_rooms'))<1.5:sk['under 1.5 rooms']+=1;continue
+    if d.get('number_of_rooms') is not None and float(d.get('number_of_rooms'))<2:sk['under 2 rooms']+=1;continue
     m2=d.get('surface_living') or d.get('livingspace')
     mt=d.get('moving_date_type');mv='now' if mt=='imm' else 'agr' if mt=='agr' else (md if mt=='dat' and md else '')
     fl=(2 if d.get('is_furnished') else 0)+(4 if ('student' in t or 'studierend' in t) else 0)
@@ -132,6 +132,6 @@ print('PATCH FAILS',fails)
 if fails:sys.exit(1)
 h=setc(h,'TS','~'.join(TSrows.values()))
 open('/work/m/prev2.html','w',encoding='utf-8').write(h)
-recs=sorted([f for f in N.values() if not f[4] or float(f[4])>=1.5],key=lambda f:int(f[1]))
+recs=sorted([f for f in N.values() if not f[4] or float(f[4])>=2],key=lambda f:int(f[1]))
 open('/work/m/new_raw.txt','w',encoding='utf-8').write('~'.join('|'.join(f) for f in recs))
 for rec,_,_ in new[:60]:print('NEW',rec[0],'CHF',rec[1],rec[4],'rooms',rec[5] and rec[5]+' m2',rec[6],rec[7],'|',TSrows[rec[0]])
