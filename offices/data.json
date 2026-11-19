@@ -2294,5 +2294,538 @@
    19
   ],
   "precise": 1
+ },
+ {
+  "id": "rb_spindel",
+  "title": "Office 20.5 m² to sublet at the Sihl",
+  "address": "Spindelstrasse 2, 8041",
+  "area": "Manegg",
+  "price": 490,
+  "basis": "Whole room, incl. utilities",
+  "cost2": 490,
+  "privcls": "yes",
+  "privacy": "Own room, unfurnished",
+  "size": "20.5 m²",
+  "avail": "Now",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/buero-205-m2-zur-untermiete",
+  "note": "3rd floor with lift, showers in the basement, café in the building",
+  "found": "2026-11-19",
+  "plz": "8041",
+  "kreis": "Other",
+  "posted": "2026-05-21",
+  "pp": 245.0,
+  "sqm": 20.5,
+  "psqm": 23.9,
+  "lat": 47.3396295,
+  "lon": 8.5185095,
+  "hb_walk": [
+   5.26,
+   70
+  ],
+  "hb_bike": [
+   5.97,
+   19
+  ],
+  "home_walk": [
+   5.41,
+   72
+  ],
+  "home_bike": [
+   6.69,
+   24
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_hohl610",
+  "title": "2 fixed desks for a two-person team",
+  "address": "Hohlstrasse 610, 8048",
+  "area": "Kreis 9 (Altstetten)",
+  "price": 250,
+  "basis": "Per person",
+  "cost2": 500,
+  "privcls": "no",
+  "privacy": "Shared 250 m² atelier",
+  "size": "—",
+  "avail": "Listed as free (post from 2020, check it is current)",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/fixe-arbeitspaetze-fuer-zweierteam-altstetten",
+  "note": "Next to Bahnhof Altstetten; workshop with laser cutter, kitchen, roof terrace, printer",
+  "found": "2026-11-19",
+  "plz": "8048",
+  "kreis": "Kreis 9 (Altstetten)",
+  "posted": "2020-06-18",
+  "pp": 250.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3921611,
+  "lon": 8.48494,
+  "hb_walk": [
+   4.8,
+   64
+  ],
+  "hb_bike": [
+   5.34,
+   20
+  ],
+  "home_walk": [
+   6.31,
+   84
+  ],
+  "home_bike": [
+   7.44,
+   29
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_hardturm",
+  "title": "Desks in a digital agency, Hardturm",
+  "address": "Hardturmstrasse 161, 8005",
+  "area": "Kreis 5",
+  "price": 200,
+  "basis": "CHF 200 to 450 per desk; private lockable office on request",
+  "cost2": null,
+  "privcls": "maybe",
+  "privacy": "Shared office, private room possible",
+  "size": "—",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/attraktive-arbeitsplaetze-bueros-im-zuercher-hotspot",
+  "note": "Meeting room for 8, kitchen, 24/7, utilities incl.",
+  "found": "2026-11-19",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "posted": "2025-02-16",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3929208,
+  "lon": 8.5120131,
+  "hb_walk": [
+   3.02,
+   40
+  ],
+  "hb_bike": [
+   3.1,
+   14
+  ],
+  "home_walk": [
+   4.59,
+   61
+  ],
+  "home_bike": [
+   4.99,
+   22
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_albis38",
+  "title": "1-room office in an architecture office",
+  "address": "Albisstrasse 38, 8038",
+  "area": "Wollishofen",
+  "price": 700,
+  "basis": "Whole room",
+  "cost2": 700,
+  "privcls": "yes",
+  "privacy": "Own closed room",
+  "size": "—",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/modernes-1-zimmer-buero-zuerich-wollishofen",
+  "note": "Kitchen and WC shared; tram 7",
+  "found": "2026-11-19",
+  "plz": "8038",
+  "kreis": "Other",
+  "posted": "2025-12-11",
+  "pp": 350.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3441492,
+  "lon": 8.5306027,
+  "hb_walk": [
+   4.24,
+   57
+  ],
+  "hb_bike": [
+   5.84,
+   20
+  ],
+  "home_walk": [
+   4.37,
+   58
+  ],
+  "home_bike": [
+   4.53,
+   22
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_badener18",
+  "title": "Corner office at Stauffacher",
+  "address": "Badenerstrasse 18, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 811,
+  "basis": "Whole room",
+  "cost2": 811,
+  "privcls": "yes",
+  "privacy": "Own room in an atelier community",
+  "size": "23 m²",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/schoenes-eckbuero-ateliergemeinschaft-direkt-am-stauffacher-zu-vermieten",
+  "note": "",
+  "found": "2026-11-19",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-06-05",
+  "pp": 405.5,
+  "sqm": 23,
+  "psqm": 35.3,
+  "lat": 47.3738543,
+  "lon": 8.5304205,
+  "hb_walk": [
+   1.02,
+   14
+  ],
+  "hb_bike": [
+   1.56,
+   8
+  ],
+  "home_walk": [
+   2.16,
+   29
+  ],
+  "home_bike": [
+   3.29,
+   15
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_streuli",
+  "title": "17 m² office in Hottingen (Römerhof)",
+  "address": "Streulistrasse 28, 8032",
+  "area": "Kreis 7 (Hottingen)",
+  "price": 850,
+  "basis": "Whole room",
+  "cost2": 850,
+  "privcls": "yes",
+  "privacy": "Own room in an atelier community",
+  "size": "17 m²",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/schoenes-buero-17m2-ateliergemeinschaft-zu-vermieten-k7-roemerhof-8032-zuerich",
+  "note": "Close to home",
+  "found": "2026-11-19",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "posted": "2025-05-25",
+  "pp": 425.0,
+  "sqm": 17,
+  "psqm": 50.0,
+  "lat": 47.3652588,
+  "lon": 8.5618282,
+  "hb_walk": [
+   2.64,
+   35
+  ],
+  "hb_bike": [
+   2.71,
+   16
+  ],
+  "home_walk": [
+   0.94,
+   13
+  ],
+  "home_bike": [
+   0.93,
+   5
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_canetti",
+  "title": "Small atelier room in Oerlikon, temporary",
+  "address": "Elias-Canetti-Strasse 7, 8050",
+  "area": "Oerlikon",
+  "price": 420,
+  "basis": "Whole room",
+  "cost2": 420,
+  "privcls": "yes",
+  "privacy": "Own room",
+  "size": "10 m²",
+  "avail": "Temporary",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/atelier-raum-oerlikon-befristet",
+  "note": "Only 10 m²",
+  "found": "2026-11-19",
+  "plz": "8050",
+  "kreis": "Other",
+  "posted": "2026-10-14",
+  "pp": 210.0,
+  "sqm": 10,
+  "psqm": 42.0,
+  "lat": 47.4114804,
+  "lon": 8.5405256,
+  "hb_walk": [
+   4.56,
+   61
+  ],
+  "hb_bike": [
+   5.85,
+   23
+  ],
+  "home_walk": [
+   5.49,
+   73
+  ],
+  "home_bike": [
+   5.84,
+   23
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_engel",
+  "title": "Desk near Helvetiaplatz",
+  "address": "Engelstrasse 64, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 350,
+  "basis": "CHF 350 to 490 per desk (4 days or full week)",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared office",
+  "size": "—",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/kreis-4-zuerich-heller-bueroplatz-naehe-helvetiaplatz-chf-350-490-4-tage-oder",
+  "note": "",
+  "found": "2026-11-19",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-01-22",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3767906,
+  "lon": 8.5239973,
+  "hb_walk": [
+   1.48,
+   20
+  ],
+  "hb_bike": [
+   2.06,
+   10
+  ],
+  "home_walk": [
+   2.83,
+   38
+  ],
+  "home_bike": [
+   3.86,
+   18
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_rigi",
+  "title": "Office/atelier room in a creative house",
+  "address": "Rigistrasse 13, 8006",
+  "area": "Kreis 6",
+  "price": 795,
+  "basis": "Whole room",
+  "cost2": 795,
+  "privcls": "yes",
+  "privacy": "Own room",
+  "size": "12 m²",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/ein-freier-buero-atelierraum-unserem-kreativhaus-im-kreis-6",
+  "note": "",
+  "found": "2026-11-19",
+  "plz": "8006",
+  "kreis": "Kreis 6 (Unterstrass)",
+  "posted": "2025-10-21",
+  "pp": 397.5,
+  "sqm": 12,
+  "psqm": 66.2,
+  "lat": 47.3852206,
+  "lon": 8.5488517,
+  "hb_walk": [
+   1.46,
+   19
+  ],
+  "hb_bike": [
+   2.2,
+   12
+  ],
+  "home_walk": [
+   1.9,
+   25
+  ],
+  "home_bike": [
+   1.94,
+   9
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_hafner",
+  "title": "2 atelier places, Hafnerstrasse",
+  "address": "Hafnerstrasse 61, 8005",
+  "area": "Kreis 5",
+  "price": 335,
+  "basis": "Unclear: per place or both?",
+  "cost2": null,
+  "privcls": "maybe",
+  "privacy": "Shared atelier",
+  "size": "120 m² total",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/zwei-atelierplaetze-der-hafnerstrasse-61-8005-zuerich",
+  "note": "",
+  "found": "2026-11-19",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "posted": "2026-07-28",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3824259,
+  "lon": 8.5372157,
+  "hb_walk": [
+   0.7,
+   9
+  ],
+  "hb_bike": [
+   0.74,
+   4
+  ],
+  "home_walk": [
+   2.27,
+   30
+  ],
+  "home_bike": [
+   2.64,
+   15
+  ],
+  "precise": 1
+ },
+ {
+  "id": "rb_hegibach",
+  "title": "Atelier place at Hegibachplatz",
+  "address": "Hegibachstrasse 30, 8032",
+  "area": "Kreis 7 (Hottingen)",
+  "price": 250,
+  "basis": "1 place",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared atelier",
+  "size": "60 m² total",
+  "avail": "Listed as free",
+  "url": "https://www.raumboerse-zh.ch/dauernutzung/atelierplatz-am-hegibachplatz-zuerich",
+  "note": "Close to home",
+  "found": "2026-11-19",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "posted": "2026-09-04",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3624411,
+  "lon": 8.5625539,
+  "hb_walk": [
+   2.86,
+   38
+  ],
+  "hb_bike": [
+   2.9,
+   16
+  ],
+  "home_walk": [
+   1.21,
+   16
+  ],
+  "home_bike": [
+   1.2,
+   7
+  ],
+  "precise": 1
+ },
+ {
+  "id": "citizen",
+  "title": "Citizen Space coworking",
+  "address": "Heinrichstrasse 267A, 8005",
+  "area": "Kreis 5",
+  "price": 380,
+  "basis": "Flex desk per person (Member CHF 550)",
+  "cost2": 760,
+  "privcls": "no",
+  "privacy": "Coworking",
+  "size": "—",
+  "avail": "Free trial day",
+  "url": "https://www.citizenspace.ch/",
+  "note": "Prices from their website; 24/7 access",
+  "found": "2026-11-19",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "posted": null,
+  "pp": 380.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3889657,
+  "lon": 8.5217281,
+  "hb_walk": [
+   2.0,
+   27
+  ],
+  "hb_bike": [
+   2.02,
+   10
+  ],
+  "home_walk": [
+   3.57,
+   48
+  ],
+  "home_bike": [
+   4.13,
+   19
+  ],
+  "precise": 1
+ },
+ {
+  "id": "bluelion",
+  "title": "Blue Lion fixed desks (tech startups)",
+  "address": "Josefstrasse 219, 8005",
+  "area": "Kreis 5",
+  "price": 550,
+  "basis": "Fixed desk per person; private office for 4 to 6 is CHF 2,500",
+  "cost2": 1100,
+  "privcls": "no",
+  "privacy": "Coworking for tech founders",
+  "size": "—",
+  "avail": "Check with them",
+  "url": "https://bluelion.ch/space/",
+  "note": "Also at Sihlquai 125",
+  "found": "2026-11-19",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "posted": null,
+  "pp": 550.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3875561,
+  "lon": 8.5210082,
+  "hb_walk": [
+   1.99,
+   27
+  ],
+  "hb_bike": [
+   2.02,
+   9
+  ],
+  "home_walk": [
+   3.55,
+   47
+  ],
+  "home_bike": [
+   4.15,
+   18
+  ],
+  "precise": 1
  }
 ]
