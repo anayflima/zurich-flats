@@ -2827,5 +2827,403 @@
    18
   ],
   "precise": 1
+ },
+ {
+  "id": "ro_anker",
+  "title": "Own 4-desk island in a creative workspace",
+  "address": "Ankerstrasse 3, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 400,
+  "basis": "Per desk, all included",
+  "cost2": 800,
+  "privcls": "no",
+  "privacy": "Shared office (own desk island)",
+  "size": "—",
+  "avail": "Now",
+  "url": "https://ronorp.net/market/posts/eigene-4er-buroinsel-in-kreativem-zurcher-workspace-400-pro-arbeitsplatz-alles-inklusive",
+  "note": "4 connected desks, rentable singly or as a block; lift",
+  "found": "2026-11-20",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-10-16",
+  "pp": 400.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3726465,
+  "lon": 8.5235124,
+  "hb_walk": [
+   1.63,
+   22
+  ],
+  "hb_bike": [
+   2.26,
+   11
+  ],
+  "home_walk": [
+   2.77,
+   37
+  ],
+  "home_bike": [
+   3.57,
+   18
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_glasmaler",
+  "title": "Desks in a shop-window office at Stauffacher",
+  "address": "Glasmalergasse 5, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 550,
+  "basis": "Per desk?",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared office with a 3-person film studio",
+  "size": "—",
+  "avail": "—",
+  "url": "https://ronorp.net/market/posts/arbeitsplatze-in-kreativem-schaufensterburo-am-stauffacher-zu-vermieten",
+  "note": "4 desks, furnished, lift",
+  "found": "2026-11-20",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-11-13",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3744961,
+  "lon": 8.5300772,
+  "hb_walk": [
+   1.04,
+   14
+  ],
+  "hb_bike": [
+   1.56,
+   8
+  ],
+  "home_walk": [
+   2.25,
+   30
+  ],
+  "home_bike": [
+   3.29,
+   16
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_dorf40",
+  "title": "Closed atelier room in an architects office share",
+  "address": "Dorfstrasse 40, 8037",
+  "area": "Kreis 10 (Wipkingen)",
+  "price": 1250,
+  "basis": "Whole 30 m² room (40 or 92 m² also offered)",
+  "cost2": 1250,
+  "privcls": "yes",
+  "privacy": "Own room",
+  "size": "30 m²",
+  "avail": "Open-ended sublet, from 1 Nov 2026",
+  "url": "https://ronorp.net/market/posts/atelierraum-30m2-40m2-oder-92m2-in-burogemeinschaft-in-wipkingen-zu-vermieten",
+  "note": "Shared with two architecture offices",
+  "found": "2026-11-20",
+  "plz": "8037",
+  "kreis": "Kreis 10 (Wipkingen)",
+  "posted": "2026-11-16",
+  "pp": 625.0,
+  "sqm": 30,
+  "psqm": 41.7,
+  "lat": 47.394679,
+  "lon": 8.5221032,
+  "hb_walk": [
+   2.7,
+   36
+  ],
+  "hb_bike": [
+   2.85,
+   14
+  ],
+  "home_walk": [
+   4.09,
+   55
+  ],
+  "home_bike": [
+   4.28,
+   19
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_kampa",
+  "title": "KampaSpace fixed desk, Gleis 70",
+  "address": "Hermetschloostrasse 70, 8048",
+  "area": "Kreis 9 (Altstetten)",
+  "price": 270,
+  "basis": "Per desk, all included",
+  "cost2": 540,
+  "privcls": "no",
+  "privacy": "Coworking",
+  "size": "—",
+  "avail": "Now (up to 4 desks)",
+  "url": "https://ronorp.net/market/posts/fixer-desk-im-kampaspace-co-working-im-gleis-70-chf-270monat-alles-drin",
+  "note": "High-speed WiFi included; terrace, lift",
+  "found": "2026-11-20",
+  "plz": "8048",
+  "kreis": "Kreis 9 (Altstetten)",
+  "posted": "2026-09-24",
+  "pp": 270.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3945528,
+  "lon": 8.4746053,
+  "hb_walk": [
+   5.74,
+   77
+  ],
+  "hb_bike": [
+   6.29,
+   26
+  ],
+  "home_walk": [
+   7.25,
+   97
+  ],
+  "home_bike": [
+   8.4,
+   34
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_buck245",
+  "title": "Atelier place in an industrial space",
+  "address": "Buckhauserstrasse, 8048",
+  "area": "Kreis 9 (Altstetten)",
+  "price": 245,
+  "basis": "Per place",
+  "cost2": 490,
+  "privcls": "no",
+  "privacy": "Shared atelier",
+  "size": "110 m² total",
+  "avail": "—",
+  "url": "https://ronorp.net/market/posts/atelierplatz-charmant-aussicht-und-viel-sonne",
+  "note": "Quiet atelier community; no street number given",
+  "found": "2026-11-20",
+  "plz": "8048",
+  "kreis": "Kreis 9 (Altstetten)",
+  "posted": "2026-11-03",
+  "pp": 245.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3846315,
+  "lon": 8.4930094,
+  "hb_walk": [
+   4.27,
+   57
+  ],
+  "hb_bike": [
+   4.96,
+   20
+  ],
+  "home_walk": [
+   5.47,
+   73
+  ],
+  "home_bike": [
+   7.07,
+   29
+  ],
+  "precise": 0
+ },
+ {
+  "id": "ro_buck190",
+  "title": "Atelier places free in Altstetten",
+  "address": "Buckhauserstrasse, 8048",
+  "area": "Kreis 9 (Altstetten)",
+  "price": 190,
+  "basis": "Per place",
+  "cost2": 380,
+  "privcls": "no",
+  "privacy": "Shared atelier",
+  "size": "—",
+  "avail": "Now",
+  "url": "https://ronorp.net/market/posts/atelierplatz-frei-in-altstetten",
+  "note": "Big bright room, workshop room and roof terrace",
+  "found": "2026-11-20",
+  "plz": "8048",
+  "kreis": "Kreis 9 (Altstetten)",
+  "posted": "2026-11-16",
+  "pp": 190.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3846315,
+  "lon": 8.4930094,
+  "hb_walk": [
+   4.27,
+   57
+  ],
+  "hb_bike": [
+   4.96,
+   20
+  ],
+  "home_walk": [
+   5.47,
+   73
+  ],
+  "home_bike": [
+   7.07,
+   29
+  ],
+  "precise": 0
+ },
+ {
+  "id": "ro_hermet75",
+  "title": "Bright atelier place",
+  "address": "Hermetschloostrasse 75, 8048",
+  "area": "Kreis 9 (Altstetten)",
+  "price": 135,
+  "basis": "Part of an atelier, about 6 to 7 m²",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared atelier",
+  "size": "7 m²",
+  "avail": "Now",
+  "url": "https://ronorp.net/market/posts/heller-atelier-arbeitsplatz-zu-vermieten",
+  "note": "Lift",
+  "found": "2026-11-20",
+  "plz": "8048",
+  "kreis": "Kreis 9 (Altstetten)",
+  "posted": "2026-11-18",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3942539,
+  "lon": 8.4742415,
+  "hb_walk": [
+   5.75,
+   77
+  ],
+  "hb_bike": [
+   6.31,
+   26
+  ],
+  "home_walk": [
+   7.27,
+   97
+  ],
+  "home_bike": [
+   8.42,
+   35
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_aemtler",
+  "title": "Furnished 9 m² desk place (temporary)",
+  "address": "Aemtlerstrasse 92A, 8003",
+  "area": "Kreis 3 (Wiedikon)",
+  "price": 350,
+  "basis": "Per place",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared office (4 people)",
+  "size": "9 m²",
+  "avail": "Nov 2026 to Feb 2027 (temporary), sharing option from Mar 2027",
+  "url": "https://ronorp.net/market/posts/moblierter-atelier-buroplatz-9-m2-befristet-nov-26-feb-27-mit-option-fur-sharing-ab-marz-27-nahe-idaplatz",
+  "note": "Kitchenette and meeting table shared",
+  "found": "2026-11-20",
+  "plz": "8003",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "posted": "2026-11-01",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3743882,
+  "lon": 8.5135941,
+  "hb_walk": [
+   2.39,
+   32
+  ],
+  "hb_bike": [
+   2.96,
+   14
+  ],
+  "home_walk": [
+   3.56,
+   47
+  ],
+  "home_bike": [
+   4.34,
+   21
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_muehle",
+  "title": "Desk with lake view, Mühle Tiefenbrunnen",
+  "address": "Mühle Tiefenbrunnen, 8008",
+  "area": "Kreis 8 (Seefeld)",
+  "price": 450,
+  "basis": "Per desk, all included",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared office",
+  "size": "—",
+  "avail": "—",
+  "url": "https://ronorp.net/market/posts/moderner-buro-arbeitsplatz-mit-seesicht-modern-office-workplace-with-lakeview",
+  "note": "Air-conditioned; conference room and tea kitchen",
+  "found": "2026-11-20",
+  "plz": "8008",
+  "kreis": "Kreis 8 (Seefeld)",
+  "posted": "2026-07-11",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": null,
+  "lon": null,
+  "hb_walk": null,
+  "hb_bike": null,
+  "home_walk": null,
+  "home_bike": null,
+  "precise": 0
+ },
+ {
+  "id": "ro_forch280",
+  "title": "Practice/office room shared by the day or hour",
+  "address": "Forchstrasse 280, 8008",
+  "area": "Kreis 8 (Seefeld)",
+  "price": 500,
+  "basis": "Shared use (owner uses it Wed and Thu afternoons)",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared room by the day",
+  "size": "—",
+  "avail": "—",
+  "url": "https://ronorp.net/market/posts/praxis-oder-buroraum-an-der-forchstrasse-280-zurich-tageweise-oder-stundenweise-zur-mitnutzung",
+  "note": "Kitchen and WC on the floor, cleaning included",
+  "found": "2026-11-20",
+  "plz": "8008",
+  "kreis": "Kreis 8 (Seefeld)",
+  "posted": "2026-11-10",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3572528,
+  "lon": 8.5726657,
+  "hb_walk": [
+   3.82,
+   51
+  ],
+  "hb_bike": [
+   3.98,
+   22
+  ],
+  "home_walk": [
+   2.13,
+   28
+  ],
+  "home_bike": [
+   2.2,
+   11
+  ],
+  "precise": 1
  }
 ]
