@@ -739,23 +739,23 @@
  },
  {
   "id": "albis",
-  "title": "2–4 Arbeitsplätze, Bürogemeinschaft",
+  "title": "2–4 furnished desks in a creative office share (YOND)",
   "address": "Albisriederstrasse 253, 8047",
   "area": "Albisrieden",
-  "price": 550,
-  "basis": "Unclear: per desk?",
-  "cost2": null,
+  "price": 470,
+  "basis": "Per desk",
+  "cost2": 940,
   "privcls": "no",
   "privacy": "Shared office",
   "size": "—",
-  "avail": "—",
-  "url": "https://ronorp.net/zurich/market/search?keyword=Albisriederstrasse",
-  "note": "",
+  "avail": "Now",
+  "url": "https://ronorp.net/market/posts/2-4-eingerichtete-arbeitsplatze-in-kreativer-burogemeinschaft-in-zurich-albisrieden",
+  "note": "Furnished; 2nd floor",
   "found": "2026-11-12",
   "plz": "8047",
   "kreis": "Kreis 9 (Albisrieden)",
-  "posted": null,
-  "pp": null,
+  "posted": "2026-11-17",
+  "pp": 470.0,
   "sqm": null,
   "psqm": null,
   "lat": 47.3780883,
@@ -3225,5 +3225,268 @@
    11
   ],
   "precise": 1
+ },
+ {
+  "id": "ro_nemuk",
+  "title": "Attic office room for up to 2 desks (NEMUK AG office share)",
+  "address": "Kanzleistrasse 53, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 1052,
+  "basis": "Whole 17 m² room, incl. utilities, cleaning, internet, coffee",
+  "cost2": 1052,
+  "privcls": "yes",
+  "privacy": "Own room in shared office",
+  "size": "17 m²",
+  "avail": "From Jan 2027, 6 months notice",
+  "url": "https://ronorp.net/market/posts/schones-buro-im-dachgeschoss-mit-bis-zu-2-arbeitsplatzen-bei-der-nemuk-ag-im-gemeinschaftsburo-zu-vermieten-per-januar-2027",
+  "note": "Furnished; meeting room shared; about 10 min walk to HB",
+  "found": "2026-11-21",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-11-17",
+  "pp": 526.0,
+  "sqm": 17,
+  "psqm": 61.9,
+  "lat": 47.3750299,
+  "lon": 8.525639,
+  "hb_walk": [
+   1.34,
+   18
+  ],
+  "hb_bike": [
+   1.94,
+   10
+  ],
+  "home_walk": [
+   2.65,
+   35
+  ],
+  "home_bike": [
+   3.66,
+   18
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_josef84",
+  "title": "Office rooms for sublet, rentable singly",
+  "address": "Josefstrasse 84, 8005",
+  "area": "Kreis 5 (Zürich-West)",
+  "price": 950,
+  "basis": "Room 1, 26 m² (27 m² room CHF 980, two rooms 54 m² CHF 1,890, all 107 m² CHF 3,500)",
+  "cost2": 950,
+  "privcls": "yes",
+  "privacy": "Own room (sublet)",
+  "size": "26 m²",
+  "avail": "—",
+  "url": "https://ronorp.net/market/posts/107-m2-ready-to-work-buro-in-zurich-kreis-5-sitzungszimmer-cafeteria-chf-3500",
+  "note": "Meeting room and cafeteria",
+  "found": "2026-11-21",
+  "plz": "8005",
+  "kreis": "Kreis 5 (Industrie)",
+  "posted": "2026-10-28",
+  "pp": 475.0,
+  "sqm": 26,
+  "psqm": 36.5,
+  "lat": 47.3829683,
+  "lon": 8.5312403,
+  "hb_walk": [
+   1.02,
+   14
+  ],
+  "hb_bike": [
+   1.08,
+   5
+  ],
+  "home_walk": [
+   2.58,
+   34
+  ],
+  "home_bike": [
+   3.33,
+   15
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_weber",
+  "title": "Bright rooms booked flexibly near Hallwylplatz",
+  "address": "Weberstrasse, 8003",
+  "area": "Kreis 3 (Hallwylplatz)",
+  "price": 250,
+  "basis": "Unclear (rooms shared via a booking system; Mon and Fri can be rented fixed)",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared rooms by booking",
+  "size": "—",
+  "avail": "Temporary",
+  "url": "https://ronorp.net/market/posts/schone-helle-raume-zur-flexiblen-nutzung",
+  "note": "Shared with psychiatry practitioners; 4th floor, lift, common room",
+  "found": "2026-11-21",
+  "plz": "8003",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "posted": "2026-11-10",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3711476,
+  "lon": 8.5279024,
+  "hb_walk": [
+   1.39,
+   19
+  ],
+  "hb_bike": [
+   1.93,
+   10
+  ],
+  "home_walk": [
+   2.4,
+   32
+  ],
+  "home_bike": [
+   3.14,
+   16
+  ],
+  "precise": 0
+ },
+ {
+  "id": "ro_schaufel",
+  "title": "Place in an artists atelier (2 free)",
+  "address": "Schaufelbergerstrasse, 8055",
+  "area": "Kreis 3 (Friesenberg)",
+  "price": 380,
+  "basis": "Per place, incl. utilities",
+  "cost2": 760,
+  "privcls": "no",
+  "privacy": "Shared atelier",
+  "size": "13 m² per place",
+  "avail": "Temporary, until Mar 2028",
+  "url": "https://ronorp.net/market/posts/zwei-platze-in-einem-kunstlerinnen-atelier-frei",
+  "note": "Unfurnished; shared bath, kitchenette, lounge",
+  "found": "2026-11-21",
+  "plz": "8055",
+  "kreis": "Other",
+  "posted": "2026-10-30",
+  "pp": 380.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3717475,
+  "lon": 8.5025283,
+  "hb_walk": [
+   3.48,
+   46
+  ],
+  "hb_bike": [
+   4.38,
+   20
+  ],
+  "home_walk": [
+   4.62,
+   62
+  ],
+  "home_bike": [
+   5.38,
+   25
+  ],
+  "precise": 0
+ },
+ {
+  "id": "ro_birmens13",
+  "title": "Atelier/sewing room and shop to share",
+  "address": "Birmensdorferstrasse 13, 8004",
+  "area": "Kreis 4 (Stauffacher)",
+  "price": 1500,
+  "basis": "Unclear: shared use of a 90 m² atelier and shop",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared atelier/shop",
+  "size": "90 m²",
+  "avail": "—",
+  "url": "https://ronorp.net/market/posts/ateliernahereiladen-zum-teilen-in-8004-zurich",
+  "note": "Owner runs a menswear label there",
+  "found": "2026-11-21",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-11-18",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3727976,
+  "lon": 8.5274376,
+  "hb_walk": [
+   1.29,
+   17
+  ],
+  "hb_bike": [
+   1.9,
+   10
+  ],
+  "home_walk": [
+   2.42,
+   32
+  ],
+  "home_bike": [
+   3.62,
+   17
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_enapay",
+  "title": "Furnished office room in Seefeld",
+  "address": "Seefeld, 8008 (street not given)",
+  "area": "Kreis 8 (Seefeld)",
+  "price": 1490,
+  "basis": "Whole room for 1 to 2 desks",
+  "cost2": 1490,
+  "privcls": "yes",
+  "privacy": "Own room in a 2-room office",
+  "size": "26 m²",
+  "avail": "Now",
+  "url": "https://ronorp.net/market/posts/moblierter-buroraum-im-zuricher-seefeld-per-sofort-zu-vermieten-1",
+  "note": "USM furniture; WLAN, copier, kitchen, WC, shower shared",
+  "found": "2026-11-21",
+  "plz": "8008",
+  "kreis": "Kreis 8 (Seefeld)",
+  "posted": "2026-11-04",
+  "pp": 745.0,
+  "sqm": 26,
+  "psqm": 57.3,
+  "lat": null,
+  "lon": null,
+  "hb_walk": null,
+  "hb_bike": null,
+  "home_walk": null,
+  "home_bike": null,
+  "precise": 0
+ },
+ {
+  "id": "ro_seewerk",
+  "title": "Atelier/workshop room in Seefeld (basement)",
+  "address": "Seefeld, 8008 (street not given)",
+  "area": "Kreis 8 (Seefeld)",
+  "price": 1450,
+  "basis": "Whole 100 m² room",
+  "cost2": 1450,
+  "privcls": "yes",
+  "privacy": "Own atelier room",
+  "size": "100 m²",
+  "avail": "From 1 Jan 2027",
+  "url": "https://ronorp.net/market/posts/atelier-werkstattraum-im-seefeld",
+  "note": "Basement with daylight; big goods lift",
+  "found": "2026-11-21",
+  "plz": "8008",
+  "kreis": "Kreis 8 (Seefeld)",
+  "posted": "2026-10-29",
+  "pp": 725.0,
+  "sqm": 100,
+  "psqm": 14.5,
+  "lat": null,
+  "lon": null,
+  "hb_walk": null,
+  "hb_bike": null,
+  "home_walk": null,
+  "home_bike": null,
+  "precise": 0
  }
 ]
