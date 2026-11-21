@@ -1014,5 +1014,89 @@
    null,
    12
   ]
+ },
+ "oerlijuwo": {
+  "lat": 47.3999853,
+  "lon": 8.542619,
+  "precise": 1,
+  "geo": "3, Oerlikonerstrasse, Unterstrass, Kreis 6, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcr",
+  "hb_walk": [
+   2.87,
+   38
+  ],
+  "hb_bike": [
+   4.15,
+   16
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   8.24,
+   110
+  ],
+  "mg_bike": [
+   9.29,
+   31
+  ],
+  "mg_pt": [
+   null,
+   39
+  ],
+  "home_walk": [
+   3.8,
+   51
+  ],
+  "home_bike": [
+   4.14,
+   15
+  ],
+  "home_pt": [
+   null,
+   24
+  ]
+ },
+ "betahouse53": {
+  "lat": 47.3731518,
+  "lon": 8.5627015,
+  "precise": 1,
+  "geo": "53, Bergstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
+  "hb_walk": [
+   2.4,
+   32
+  ],
+  "hb_bike": [
+   2.52,
+   14
+  ],
+  "hb_pt": [
+   null,
+   21
+  ],
+  "mg_walk": [
+   6.45,
+   86
+  ],
+  "mg_bike": [
+   7.42,
+   28
+  ],
+  "mg_pt": [
+   null,
+   41
+  ],
+  "home_walk": [
+   0.78,
+   10
+  ],
+  "home_bike": [
+   0.88,
+   5
+  ],
+  "home_pt": [
+   null,
+   10
+  ]
  }
 }
