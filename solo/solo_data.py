@@ -28,3 +28,6 @@ SKIP=[dict(title='Hobby/storage room, Friedheimstrasse 14 (8057)',price='CHF 120
 NOT_TEMP=True
 ROWS=[r for r in ROWS if r.get('lease')!='temp']
 SKIP=[x for x in SKIP if not any(w in x['why'].lower() for w in ('only ','holiday','until','dec','jan','temporar','sublet'))]
+
+# Ana 2026-11-22: solo page only below CHF 900.
+ROWS=[r for r in ROWS if r['price']<=900]
