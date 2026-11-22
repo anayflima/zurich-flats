@@ -1,87 +1,5 @@
 [
  {
-  "id": "konrad",
-  "title": "Ruhiges Büro im Kreis 5",
-  "address": "Konradstrasse, 8005",
-  "area": "Kreis 5",
-  "price": 440,
-  "basis": "Whole room, incl. utilities",
-  "cost2": 440,
-  "privcls": "yes",
-  "privacy": "Own room",
-  "size": "12 m²",
-  "avail": "1 Nov 2026 or by agreement (temporary)",
-  "url": "https://ronorp.net/market/posts/ruhiges-buro-im-kreis-5",
-  "note": "Unfurnished, desk and shelf can be taken over, shared WC",
-  "found": "2026-11-12",
-  "plz": "8005",
-  "kreis": "Kreis 5 (Industrie)",
-  "posted": "2026-10-25",
-  "pp": 220.0,
-  "sqm": 12,
-  "psqm": 36.7,
-  "lat": 47.3826748,
-  "lon": 8.532606,
-  "hb_walk": [
-   0.88,
-   12
-  ],
-  "hb_bike": [
-   0.9,
-   4
-  ],
-  "home_walk": [
-   2.44,
-   33
-  ],
-  "home_bike": [
-   3.35,
-   15
-  ],
-  "precise": 0
- },
- {
-  "id": "technopark",
-  "title": "Büro im Technopark",
-  "address": "Technoparkstrasse 1, 8005",
-  "area": "Escher Wyss",
-  "price": 250,
-  "basis": "1 desk, owner keeps the other",
-  "cost2": null,
-  "privcls": "no",
-  "privacy": "Shared with owner",
-  "size": "14 m²",
-  "avail": "Temporary",
-  "url": "https://ronorp.net/market/posts/buro-zur-gemeinsamen-nutzung-nahe-escherwyssplatzbahnhof-hardbrucke",
-  "note": "Only 1 desk free",
-  "found": "2026-11-12",
-  "plz": "8005",
-  "kreis": "Kreis 5 (Industrie)",
-  "posted": "2026-11-03",
-  "pp": null,
-  "sqm": null,
-  "psqm": null,
-  "lat": 47.3899675,
-  "lon": 8.5156319,
-  "hb_walk": [
-   2.49,
-   33
-  ],
-  "hb_bike": [
-   2.71,
-   12
-  ],
-  "home_walk": [
-   4.06,
-   54
-  ],
-  "home_bike": [
-   4.81,
-   21
-  ],
-  "precise": 1
- },
- {
   "id": "morgarten",
   "title": "Zwei Arbeitsplätze, einzeln oder zusammen",
   "address": "Morgartenstrasse, 8004",
@@ -984,47 +902,6 @@
   "precise": 1
  },
  {
-  "id": "zschokke",
-  "title": "1-room flat, 34 m², Wipkingen",
-  "address": "Zschokkestrasse 5, 8037",
-  "area": "Wipkingen",
-  "price": 990,
-  "basis": "Whole flat, incl. utilities (plus electricity)",
-  "cost2": 990,
-  "privcls": "yes",
-  "privacy": "Own studio",
-  "size": "34 m²",
-  "avail": "1 Dec 2026; fixed lease until 31 Mar 2027",
-  "url": "https://flatfox.ch/en/flat/zschokkestrasse-5-8037-zurich/86497688/",
-  "note": "Biggest studio found. Ad says the room works for living and working; meant for individuals, so ask about 2 people working there",
-  "found": "2026-11-12",
-  "plz": "8037",
-  "kreis": "Kreis 10 (Wipkingen)",
-  "posted": "2026-10-30",
-  "pp": 495.0,
-  "sqm": 34,
-  "psqm": 29.1,
-  "lat": 47.3954007,
-  "lon": 8.525509,
-  "hb_walk": [
-   2.71,
-   36
-  ],
-  "hb_bike": [
-   3.25,
-   16
-  ],
-  "home_walk": [
-   3.96,
-   53
-  ],
-  "home_bike": [
-   4.52,
-   21
-  ],
-  "precise": 1
- },
- {
   "id": "stauff",
   "title": "Furnished 1-room flat near Stauffacher",
   "address": "Stauffacher, 8004",
@@ -1845,47 +1722,6 @@
   "precise": 0
  },
  {
-  "id": "ro_hallwyl",
-  "title": "Atelier room at Hallwylplatz",
-  "address": "Verena-Conzett-Strasse, 8004",
-  "area": "Kreis 4 (Aussersihl)",
-  "price": 440,
-  "basis": "Whole room",
-  "cost2": 440,
-  "privcls": "yes",
-  "privacy": "Own room in a studio building",
-  "size": "—",
-  "avail": "1 Dec 2026; until end Apr 2027",
-  "url": "https://ronorp.net/market/posts/atelierraum-ab-1-dezember-2026-direkt-beim-hallwylplatz",
-  "note": "Furniture can be taken over",
-  "found": "2026-11-19",
-  "plz": "8004",
-  "kreis": "Kreis 4 (Aussersihl)",
-  "posted": "2026-11-18",
-  "pp": 220.0,
-  "sqm": null,
-  "psqm": null,
-  "lat": 47.3705725,
-  "lon": 8.5264665,
-  "hb_walk": [
-   1.51,
-   20
-  ],
-  "hb_bike": [
-   2.13,
-   11
-  ],
-  "home_walk": [
-   2.53,
-   34
-  ],
-  "home_bike": [
-   3.11,
-   16
-  ],
-  "precise": 0
- },
- {
   "id": "ro_freya19",
   "title": "Furnished single office, Kreis 4",
   "address": "Freyastrasse 19, 8004",
@@ -2542,47 +2378,6 @@
   "precise": 1
  },
  {
-  "id": "rb_canetti",
-  "title": "Small atelier room in Oerlikon, temporary",
-  "address": "Elias-Canetti-Strasse 7, 8050",
-  "area": "Oerlikon",
-  "price": 420,
-  "basis": "Whole room",
-  "cost2": 420,
-  "privcls": "yes",
-  "privacy": "Own room",
-  "size": "10 m²",
-  "avail": "Temporary",
-  "url": "https://www.raumboerse-zh.ch/dauernutzung/atelier-raum-oerlikon-befristet",
-  "note": "Only 10 m²",
-  "found": "2026-11-19",
-  "plz": "8050",
-  "kreis": "Other",
-  "posted": "2026-10-14",
-  "pp": 210.0,
-  "sqm": 10,
-  "psqm": 42.0,
-  "lat": 47.4114804,
-  "lon": 8.5405256,
-  "hb_walk": [
-   4.56,
-   61
-  ],
-  "hb_bike": [
-   5.85,
-   23
-  ],
-  "home_walk": [
-   5.49,
-   73
-  ],
-  "home_bike": [
-   5.84,
-   23
-  ],
-  "precise": 1
- },
- {
   "id": "rb_engel",
   "title": "Desk near Helvetiaplatz",
   "address": "Engelstrasse 64, 8004",
@@ -3116,47 +2911,6 @@
   "precise": 1
  },
  {
-  "id": "ro_aemtler",
-  "title": "Furnished 9 m² desk place (temporary)",
-  "address": "Aemtlerstrasse 92A, 8003",
-  "area": "Kreis 3 (Wiedikon)",
-  "price": 350,
-  "basis": "Per place",
-  "cost2": null,
-  "privcls": "no",
-  "privacy": "Shared office (4 people)",
-  "size": "9 m²",
-  "avail": "Nov 2026 to Feb 2027 (temporary), sharing option from Mar 2027",
-  "url": "https://ronorp.net/market/posts/moblierter-atelier-buroplatz-9-m2-befristet-nov-26-feb-27-mit-option-fur-sharing-ab-marz-27-nahe-idaplatz",
-  "note": "Kitchenette and meeting table shared",
-  "found": "2026-11-20",
-  "plz": "8003",
-  "kreis": "Kreis 3 (Wiedikon)",
-  "posted": "2026-11-01",
-  "pp": null,
-  "sqm": null,
-  "psqm": null,
-  "lat": 47.3743882,
-  "lon": 8.5135941,
-  "hb_walk": [
-   2.39,
-   32
-  ],
-  "hb_bike": [
-   2.96,
-   14
-  ],
-  "home_walk": [
-   3.56,
-   47
-  ],
-  "home_bike": [
-   4.34,
-   21
-  ],
-  "precise": 1
- },
- {
   "id": "ro_muehle",
   "title": "Desk with lake view, Mühle Tiefenbrunnen",
   "address": "Mühle Tiefenbrunnen, 8008",
@@ -3307,47 +3061,6 @@
    15
   ],
   "precise": 1
- },
- {
-  "id": "ro_weber",
-  "title": "Bright rooms booked flexibly near Hallwylplatz",
-  "address": "Weberstrasse, 8003",
-  "area": "Kreis 3 (Hallwylplatz)",
-  "price": 250,
-  "basis": "Unclear (rooms shared via a booking system; Mon and Fri can be rented fixed)",
-  "cost2": null,
-  "privcls": "no",
-  "privacy": "Shared rooms by booking",
-  "size": "—",
-  "avail": "Temporary",
-  "url": "https://ronorp.net/market/posts/schone-helle-raume-zur-flexiblen-nutzung",
-  "note": "Shared with psychiatry practitioners; 4th floor, lift, common room",
-  "found": "2026-11-21",
-  "plz": "8003",
-  "kreis": "Kreis 3 (Wiedikon)",
-  "posted": "2026-11-10",
-  "pp": null,
-  "sqm": null,
-  "psqm": null,
-  "lat": 47.3711476,
-  "lon": 8.5279024,
-  "hb_walk": [
-   1.39,
-   19
-  ],
-  "hb_bike": [
-   1.93,
-   10
-  ],
-  "home_walk": [
-   2.4,
-   32
-  ],
-  "home_bike": [
-   3.14,
-   16
-  ],
-  "precise": 0
  },
  {
   "id": "ro_schaufel",
@@ -3510,47 +3223,6 @@
   "home_bike": [
    1.92,
    10
-  ],
-  "precise": 0
- },
- {
-  "id": "ro_zimmerli",
-  "title": "Atelier place in a studio house near Hardbrücke (sublet)",
-  "address": "Zimmerlistrasse, 8004",
-  "area": "Kreis 4 (Aussersihl)",
-  "price": 300,
-  "basis": "One ~30 m² place in a shared 74 m² open atelier, incl. internet",
-  "cost2": null,
-  "privcls": "no",
-  "privacy": "Open atelier shared with 2 others",
-  "size": "~30 m²",
-  "avail": "11 Jan – 2 Apr 2027 (temporary)",
-  "url": "https://ronorp.net/market/posts/atelierplatz-zur-untermiete-im-atelierhaus-bei-der-hardbrucke-8004-jan-bis-april-2027",
-  "note": "Artist residency sublet; small shared kitchen; unclear if 2 people can use it",
-  "found": "2026-11-22",
-  "plz": "8004",
-  "kreis": "Kreis 4 (Aussersihl)",
-  "posted": "2026-11-03",
-  "pp": null,
-  "sqm": null,
-  "psqm": null,
-  "lat": 47.3839079,
-  "lon": 8.5097228,
-  "hb_walk": [
-   2.75,
-   37
-  ],
-  "hb_bike": [
-   3.7,
-   14
-  ],
-  "home_walk": [
-   4.26,
-   57
-  ],
-  "home_bike": [
-   5.81,
-   22
   ],
   "precise": 0
  }

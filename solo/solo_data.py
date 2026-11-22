@@ -23,3 +23,8 @@ dict(id='oerlijuwo',title='JUWO studio sublet near Milchbuck',address='Oerlikone
 dict(id='betahouse53',title='betahouse Smart Share room, house 53 (students)',address='Bergstrasse 53, 8032',area='Hottingen',price=999,util='all-inclusive (utilities, WLAN, cleaning of shared areas)',type='room',kind='Student residence room, shared kitchen, showers and WCs',rooms='1',sqm=12,lease='open',leasetxt='No end date stated',avail='1 Dec 2026',furn=True,url=FF+'bergstrasse-53-8032-zurich/86545987/',note='13 rooms per floor sharing 3 showers and 3 WCs (cleaned about 3x a week); sink and fridge in the room. Ad says 12 min door to door to the ETH main building. Flatfox lets you message only after about 8 days unless you pay for Priority.',geo='Bergstrasse 53, 8032 Zürich',precise=1),
 ]
 SKIP=[dict(title='Hobby/storage room, Friedheimstrasse 14 (8057)',price='CHF 120',why='Basement storage and hobby room; the ad says it is not for living.',url=FF+'friedheimstrasse-14-8057-zurich/86563581/'),dict(title='3-room flat in 8032 over the holidays',price='CHF 1,000',why='Only 22 Dec 2026 – 2 Jan 2027, a holiday rental.',url=FF+'8032-zurich/86557930/'),dict(title='3-room flat in Enge',price='listed CHF 990',why='The ad text says CHF 1,900 for 14 Dec – 7 Jan, so the listed price is not real.',url=FF+'8002-zurich/86526031/'),dict(title='Room in Kilchberg',price='CHF 890',why='Only for occasional stays (max 3 days a month) and outside the city.',url=FF+'8802-kilchberg-zh/86418233/')]
+
+# Ana 2026-11-22: no temporary listings on the page (not even in SKIP). Keep this filter LAST.
+NOT_TEMP=True
+ROWS=[r for r in ROWS if r.get('lease')!='temp']
+SKIP=[x for x in SKIP if not any(w in x['why'].lower() for w in ('only ','holiday','until','dec','jan','temporar','sublet'))]
