@@ -3452,12 +3452,24 @@
   "pp": 745.0,
   "sqm": 26,
   "psqm": 57.3,
-  "lat": null,
-  "lon": null,
-  "hb_walk": null,
-  "hb_bike": null,
-  "home_walk": null,
-  "home_bike": null,
+  "lat": 47.3577831,
+  "lon": 8.5510737,
+  "hb_walk": [
+   2.79,
+   37
+  ],
+  "hb_bike": [
+   3.29,
+   15
+  ],
+  "home_walk": [
+   1.91,
+   26
+  ],
+  "home_bike": [
+   1.92,
+   10
+  ],
   "precise": 0
  },
  {
@@ -3481,12 +3493,65 @@
   "pp": 725.0,
   "sqm": 100,
   "psqm": 14.5,
-  "lat": null,
-  "lon": null,
-  "hb_walk": null,
-  "hb_bike": null,
-  "home_walk": null,
-  "home_bike": null,
+  "lat": 47.3577831,
+  "lon": 8.5510737,
+  "hb_walk": [
+   2.79,
+   37
+  ],
+  "hb_bike": [
+   3.29,
+   15
+  ],
+  "home_walk": [
+   1.91,
+   26
+  ],
+  "home_bike": [
+   1.92,
+   10
+  ],
+  "precise": 0
+ },
+ {
+  "id": "ro_zimmerli",
+  "title": "Atelier place in a studio house near Hardbrücke (sublet)",
+  "address": "Zimmerlistrasse, 8004",
+  "area": "Kreis 4 (Aussersihl)",
+  "price": 300,
+  "basis": "One ~30 m² place in a shared 74 m² open atelier, incl. internet",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Open atelier shared with 2 others",
+  "size": "~30 m²",
+  "avail": "11 Jan – 2 Apr 2027 (temporary)",
+  "url": "https://ronorp.net/market/posts/atelierplatz-zur-untermiete-im-atelierhaus-bei-der-hardbrucke-8004-jan-bis-april-2027",
+  "note": "Artist residency sublet; small shared kitchen; unclear if 2 people can use it",
+  "found": "2026-11-22",
+  "plz": "8004",
+  "kreis": "Kreis 4 (Aussersihl)",
+  "posted": "2026-11-03",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3839079,
+  "lon": 8.5097228,
+  "hb_walk": [
+   2.75,
+   37
+  ],
+  "hb_bike": [
+   3.7,
+   14
+  ],
+  "home_walk": [
+   4.26,
+   57
+  ],
+  "home_bike": [
+   5.81,
+   22
+  ],
   "precise": 0
  }
 ]
