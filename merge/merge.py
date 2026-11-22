@@ -61,18 +61,18 @@ json.dump(W,open(WP,'w'))
 # group by solo+office pair -> one cluster, couple flats as options
 gr=defaultdict(list)
 for t in tri: gr[(t[1]['id'],t[2]['id'])].append(t)
-def cscore(c): return c['p']/1000+(c.get('hb') or 40)/15+(c.get('home') or 40)/30
+def cscore(c): return c['p']/1000+(c.get('hb') or 40)/8  # Ana 2026-11-22: HB matters most, Home only for reference
 CL=[]
 for (sid,oid),ts in gr.items():
   s=ts[0][1];o=ts[0][2]
-  ts.sort(key=lambda t:(max(t[3][1],t[4][1],t[5][1]),cscore(t[0])))
+  ts.sort(key=lambda t:((t[0].get('hb') or 99),max(t[3][1],t[4][1],t[5][1]),t[0]['p']))
   opts=[]
   for c,_,_,wcs,wco,wso in ts:
     opts.append(dict(id=c['id'],p=c['p'],r=c['r'],m2=c['m2'],st=c['st'],zip=c['zip'],lat=c['lat'],lon=c['lon'],url=c['url'],hb=c.get('hb'),home=c.get('home'),oe=c.get('oe'),w_solo=wcs,w_off=wco,maxw=max(wcs[1],wco[1],wso[1]),total=c['p']+s['price']+o['cost2']))
   tier='strict' if (o['cost2']<=OFF_MAX and o.get('privcls')=='yes') else 'almost'
   keep=['id','title','address','area','price','util','type','kind','lease','url','note','lat','lon','hb_pt','mg_pt','home_pt','hb_bike','home_bike']
   CL.append(dict(tier=tier,solo={k:s.get(k) for k in keep},office={k:o.get(k) for k in ['id','title','address','area','price','cost2','basis','privacy','privcls','size','url','note','lat','lon','hb_walk','hb_bike','home_walk','home_bike']},w_so=ts[0][5],opts=opts[:6],nopts=len(opts)))
-CL.sort(key=lambda x:(x['tier']!='strict',min(q['maxw'] for q in x['opts']),min(q['total'] for q in x['opts'])))
+CL.sort(key=lambda x:(x['tier']!='strict',min((q['hb'] or 99) for q in x['opts']),((x['solo'].get('hb_pt') or [0,99])[1] or 99),min(q['maxw'] for q in x['opts']),min(q['total'] for q in x['opts'])))
 meta=dict(run=RUN,maxw=MAXW,solo_max=SOLO_MAX,off_max=OFF_MAX,off_almost=OFF_ALMOST,couple_max=COUPLE_MAX,nc=len(C),ns=len(S),no=len(O),hb=[47.3779,8.5403],home=[47.3707,8.5545])
 j=lambda x:json.dumps(x,ensure_ascii=False).replace('</','<\\/')
 out=open(os.path.join(B,'tpl_merge.html')).read().replace('__DATA__',j(CL)).replace('__META__',j(meta))
