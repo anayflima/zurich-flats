@@ -470,5 +470,64 @@
    16
   ],
   "psqm": 71.9
+ },
+ {
+  "id": "luisen31",
+  "title": "Furnished room near Limmatplatz, weekly cleaning",
+  "address": "Luisenstrasse 31, 8005",
+  "area": "Kreis 5",
+  "price": 800,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Furnished room, shared kitchen, WC, shower and laundry on the floor",
+  "rooms": "1",
+  "sqm": 13,
+  "lease": "open",
+  "leasetxt": "Take over the room (Nachmieter), no end date stated",
+  "avail": "1 Dec 2026",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/luisenstrasse-31-8005-zurich/86549051/",
+  "note": "1st floor with lift. Wardrobe, sink and small fridge in the room; lockable kitchen compartment. Weekly room cleaning and fresh bed linen included. No pets. Flatfox lets you message only after about 7 days unless you pay for Priority.",
+  "precise": 1,
+  "found": "2026-11-23",
+  "lat": 47.3838697,
+  "lon": 8.5295654,
+  "hb_walk": [
+   1.18,
+   16
+  ],
+  "hb_bike": [
+   1.17,
+   6
+  ],
+  "hb_pt": [
+   null,
+   8
+  ],
+  "mg_walk": [
+   6.21,
+   82
+  ],
+  "mg_bike": [
+   6.38,
+   21
+  ],
+  "mg_pt": [
+   null,
+   27
+  ],
+  "home_walk": [
+   2.75,
+   37
+  ],
+  "home_bike": [
+   3.35,
+   15
+  ],
+  "home_pt": [
+   null,
+   23
+  ],
+  "psqm": 61.5
  }
 ]

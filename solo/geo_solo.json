@@ -1098,5 +1098,47 @@
    null,
    10
   ]
+ },
+ "luisen31": {
+  "lat": 47.3838697,
+  "lon": 8.5295654,
+  "precise": 1,
+  "geo": "Haus zum Hecht, 31, Luisenstrasse, Gewerbeschule, Industriequartier, Z",
+  "hb_walk": [
+   1.18,
+   16
+  ],
+  "hb_bike": [
+   1.17,
+   6
+  ],
+  "hb_pt": [
+   null,
+   8
+  ],
+  "mg_walk": [
+   6.21,
+   82
+  ],
+  "mg_bike": [
+   6.38,
+   21
+  ],
+  "mg_pt": [
+   null,
+   27
+  ],
+  "home_walk": [
+   2.75,
+   37
+  ],
+  "home_bike": [
+   3.35,
+   15
+  ],
+  "home_pt": [
+   null,
+   23
+  ]
  }
 }
