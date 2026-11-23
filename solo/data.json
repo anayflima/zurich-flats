@@ -529,5 +529,64 @@
    23
   ],
   "psqm": 61.5
+ },
+ {
+  "id": "sihlfeld",
+  "title": "Two connected rooms in a 2-person WG, Lochergut",
+  "address": "Sihlfeldstrasse, 8004",
+  "area": "Kreis 4 (Lochergut)",
+  "price": 830,
+  "util": "all inclusive",
+  "type": "room",
+  "kind": "2 connected rooms (about 15 m² each) in a 4-room flat, shared with one flatmate",
+  "rooms": "2 of 4",
+  "sqm": 30,
+  "lease": "open",
+  "leasetxt": "Sublet with no end date, contract renewed yearly",
+  "avail": "Now",
+  "furn": false,
+  "url": "https://ronorp.net/market/posts/zwei-zimmer-zur-untermiete-257",
+  "note": "From Ron Orp (posted 23 Nov 2026). Both rooms for one person only; unfurnished, joined by a connecting door. Old building with herringbone parquet, 3rd floor, quiet and central near Lochergut. Wants someone employed, tidy and clean. Never pay a deposit before seeing the flat.",
+  "precise": 0,
+  "found": "2026-11-23",
+  "lat": 47.3806082,
+  "lon": 8.5156534,
+  "hb_walk": [
+   2.25,
+   30
+  ],
+  "hb_bike": [
+   2.58,
+   13
+  ],
+  "hb_pt": [
+   null,
+   11
+  ],
+  "mg_walk": [
+   5.64,
+   72
+  ],
+  "mg_bike": [
+   5.42,
+   17
+  ],
+  "mg_pt": [
+   null,
+   25
+  ],
+  "home_walk": [
+   3.6,
+   48
+  ],
+  "home_bike": [
+   4.78,
+   22
+  ],
+  "home_pt": [
+   null,
+   27
+  ],
+  "psqm": 27.7
  }
 ]

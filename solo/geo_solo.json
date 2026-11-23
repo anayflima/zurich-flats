@@ -1140,5 +1140,47 @@
    null,
    23
   ]
+ },
+ "sihlfeld": {
+  "lat": 47.3806082,
+  "lon": 8.5156534,
+  "precise": 0,
+  "geo": "Sihlfeldstrasse, Hard, Kreis 4, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8004, S",
+  "hb_walk": [
+   2.25,
+   30
+  ],
+  "hb_bike": [
+   2.58,
+   13
+  ],
+  "hb_pt": [
+   null,
+   11
+  ],
+  "mg_walk": [
+   5.64,
+   72
+  ],
+  "mg_bike": [
+   5.42,
+   17
+  ],
+  "mg_pt": [
+   null,
+   25
+  ],
+  "home_walk": [
+   3.6,
+   48
+  ],
+  "home_bike": [
+   4.78,
+   22
+  ],
+  "home_pt": [
+   null,
+   27
+  ]
  }
 }
