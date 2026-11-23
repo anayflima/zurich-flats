@@ -81,6 +81,9 @@ ROWS += [('ro_nemuk', 'Attic office room for up to 2 desks (NEMUK AG office shar
 
 ROWS += [('ro_zimmerli', 'Atelier place in a studio house near Hardbrücke (sublet)', 'Zimmerlistrasse, 8004', 'Kreis 4 (Aussersihl)', 300, 'One ~30 m² place in a shared 74 m² open atelier, incl. internet', None, 'no', 'Open atelier shared with 2 others', '~30 m²', '11 Jan – 2 Apr 2027 (temporary)', 'https://ronorp.net/market/posts/atelierplatz-zur-untermiete-im-atelierhaus-bei-der-hardbrucke-8004-jan-bis-april-2027', 'Artist residency sublet; small shared kitchen; unclear if 2 people can use it')]
 
+# added 2026-11-23 (Ron Orp nightly search)
+ROWS += [('ro_neptun25', 'Desk in an office share in Hottingen', 'Neptunstrasse 25, 8032', 'Kreis 7 (Hottingen)', 375, 'Per desk (one desk listed)', None, 'no', 'Shared room with 3 others (graphic design, architects, events)', '—', 'Now, permanent', 'https://ronorp.net/market/posts/arbeitsplatz-in-hottingen-1', 'Furnished; meeting room, internet, printer, kitchen and garden seating included')]
+
 # Ana 2026-11-22: no temporary listings; must be available through all of 2027. Keep this filter LAST.
 NOT_TEMP_DROP=set(['konrad', 'technopark', 'zschokke', 'ro_hallwyl', 'rb_canetti', 'ro_aemtler', 'ro_weber', 'ro_zimmerli'])
 ROWS=[r for r in ROWS if r[0] not in NOT_TEMP_DROP]

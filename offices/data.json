@@ -3225,5 +3225,46 @@
    10
   ],
   "precise": 0
+ },
+ {
+  "id": "ro_neptun25",
+  "title": "Desk in an office share in Hottingen",
+  "address": "Neptunstrasse 25, 8032",
+  "area": "Kreis 7 (Hottingen)",
+  "price": 375,
+  "basis": "Per desk (one desk listed)",
+  "cost2": null,
+  "privcls": "no",
+  "privacy": "Shared room with 3 others (graphic design, architects, events)",
+  "size": "—",
+  "avail": "Now, permanent",
+  "url": "https://ronorp.net/market/posts/arbeitsplatz-in-hottingen-1",
+  "note": "Furnished; meeting room, internet, printer, kitchen and garden seating included",
+  "found": "2026-11-23",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "posted": "2026-10-30",
+  "pp": null,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.36745,
+  "lon": 8.555767,
+  "hb_walk": [
+   2.04,
+   27
+  ],
+  "hb_bike": [
+   2.06,
+   13
+  ],
+  "home_walk": [
+   0.5,
+   7
+  ],
+  "home_bike": [
+   0.66,
+   3
+  ],
+  "precise": 1
  }
 ]
