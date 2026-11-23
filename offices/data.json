@@ -1476,47 +1476,6 @@
   "precise": 1
  },
  {
-  "id": "ff_uni87",
-  "title": "Office with a view, 2 rooms near UZH",
-  "address": "Universitätstrasse 87, 8006",
-  "area": "Kreis 6",
-  "price": 1305,
-  "basis": "Whole office, incl. CHF 185 utilities",
-  "cost2": 1305,
-  "privcls": "yes",
-  "privacy": "Own 2-room office",
-  "size": "35 m²",
-  "avail": "1 Apr 2027; until 31 Mar 2028",
-  "url": "https://flatfox.ch/de/wohnung/universitatstrasse-87-8006-zurich/86381079/",
-  "note": "Tram stop in front",
-  "found": "2026-11-19",
-  "plz": "8006",
-  "kreis": "Kreis 6 (Unterstrass)",
-  "posted": "2026-11-09",
-  "pp": 652.5,
-  "sqm": 35,
-  "psqm": 37.3,
-  "lat": 47.3831181,
-  "lon": 8.54795,
-  "hb_walk": [
-   1.17,
-   16
-  ],
-  "hb_bike": [
-   1.92,
-   11
-  ],
-  "home_walk": [
-   1.65,
-   22
-  ],
-  "home_bike": [
-   1.6,
-   7
-  ],
-  "precise": 1
- },
- {
   "id": "ff_molken",
   "title": "Office with parquet, Kreis 4",
   "address": "Molkenstrasse 21, 8004",
