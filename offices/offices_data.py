@@ -85,3 +85,6 @@ ROWS += [('ro_neptun25', 'Desk in an office share in Hottingen', 'Neptunstrasse 
 # Ana 2026-11-22: no temporary listings; must be available through all of 2027. Keep this filter LAST.
 NOT_TEMP_DROP=set(['konrad', 'technopark', 'zschokke', 'ro_hallwyl', 'rb_canetti', 'ro_aemtler', 'ro_weber', 'ro_zimmerli'])
 ROWS=[r for r in ROWS if r[0] not in NOT_TEMP_DROP]
+
+# 2026-11-24: Ron Orp post deleted ('Der Inhalt ist nicht vorhanden', checked twice)
+ROWS=[r for r in ROWS if r[0]!='zbstudio']
