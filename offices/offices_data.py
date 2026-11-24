@@ -82,6 +82,9 @@ ROWS += [('ro_zimmerli', 'Atelier place in a studio house near Hardbrücke (subl
 # added 2026-11-23 (Ron Orp nightly search)
 ROWS += [('ro_neptun25', 'Desk in an office share in Hottingen', 'Neptunstrasse 25, 8032', 'Kreis 7 (Hottingen)', 375, 'Per desk (one desk listed)', None, 'no', 'Shared room with 3 others (graphic design, architects, events)', '—', 'Now, permanent', 'https://ronorp.net/market/posts/arbeitsplatz-in-hottingen-1', 'Furnished; meeting room, internet, printer, kitchen and garden seating included')]
 
+# added 2026-11-24 (Flatfox business listing 86568682)
+ROWS += [('ff_schaff21', '2 desks in an office share near Schaffhauserplatz', 'Schaffhauserstrasse 21, 8006', 'Kreis 6 (Unterstrass)', 465, 'Per desk, all included (rent, internet, printer, coffee)', 930, 'maybe', 'Office share in an old building, two-person offices', '8 m2 per desk', 'Jan 2027, permanent', 'https://flatfox.ch/en/flat/schaffhauserstrasse-21-8006-zurich/86568682/', 'Two desks free from January 2027 in the Presseladen office share (journalism, photography, culture, property management). Ask if both desks are in the same two-person office')]
+
 # Ana 2026-11-22: no temporary listings; must be available through all of 2027. Keep this filter LAST.
 NOT_TEMP_DROP=set(['konrad', 'technopark', 'zschokke', 'ro_hallwyl', 'rb_canetti', 'ro_aemtler', 'ro_weber', 'ro_zimmerli'])
 ROWS=[r for r in ROWS if r[0] not in NOT_TEMP_DROP]
