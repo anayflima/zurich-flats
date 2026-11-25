@@ -354,65 +354,6 @@
   "psqm": 41.2
  },
  {
-  "id": "letzi",
-  "title": "Cooperative 2-room flat with garden seat, 46 m²",
-  "address": "Letzigraben 213, 8047",
-  "area": "Albisrieden",
-  "price": 877,
-  "util": "incl. utilities (CHF 724 + 153)",
-  "type": "own",
-  "kind": "2-room flat (cooperative GBL)",
-  "rooms": "2",
-  "sqm": 46,
-  "lease": "open",
-  "leasetxt": "Regular cooperative lease; you buy shares of CHF 4,000",
-  "avail": "1 Jan 2027 at the earliest",
-  "furn": false,
-  "url": "https://flatfox.ch/en/flat/letzigraben-213-8047-zurich/86541909/",
-  "note": "Parquet, separate kitchen, garden seat, cellar. Apply only via Flatfox; only some applicants get a viewing. No dogs.",
-  "precise": 1,
-  "found": "2026-11-18",
-  "lat": 47.3717377,
-  "lon": 8.4945901,
-  "hb_walk": [
-   4.23,
-   56
-  ],
-  "hb_bike": [
-   5.44,
-   23
-  ],
-  "hb_pt": [
-   null,
-   18
-  ],
-  "mg_walk": [
-   5.07,
-   68
-  ],
-  "mg_bike": [
-   6.48,
-   24
-  ],
-  "mg_pt": [
-   null,
-   25
-  ],
-  "home_walk": [
-   5.37,
-   72
-  ],
-  "home_bike": [
-   6.22,
-   29
-  ],
-  "home_pt": [
-   null,
-   35
-  ],
-  "psqm": 19.1
- },
- {
   "id": "hofacker",
   "title": "Furnished single room in a shared house",
   "address": "Hofackerstrasse 25, 8032",
