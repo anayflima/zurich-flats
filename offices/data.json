@@ -1066,47 +1066,6 @@
   "precise": 1
  },
  {
-  "id": "ff_letzi77",
-  "title": "Office room at a central spot, 19 m²",
-  "address": "Letzigraben 77, 8003",
-  "area": "Kreis 3 (Wiedikon)",
-  "price": 400,
-  "basis": "Whole room",
-  "cost2": 400,
-  "privcls": "yes",
-  "privacy": "Own room (kitchen and WC shared)",
-  "size": "19 m²",
-  "avail": "Now; fixed term until 31 Jul 2028",
-  "url": "https://flatfox.ch/de/wohnung/letzigraben-77-8003-zurich/86322983/",
-  "note": "A 2nd room can be rented too",
-  "found": "2026-11-19",
-  "plz": "8003",
-  "kreis": "Kreis 3 (Wiedikon)",
-  "posted": "2026-11-03",
-  "pp": 200.0,
-  "sqm": 19,
-  "psqm": 21.1,
-  "lat": 47.378325,
-  "lon": 8.4999936,
-  "hb_walk": [
-   3.51,
-   47
-  ],
-  "hb_bike": [
-   4.6,
-   18
-  ],
-  "home_walk": [
-   4.67,
-   62
-  ],
-  "home_bike": [
-   5.58,
-   26
-  ],
-  "precise": 1
- },
- {
   "id": "ff_altst124",
   "title": "Closed office, 17 m², Altstetten",
   "address": "Altstetterstrasse 124, 8048",
