@@ -85,6 +85,11 @@ ROWS += [('ro_neptun25', 'Desk in an office share in Hottingen', 'Neptunstrasse 
 # added 2026-11-24 (Flatfox business listing 86568682)
 ROWS += [('ff_schaff21', '2 desks in an office share near Schaffhauserplatz', 'Schaffhauserstrasse 21, 8006', 'Kreis 6 (Unterstrass)', 465, 'Per desk, all included (rent, internet, printer, coffee)', 930, 'maybe', 'Office share in an old building, two-person offices', '8 m2 per desk', 'Jan 2027, permanent', 'https://flatfox.ch/en/flat/schaffhauserstrasse-21-8006-zurich/86568682/', 'Two desks free from January 2027 in the Presseladen office share (journalism, photography, culture, property management). Ask if both desks are in the same two-person office')]
 
+# added 2026-11-25 (Ron Orp nightly search)
+ROWS += [('ro_merkur70', 'Double desk (2 tables) in a quiet office share', 'Merkurstrasse 70, 8032', 'Kreis 7 (Hottingen)', 700, 'Double desk for 2, furnished', 700, 'maybe', 'Office share (39 m2 of desks in a 177 m2 office)', '39 m2 desk area', 'Viewing 1 Dec 2026, permanent', 'https://ronorp.net/market/posts/attraktiver-doppelarbeitsplatz-2-tische-in-sympathischer-ruhiger-burogemeinschaft', 'Meeting room 26.5 m2, kitchen and 30 m2 terrace shared; ground floor, old building')]
+
+ROWS += [('ro_binz23', '2 desks with a great view in a music company office', 'Binzstrasse 23, 8045', 'Binz', 350, 'Per desk, all included', 700, 'no', 'Shared office with a digital music distributor (Supertanker)', '—', '1 Dec 2026, permanent', 'https://ronorp.net/market/posts/2-arbeitsplatze-in-zurich-inkl-mega-aussicht-guten-burokolleginnen', 'Fast internet, meeting room by arrangement, coffee machine and regular cleaning included; looking for 2 people from creative fields')]
+
 # Ana 2026-11-22: no temporary listings; must be available through all of 2027. Keep this filter LAST.
 NOT_TEMP_DROP=set(['konrad', 'technopark', 'zschokke', 'ro_hallwyl', 'rb_canetti', 'ro_aemtler', 'ro_weber', 'ro_zimmerli'])
 ROWS=[r for r in ROWS if r[0] not in NOT_TEMP_DROP]

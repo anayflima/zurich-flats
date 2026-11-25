@@ -984,47 +984,6 @@
   "precise": 0
  },
  {
-  "id": "zbstudio",
-  "title": "Studio / shop space to share, Zürichbergstrasse",
-  "address": "Zürichbergstrasse (near ETH/UZH)",
-  "area": "Kreis 7 (Fluntern)",
-  "price": 450,
-  "basis": "Unclear: what CHF 450 covers",
-  "cost2": null,
-  "privcls": "no",
-  "privacy": "Shared use with a tailor (by appointment)",
-  "size": "—",
-  "avail": "Now, permanent",
-  "url": "https://ronorp.net/market/posts/studio-laden-mitnutzung-an-bester-lage",
-  "note": "Bright ground-floor shop with big shop windows, furnished; owner uses it for appointments only. Ask what the price covers and if two can work there",
-  "found": "2026-11-12",
-  "plz": "",
-  "kreis": "Other",
-  "posted": "2026-11-13",
-  "pp": null,
-  "sqm": null,
-  "psqm": null,
-  "lat": 47.376186,
-  "lon": 8.5598145,
-  "hb_walk": [
-   2.07,
-   28
-  ],
-  "hb_bike": [
-   2.23,
-   13
-  ],
-  "home_walk": [
-   0.95,
-   13
-  ],
-  "home_bike": [
-   1.04,
-   5
-  ],
-  "precise": 0
- },
- {
   "id": "binz39",
   "title": "Desk with photo studio in a shared atelier",
   "address": "Binzstrasse 39, 8045",
@@ -3223,6 +3182,129 @@
   "home_bike": [
    0.66,
    3
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ff_schaff21",
+  "title": "2 desks in an office share near Schaffhauserplatz",
+  "address": "Schaffhauserstrasse 21, 8006",
+  "area": "Kreis 6 (Unterstrass)",
+  "price": 465,
+  "basis": "Per desk, all included (rent, internet, printer, coffee)",
+  "cost2": 930,
+  "privcls": "maybe",
+  "privacy": "Office share in an old building, two-person offices",
+  "size": "8 m2 per desk",
+  "avail": "Jan 2027, permanent",
+  "url": "https://flatfox.ch/en/flat/schaffhauserstrasse-21-8006-zurich/86568682/",
+  "note": "Two desks free from January 2027 in the Presseladen office share (journalism, photography, culture, property management). Ask if both desks are in the same two-person office",
+  "found": "2026-11-25",
+  "plz": "8006",
+  "kreis": "Kreis 6 (Unterstrass)",
+  "posted": "2026-11-23",
+  "pp": 465.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3895926,
+  "lon": 8.5388082,
+  "hb_walk": [
+   1.62,
+   22
+  ],
+  "hb_bike": [
+   2.04,
+   10
+  ],
+  "home_walk": [
+   2.65,
+   35
+  ],
+  "home_bike": [
+   2.59,
+   12
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_merkur70",
+  "title": "Double desk (2 tables) in a quiet office share",
+  "address": "Merkurstrasse 70, 8032",
+  "area": "Kreis 7 (Hottingen)",
+  "price": 700,
+  "basis": "Double desk for 2, furnished",
+  "cost2": 700,
+  "privcls": "maybe",
+  "privacy": "Office share (39 m2 of desks in a 177 m2 office)",
+  "size": "39 m2 desk area",
+  "avail": "Viewing 1 Dec 2026, permanent",
+  "url": "https://ronorp.net/market/posts/attraktiver-doppelarbeitsplatz-2-tische-in-sympathischer-ruhiger-burogemeinschaft",
+  "note": "Meeting room 26.5 m2, kitchen and 30 m2 terrace shared; ground floor, old building",
+  "found": "2026-11-25",
+  "plz": "8032",
+  "kreis": "Kreis 7 (Hottingen)",
+  "posted": "2026-11-24",
+  "pp": 350.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3682197,
+  "lon": 8.5568465,
+  "hb_walk": [
+   2.06,
+   28
+  ],
+  "hb_bike": [
+   2.05,
+   13
+  ],
+  "home_walk": [
+   0.36,
+   5
+  ],
+  "home_bike": [
+   0.36,
+   3
+  ],
+  "precise": 1
+ },
+ {
+  "id": "ro_binz23",
+  "title": "2 desks with a great view in a music company office",
+  "address": "Binzstrasse 23, 8045",
+  "area": "Binz",
+  "price": 350,
+  "basis": "Per desk, all included",
+  "cost2": 700,
+  "privcls": "no",
+  "privacy": "Shared office with a digital music distributor (Supertanker)",
+  "size": "—",
+  "avail": "1 Dec 2026, permanent",
+  "url": "https://ronorp.net/market/posts/2-arbeitsplatze-in-zurich-inkl-mega-aussicht-guten-burokolleginnen",
+  "note": "Fast internet, meeting room by arrangement, coffee machine and regular cleaning included; looking for 2 people from creative fields",
+  "found": "2026-11-25",
+  "plz": "8045",
+  "kreis": "Kreis 3 (Wiedikon)",
+  "posted": "2026-10-30",
+  "pp": 350.0,
+  "sqm": null,
+  "psqm": null,
+  "lat": 47.3621871,
+  "lon": 8.5144345,
+  "hb_walk": [
+   2.92,
+   39
+  ],
+  "hb_bike": [
+   3.62,
+   15
+  ],
+  "home_walk": [
+   3.75,
+   50
+  ],
+  "home_bike": [
+   4.34,
+   20
   ],
   "precise": 1
  }
