@@ -1224,5 +1224,47 @@
    null,
    27
   ]
+ },
+ "roemerhof": {
+  "lat": 47.3675971,
+  "lon": 8.560108,
+  "precise": 0,
+  "geo": "R\u00f6merhof, Klosbachstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, ",
+  "hb_walk": [
+   2.36,
+   31
+  ],
+  "hb_bike": [
+   2.35,
+   14
+  ],
+  "hb_pt": [
+   null,
+   14
+  ],
+  "mg_walk": [
+   6.09,
+   81
+  ],
+  "mg_bike": [
+   7.08,
+   26
+  ],
+  "mg_pt": [
+   null,
+   29
+  ],
+  "home_walk": [
+   0.65,
+   9
+  ],
+  "home_bike": [
+   0.67,
+   4
+  ],
+  "home_pt": [
+   null,
+   8
+  ]
  }
 }

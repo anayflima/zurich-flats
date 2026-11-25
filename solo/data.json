@@ -588,5 +588,64 @@
    27
   ],
   "psqm": null
+ },
+ {
+  "id": "roemerhof",
+  "title": "Small studio with own entrance and bathroom, Roemerhof",
+  "address": "8032 Zürich (Römerhof)",
+  "area": "Hottingen (Römerhof)",
+  "price": 690,
+  "util": "plus utilities (amount not stated)",
+  "type": "own",
+  "kind": "Own studio, 12 m², private bathroom, no kitchen",
+  "rooms": "1",
+  "sqm": 12,
+  "lease": "open",
+  "leasetxt": "Open-ended sublet (unbefristeter Untermietvertrag)",
+  "avail": "From 15 Dec 2026",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8032-zurich/86578863/",
+  "note": "Ground floor, own separate entrance and private bathroom, shared laundry. No kitchen, but your own fridge and microwave are allowed. Unfurnished. Deposit CHF 1,380; a debt register extract (Betreibungsauszug) is required. Utilities come on top of the CHF 690 net rent. Flatfox lets you message after 14 days unless you pay for Priority.",
+  "precise": 0,
+  "found": "2026-11-25",
+  "lat": 47.3675971,
+  "lon": 8.560108,
+  "hb_walk": [
+   2.36,
+   31
+  ],
+  "hb_bike": [
+   2.35,
+   14
+  ],
+  "hb_pt": [
+   null,
+   14
+  ],
+  "mg_walk": [
+   6.09,
+   81
+  ],
+  "mg_bike": [
+   7.08,
+   26
+  ],
+  "mg_pt": [
+   null,
+   29
+  ],
+  "home_walk": [
+   0.65,
+   9
+  ],
+  "home_bike": [
+   0.67,
+   4
+  ],
+  "home_pt": [
+   null,
+   8
+  ],
+  "psqm": 57.5
  }
 ]
