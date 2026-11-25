@@ -1025,47 +1025,6 @@
   "precise": 1
  },
  {
-  "id": "letzi",
-  "title": "Cooperative 2-room flat, 46 m²",
-  "address": "Letzigraben 213, 8047",
-  "area": "Albisrieden",
-  "price": 877,
-  "basis": "Whole flat, incl. utilities",
-  "cost2": 877,
-  "privcls": "yes",
-  "privacy": "Own flat, 2 rooms",
-  "size": "46 m²",
-  "avail": "1 Jan 2027 at the earliest",
-  "url": "https://flatfox.ch/en/flat/letzigraben-213-8047-zurich/86541909/",
-  "note": "CHF 439 each for two. Residential cooperative lease (shares CHF 4,000), so ask about working there",
-  "found": "2026-11-12",
-  "plz": "8047",
-  "kreis": "Kreis 9 (Albisrieden)",
-  "posted": "2026-11-16",
-  "pp": 438.5,
-  "sqm": 46,
-  "psqm": 19.1,
-  "lat": 47.3717377,
-  "lon": 8.4945901,
-  "hb_walk": [
-   4.23,
-   56
-  ],
-  "hb_bike": [
-   5.44,
-   23
-  ],
-  "home_walk": [
-   5.37,
-   72
-  ],
-  "home_bike": [
-   6.22,
-   29
-  ],
-  "precise": 1
- },
- {
   "id": "ff_altst124",
   "title": "Closed office, 17 m², Altstetten",
   "address": "Altstetterstrasse 124, 8048",
