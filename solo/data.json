@@ -591,7 +591,8 @@
  },
  {
   "id": "roemerhof",
-  "title": "Small studio with own entrance and bathroom, Roemerhof",
+  "kitchen": false,
+  "title": "Small studio with own entrance and bathroom, no kitchen, Roemerhof",
   "address": "8032 Zürich (Römerhof)",
   "area": "Hottingen (Römerhof)",
   "price": 690,
