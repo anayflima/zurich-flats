@@ -588,5 +588,64 @@
    27
   ],
   "psqm": 27.7
+ },
+ {
+  "id": "talwiesen",
+  "title": "Room in a new WG in a subsidized city flat, Kreis 3",
+  "address": "Talwiesenstrasse, 8055",
+  "area": "Kreis 3 (Friesenberg)",
+  "price": 800,
+  "util": "not stated (rooms CHF 750-850)",
+  "type": "room",
+  "kind": "Room in a new 3-person WG (2 rooms offered) in a 4.5-room flat",
+  "rooms": "1 of 4½",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "Permanent contract (long-term; short-term also possible)",
+  "avail": "From 30 Nov 2026",
+  "furn": false,
+  "url": "https://ronorp.net/market/posts/2-zimmer-in-wg-in-k3-fur-eine-person-ein-paar-oder-elternteil-mit-kindern-lang-kurzfristig",
+  "note": "From Ron Orp (posted 25 Nov 2026). City-owned subsidized flat: City of Zurich income limits apply (not for high earners). Whole flat about CHF 2,300; each room CHF 750-850. 100 m², 2 bathrooms, 1st floor. New WG: the host (37, studying to be a midwife) wants flatmates who share values and help set up the home. Contact by personal email via the ad; generic messages are ignored.",
+  "precise": 0,
+  "found": "2026-11-25",
+  "lat": 47.368896,
+  "lon": 8.5110926,
+  "hb_walk": [
+   2.73,
+   36
+  ],
+  "hb_bike": [
+   3.39,
+   17
+  ],
+  "hb_pt": [
+   null,
+   21
+  ],
+  "mg_walk": [
+   4.25,
+   57
+  ],
+  "mg_bike": [
+   4.9,
+   16
+  ],
+  "mg_pt": [
+   null,
+   23
+  ],
+  "home_walk": [
+   3.87,
+   52
+  ],
+  "home_bike": [
+   4.64,
+   22
+  ],
+  "home_pt": [
+   null,
+   27
+  ],
+  "psqm": null
  }
 ]

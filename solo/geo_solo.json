@@ -1182,5 +1182,47 @@
    null,
    27
   ]
+ },
+ "talwiesen": {
+  "lat": 47.368896,
+  "lon": 8.5110926,
+  "precise": 0,
+  "geo": "Talwiesenstrasse, Alt-Wiedikon, Kreis 3, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
+  "hb_walk": [
+   2.73,
+   36
+  ],
+  "hb_bike": [
+   3.39,
+   17
+  ],
+  "hb_pt": [
+   null,
+   21
+  ],
+  "mg_walk": [
+   4.25,
+   57
+  ],
+  "mg_bike": [
+   4.9,
+   16
+  ],
+  "mg_pt": [
+   null,
+   23
+  ],
+  "home_walk": [
+   3.87,
+   52
+  ],
+  "home_bike": [
+   4.64,
+   22
+  ],
+  "home_pt": [
+   null,
+   27
+  ]
  }
 }
