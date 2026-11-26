@@ -91,7 +91,7 @@ def route(lat,lon,to):
         except Exception as e:
             time.sleep(2)
     return None
-c=route(47.3+780/1e4,8.4+1865/1e4,'Zürich HB');print('control 86478389 HB',c,'vs saved',TSrows['86478389'].split('|')[1:3])
+c=route(47.3+780/1e4,8.4+1865/1e4,'Zürich HB');print('control 86478389 HB',c,'vs saved',TSrows.get('86478389','').split('|')[1:3])
 DEST=['Zürich HB','Freiestrasse 38, 8032 Zürich','St. Gallen','Zürich Oerlikon'];miss=0
 for rec,lat,lon in new:
     row=[rec[0]]
