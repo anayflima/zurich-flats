@@ -1,533 +1,946 @@
 [
  {
-  "id": "altstetter",
-  "title": "Room in a shared flat",
-  "address": "Altstetterstrasse, 8048",
-  "area": "Altstetten",
-  "price": 805,
-  "util": "incl. utilities",
+  "id": "f86394846",
+  "title": "Room in a WOKO flat by Seebach station",
+  "address": "Bahnhaldenstrasse 9, 8052",
+  "area": "Seebach",
+  "price": 619,
+  "util": "not stated",
   "type": "room",
-  "kind": "Room, shared kitchen and bath",
+  "kind": "Room in a WOKO shared flat",
   "rooms": "1",
-  "sqm": null,
+  "sqm": 14,
   "lease": "open",
-  "leasetxt": "Sublet, no end date stated",
-  "avail": "1 Dec 2026",
-  "furn": true,
-  "url": "https://flatfox.ch/en/flat/altstetterstrasse-8048-zurich/86461112/",
-  "note": "Ad says Zürich HB is about 10 min away; bike parking.",
-  "precise": 0,
-  "found": "2026-11-13",
-  "lat": 47.3883859,
-  "lon": 8.486757,
+  "leasetxt": "Official WOKO contract from 30 Nov 2026, no end date stated",
+  "avail": "Flexible",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/bahnhaldenstrasse-9-apt-902-8052-zurich/86394846/",
+  "note": "WOKO flat, so WOKO rules apply (students). Room comes with bed, big desk, cupboard and shelf. Right next to Seebach station.",
+  "lat": 47.41892,
+  "lon": 8.54593,
+  "precise": 1,
+  "found": "2026-11-27",
   "hb_walk": [
-   4.8,
-   64
+   5.33,
+   71
   ],
   "hb_bike": [
-   5.44,
-   19
+   6.57,
+   28
   ],
   "hb_pt": [
    null,
-   13
+   15
   ],
   "mg_walk": [
-   7.14,
-   95
+   1.13,
+   15
   ],
   "mg_bike": [
-   7.59,
-   28
+   1.2,
+   7
   ],
   "mg_pt": [
    null,
-   31
+   6
   ],
   "home_walk": [
-   6.03,
-   80
+   6.12,
+   82
   ],
   "home_bike": [
-   7.55,
-   28
+   6.56,
+   27
   ],
   "home_pt": [
    null,
-   34
+   31
+  ],
+  "psqm": 44.2
+ },
+ {
+  "id": "f86588650",
+  "title": "Room in a friendly 5-person WG, new building",
+  "address": "Leutschenbachstrasse, 8050",
+  "area": "Oerlikon",
+  "price": 567,
+  "util": "excl. internet, electricity, Serafe and household supplies",
+  "type": "room",
+  "kind": "Room in a 5-person WG",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "Sublease contract, no end date stated",
+  "avail": "16 Dec 2026 or by agreement",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/86588650/",
+  "note": "Students wanted; priority to people who can move in on 16 Dec and take over the furniture. Deposit 2 months. English is the main language. Elevator, non-smoking.",
+  "lat": 47.41616,
+  "lon": 8.55641,
+  "precise": 0,
+  "found": "2026-11-27",
+  "hb_walk": [
+   5.39,
+   72
+  ],
+  "hb_bike": [
+   7.26,
+   26
+  ],
+  "hb_pt": [
+   null,
+   16
+  ],
+  "mg_walk": [
+   1.35,
+   18
+  ],
+  "mg_bike": [
+   1.91,
+   6
+  ],
+  "mg_pt": [
+   null,
+   8
+  ],
+  "home_walk": [
+   6.02,
+   81
+  ],
+  "home_bike": [
+   7.25,
+   26
+  ],
+  "home_pt": [
+   null,
+   33
   ],
   "psqm": null
  },
  {
-  "id": "hongg",
-  "title": "WG room near ETH Hönggerberg",
-  "address": "8049 Zürich (near ETH Hönggerberg)",
-  "area": "Höngg",
-  "price": 862,
-  "util": "incl. utilities",
-  "type": "room",
-  "kind": "Room in a 3-person WG",
-  "rooms": "1 of 5½",
-  "sqm": 12.4,
-  "lease": "open",
-  "leasetxt": "Regular WG room, no end date",
-  "avail": "By agreement",
-  "furn": false,
-  "url": "https://flatfox.ch/en/flat/8049-zurich/86451008/",
-  "note": "110 m² flat with two bathrooms; calm WG of two 28-year-olds.",
-  "precise": 0,
-  "found": "2026-11-13",
-  "lat": 47.4085765,
-  "lon": 8.5075367,
-  "hb_walk": [
-   5.13,
-   68
-  ],
-  "hb_bike": [
-   5.78,
-   27
-  ],
-  "hb_pt": [
-   null,
-   28
-  ],
-  "mg_walk": [
-   9.93,
-   133
-  ],
-  "mg_bike": [
-   10.53,
-   39
-  ],
-  "mg_pt": [
-   null,
-   45
-  ],
-  "home_walk": [
-   6.54,
-   87
-  ],
-  "home_bike": [
-   6.83,
-   31
-  ],
-  "home_pt": [
-   null,
-   35
-  ],
-  "psqm": 69.5
- },
- {
-  "id": "grimsel",
-  "title": "Room in a 3-room city flat (FLINTA only)",
-  "address": "8048 Zürich (near tram Grimselstrasse)",
-  "area": "Altstetten",
+  "id": "f86535046",
+  "title": "Furnished single room near Oerlikon",
+  "address": "8050 Zürich (near Oerlikon)",
+  "area": "Oerlikon",
   "price": 650,
   "util": "not stated",
   "type": "room",
-  "kind": "Room in a 2-person flat",
-  "rooms": "1 of 3",
-  "sqm": 10,
+  "kind": "Separate furnished room",
+  "rooms": "1",
+  "sqm": 20,
   "lease": "open",
-  "leasetxt": "Permanent sublet",
-  "avail": "Now",
-  "furn": false,
-  "url": "https://ronorp.net/market/posts/wunderschones-zimmer-in-3-zimmer-wohnung-in-altstetten-650-chf-monat-flinta-only-ab-sofort",
-  "note": "From Ron Orp. FLINTA only. City-owned flat, so the city of Zurich occupancy rules for sublets apply. Empty room, balcony, 8 min walk to Bahnhof Altstetten.",
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/oerlikon-8050-zurich/86535046/",
+  "note": "Comes with bed and wardrobe. Deposit CHF 650. Very short ad with few details.",
+  "lat": 47.41229,
+  "lon": 8.55722,
   "precise": 0,
-  "found": "2026-11-14",
-  "lat": 47.3855328,
-  "lon": 8.4887354,
+  "found": "2026-11-27",
   "hb_walk": [
-   4.68,
-   63
+   4.91,
+   65
   ],
   "hb_bike": [
-   5.47,
-   20
+   5.69,
+   25
   ],
   "hb_pt": [
    null,
    17
   ],
   "mg_walk": [
-   6.7,
-   89
+   1.17,
+   16
   ],
   "mg_bike": [
-   7.47,
-   27
+   1.39,
+   5
   ],
   "mg_pt": [
    null,
-   32
+   7
   ],
   "home_walk": [
-   5.88,
-   78
+   5.41,
+   72
   ],
   "home_bike": [
-   7.58,
-   29
+   5.68,
+   25
   ],
   "home_pt": [
    null,
-   35
+   33
   ],
-  "psqm": 65.0
+  "psqm": 32.5
  },
  {
-  "id": "triemroom",
-  "title": "Room in a calm 3-person WG, Triemli",
-  "address": "8055 Zürich (Triemli)",
-  "area": "Triemli",
-  "price": 660,
-  "util": "all inclusive",
+  "id": "f86529700",
+  "title": "Room in a shared house with garden, long term",
+  "address": "8050 Zürich (between Oerlikon and Waldgarten)",
+  "area": "Oerlikon",
+  "price": 864,
+  "util": "incl. WiFi and insurance",
   "type": "room",
-  "kind": "Room in a 3-person WG",
-  "rooms": "1 of 3",
-  "sqm": 16,
+  "kind": "9.9 m² room in a shared house",
+  "rooms": "1",
+  "sqm": 9.9,
   "lease": "open",
-  "leasetxt": "Take over the room, no end date",
-  "avail": "1 Feb 2027 (earlier possible)",
+  "leasetxt": "Long term; new housemates may later share the main tenancy",
+  "avail": "15 Feb 2027",
   "furn": false,
-  "url": "https://flatfox.ch/en/flat/8055-zurich/86546155/",
-  "note": "Some furniture can be taken over. The flatmates are looking for someone ideally 32+. Flatfox lets you message only after about 14 days unless you pay for Priority.",
+  "url": "https://flatfox.ch/en/flat/8050-zurich/86529700/",
+  "note": "A second room (13.6 m², CHF 1,016) is over budget. 3 shared bathrooms, garden with BBQ, laundry room, storage.",
+  "lat": 47.4123,
+  "lon": 8.5572,
   "precise": 0,
-  "found": "2026-11-16",
-  "lat": 47.3669602,
-  "lon": 8.4955497,
+  "found": "2026-11-27",
   "hb_walk": [
-   3.93,
-   52
+   4.91,
+   65
   ],
   "hb_bike": [
-   5.6,
-   22
+   5.7,
+   25
   ],
   "hb_pt": [
    null,
-   21
+   17
   ],
   "mg_walk": [
-   4.49,
-   60
+   1.16,
+   16
   ],
   "mg_bike": [
-   5.74,
-   20
+   1.4,
+   5
   ],
   "mg_pt": [
    null,
-   25
+   7
   ],
   "home_walk": [
-   5.07,
-   68
+   5.41,
+   72
   ],
   "home_bike": [
-   6.32,
+   5.69,
+   25
+  ],
+  "home_pt": [
+   null,
+   33
+  ],
+  "psqm": 87.3
+ },
+ {
+  "id": "f86534135",
+  "title": "WOKO room, Wallisellenstrasse",
+  "address": "Wallisellenstrasse 304, 8050",
+  "area": "Oerlikon",
+  "price": 715,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Room in a WOKO flat with one student",
+  "rooms": "1",
+  "sqm": 15,
+  "lease": "open",
+  "leasetxt": "Take over the room, no end date stated",
+  "avail": "1 Jan 2027",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/wallisellenstrasse-304-8050-zurich/86534135/",
+  "note": "WOKO rules apply. You must buy the current furniture for CHF 500. Coop next door; Oerlikon station 4 bus stops away, trams 7 and 9 at Ueberlandpark.",
+  "lat": 47.41064,
+  "lon": 8.56225,
+  "precise": 1,
+  "found": "2026-11-27",
+  "hb_walk": [
+   4.92,
+   66
+  ],
+  "hb_bike": [
+   5.85,
    26
+  ],
+  "hb_pt": [
+   null,
+   18
+  ],
+  "mg_walk": [
+   1.58,
+   21
+  ],
+  "mg_bike": [
+   1.75,
+   7
+  ],
+  "mg_pt": [
+   null,
+   6
+  ],
+  "home_walk": [
+   5.38,
+   71
+  ],
+  "home_bike": [
+   5.58,
+   25
   ],
   "home_pt": [
    null,
    32
   ],
-  "psqm": 41.2
+  "psqm": 47.7
  },
  {
-  "id": "hofacker",
-  "title": "Furnished single room in a shared house",
-  "address": "Hofackerstrasse 25, 8032",
-  "area": "Hirslanden",
-  "price": 863,
-  "util": "total incl. CHF 89 charges",
+  "id": "f86499402",
+  "title": "WG room in Seebach",
+  "address": "Sandacker 6, 8052",
+  "area": "Seebach",
+  "price": 760,
+  "util": "not stated",
   "type": "room",
-  "kind": "Furnished room, 5 rooms per floor share a shower/WC",
+  "kind": "Room in a 3-person WG (two students, 22)",
   "rooms": "1",
-  "sqm": 12,
+  "sqm": null,
   "lease": "open",
   "leasetxt": "No end date stated",
   "avail": "1 Dec 2026",
-  "furn": true,
-  "url": "https://flatfox.ch/en/flat/hofackerstr-25-8032-zurich/86381887/",
-  "note": "Shared kitchen and living room on the ground floor, washing tower; near Klusplatz and Hegibachplatz.",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/sandacker-6-8052-zurich/86499402/",
+  "note": "At the Seebach end stop. Big living room, balcony, cellar. Bed and wardrobe to take over for about CHF 250. Ad in Swiss German.",
+  "lat": 47.42275,
+  "lon": 8.55201,
   "precise": 1,
-  "found": "2026-11-19",
-  "lat": 47.3615297,
-  "lon": 8.5637224,
+  "found": "2026-11-27",
   "hb_walk": [
-   3.09,
-   41
+   5.83,
+   77
   ],
   "hb_bike": [
-   3.13,
-   17
+   7.5,
+   30
   ],
   "hb_pt": [
    null,
    17
   ],
   "mg_walk": [
-   6.49,
-   86
+   1.69,
+   23
   ],
   "mg_bike": [
-   8.06,
-   26
+   2.15,
+   10
   ],
   "mg_pt": [
    null,
-   31
+   9
   ],
   "home_walk": [
-   1.48,
-   20
+   6.61,
+   87
   ],
   "home_bike": [
-   1.73,
-   8
+   7.49,
+   30
   ],
   "home_pt": [
    null,
-   16
+   33
   ],
-  "psqm": 71.9
+  "psqm": null
  },
  {
-  "id": "luisen31",
-  "title": "Furnished room near Limmatplatz, weekly cleaning",
-  "address": "Luisenstrasse 31, 8005",
-  "area": "Kreis 5",
-  "price": 800,
-  "util": "incl. utilities",
+  "id": "f86433929",
+  "title": "WG room in a central, quiet spot",
+  "address": "8057 Zürich",
+  "area": "Irchel",
+  "price": 750,
+  "util": "not stated",
   "type": "room",
-  "kind": "Furnished room, shared kitchen, WC, shower and laundry on the floor",
+  "kind": "Unfurnished room in a 3-person WG",
   "rooms": "1",
-  "sqm": 13,
+  "sqm": 11,
   "lease": "open",
-  "leasetxt": "Take over the room (Nachmieter), no end date stated",
-  "avail": "1 Dec 2026",
-  "furn": true,
-  "url": "https://flatfox.ch/en/flat/luisenstrasse-31-8005-zurich/86549051/",
-  "note": "1st floor with lift. Wardrobe, sink and small fridge in the room; lockable kitchen compartment. Weekly room cleaning and fresh bed linen included. No pets. Flatfox lets you message only after about 7 days unless you pay for Priority.",
-  "precise": 1,
-  "found": "2026-11-23",
-  "lat": 47.3838697,
-  "lon": 8.5295654,
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8057-zurich/86433929/",
+  "note": "Two male master students. Deposit CHF 2,400. They ask for a few lines about you and a photo.",
+  "lat": 47.39823,
+  "lon": 8.54687,
+  "precise": 0,
+  "found": "2026-11-27",
   "hb_walk": [
-   1.18,
-   16
+   2.79,
+   36
   ],
   "hb_bike": [
-   1.17,
-   6
+   2.99,
+   16
   ],
   "hb_pt": [
    null,
-   8
+   19
   ],
   "mg_walk": [
-   6.21,
-   82
+   2.12,
+   25
   ],
   "mg_bike": [
-   6.38,
-   21
+   2.84,
+   10
   ],
   "mg_pt": [
    null,
-   27
+   13
   ],
   "home_walk": [
-   2.75,
-   37
+   3.45,
+   45
   ],
   "home_bike": [
-   3.35,
+   3.45,
    15
   ],
   "home_pt": [
    null,
-   23
+   21
   ],
-  "psqm": 61.5
+  "psqm": 68.2
  },
  {
-  "id": "sihlfeld",
-  "title": "Two connected rooms in a 2-person WG, Lochergut",
-  "address": "Sihlfeldstrasse, 8004",
-  "area": "Kreis 4 (Lochergut)",
-  "price": 830,
-  "util": "all inclusive",
-  "type": "room",
-  "kind": "2 connected rooms (about 15 m² each) in a 4-room flat, shared with one flatmate",
-  "rooms": "2 of 4",
-  "sqm": 30,
-  "lease": "open",
-  "leasetxt": "Sublet with no end date, contract renewed yearly",
-  "avail": "Now",
-  "furn": false,
-  "url": "https://ronorp.net/market/posts/zwei-zimmer-zur-untermiete-257",
-  "note": "From Ron Orp (posted 23 Nov 2026). Both rooms for one person only; unfurnished, joined by a connecting door. Old building with herringbone parquet, 3rd floor, quiet and central near Lochergut. Wants someone employed, tidy and clean. Never pay a deposit before seeing the flat.",
-  "precise": 0,
-  "found": "2026-11-23",
-  "lat": 47.3806082,
-  "lon": 8.5156534,
-  "hb_walk": [
-   2.25,
-   30
-  ],
-  "hb_bike": [
-   2.58,
-   13
-  ],
-  "hb_pt": [
-   null,
-   11
-  ],
-  "mg_walk": [
-   5.64,
-   72
-  ],
-  "mg_bike": [
-   5.42,
-   17
-  ],
-  "mg_pt": [
-   null,
-   25
-  ],
-  "home_walk": [
-   3.6,
-   48
-  ],
-  "home_bike": [
-   4.78,
-   22
-  ],
-  "home_pt": [
-   null,
-   27
-  ],
-  "psqm": 27.7
- },
- {
-  "id": "talwiesen",
-  "title": "Room in a new WG in a subsidized city flat, Kreis 3",
-  "address": "Talwiesenstrasse, 8055",
-  "area": "Kreis 3 (Friesenberg)",
+  "id": "f86569201",
+  "title": "Unfurnished room near Irchelpark",
+  "address": "8057 Zürich (near Irchelpark)",
+  "area": "Irchel",
   "price": 800,
-  "util": "not stated (rooms CHF 750-850)",
+  "util": "CHF 750 rent + about CHF 40–60 utilities",
   "type": "room",
-  "kind": "Room in a new 3-person WG (2 rooms offered) in a 4.5-room flat",
-  "rooms": "1 of 4½",
+  "kind": "Room in a 3-room flat with two women (25–29)",
+  "rooms": "1",
   "sqm": null,
   "lease": "open",
-  "leasetxt": "Permanent contract (long-term; short-term also possible)",
-  "avail": "From 30 Nov 2026",
+  "leasetxt": "No end date stated",
+  "avail": "15 Dec 2026 (earlier possible)",
   "furn": false,
-  "url": "https://ronorp.net/market/posts/2-zimmer-in-wg-in-k3-fur-eine-person-ein-paar-oder-elternteil-mit-kindern-lang-kurzfristig",
-  "note": "From Ron Orp (posted 25 Nov 2026). City-owned subsidized flat: City of Zurich income limits apply (not for high earners). Whole flat about CHF 2,300; each room CHF 750-850. 100 m², 2 bathrooms, 1st floor. New WG: the host (37, studying to be a midwife) wants flatmates who share values and help set up the home. Contact by personal email via the ad; generic messages are ignored.",
+  "url": "https://flatfox.ch/en/flat/8057-zurich/86569201/",
+  "note": "Deposit CHF 2,400. Tierspital tram stop (7, 9) is a 2 min walk.",
+  "lat": 47.39824,
+  "lon": 8.54694,
   "precise": 0,
-  "found": "2026-11-25",
-  "lat": 47.368896,
-  "lon": 8.5110926,
+  "found": "2026-11-27",
   "hb_walk": [
-   2.73,
+   2.8,
    36
   ],
   "hb_bike": [
-   3.39,
-   17
+   3.78,
+   16
   ],
   "hb_pt": [
    null,
-   21
+   20
   ],
   "mg_walk": [
-   4.25,
-   57
+   2.12,
+   25
   ],
   "mg_bike": [
-   4.9,
-   16
+   2.28,
+   10
   ],
   "mg_pt": [
    null,
-   23
+   14
   ],
   "home_walk": [
-   3.87,
-   52
+   3.45,
+   45
   ],
   "home_bike": [
-   4.64,
-   22
+   3.77,
+   16
   ],
   "home_pt": [
    null,
-   27
+   21
   ],
   "psqm": null
  },
  {
-  "id": "manegg155",
-  "title": "Room in a 4-person WG in Green City, Manegg",
-  "address": "Allmendstrasse 155, 8041",
-  "area": "Manegg (Green City)",
-  "price": 690,
-  "util": "incl. utilities, internet and Serafe",
+  "id": "f86531807",
+  "title": "Bright WG room by a tram stop",
+  "address": "8057 Zürich",
+  "area": "Irchel",
+  "price": 610,
+  "util": "not stated",
   "type": "room",
-  "kind": "Room in a 4-person WG in a new 5½-room flat",
-  "rooms": "1 of 5½",
-  "sqm": 14,
+  "kind": "Room in a 3-person WG with two architecture students",
+  "rooms": "1",
+  "sqm": 15,
   "lease": "open",
-  "leasetxt": "No end date stated (regular WG room)",
-  "avail": "1 Jan 2027",
+  "leasetxt": "Take over the room, no end date stated",
+  "avail": "Now (listed date has passed)",
   "furn": false,
-  "url": "https://ronorp.net/market/posts/wg-zimmer-in-manegg-1",
-  "note": "From Ron Orp (posted 27 Nov 2026; listed CHF 700, ad text says CHF 690 incl. utilities, internet and Serafe). Green City cooperative, 6th floor, next to S4 station Manegg. Bright room, unfurnished or partly furnished (bed and dresser). Flat 126 m², 2 bathrooms, shared kitchen, covered balcony, big shared roof terrace, laundry. Flatmates Juliette (27), Martin (25) and Dominique (29) want someone 24+ who enjoys cooking together and WG life; write about yourself.",
-  "precise": 1,
+  "url": "https://flatfox.ch/en/flat/8057-zurich/86531807/",
+  "note": "Ad says ideal for students. Floor-to-ceiling window, balcony. Tram stop right outside the house.",
+  "lat": 47.3982,
+  "lon": 8.54691,
+  "precise": 0,
   "found": "2026-11-27",
-  "lat": 47.3378537,
-  "lon": 8.5194472,
   "hb_walk": [
-   5.48,
-   73
+   2.79,
+   36
   ],
   "hb_bike": [
-   6.14,
-   20
+   3.78,
+   16
   ],
   "hb_pt": [
    null,
-   26
+   20
   ],
   "mg_walk": [
-   0.2,
-   3
+   2.12,
+   25
   ],
   "mg_bike": [
-   0.2,
-   3
+   2.28,
+   10
   ],
   "mg_pt": [
    null,
-   1
+   14
   ],
   "home_walk": [
-   5.63,
-   75
+   3.45,
+   45
   ],
   "home_bike": [
-   6.86,
-   25
+   3.77,
+   16
   ],
   "home_pt": [
    null,
-   29
+   21
   ],
-  "psqm": 49.3
+  "psqm": 40.7
+ },
+ {
+  "id": "f86585697",
+  "title": "WG room in Affoltern from January",
+  "address": "8046 Zürich",
+  "area": "Affoltern",
+  "price": 568,
+  "util": "incl. utilities",
+  "type": "room",
+  "kind": "Room in a 3-person WG",
+  "rooms": "1",
+  "sqm": 10.7,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "1 Jan 2027",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8046-zurich/86585697/",
+  "note": "Rent CHF 568.65 including utilities. Two female flatmates.",
+  "lat": 47.42292,
+  "lon": 8.51474,
+  "precise": 0,
+  "found": "2026-11-27",
+  "hb_walk": [
+   6.46,
+   86
+  ],
+  "hb_bike": [
+   6.88,
+   33
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.43,
+   46
+  ],
+  "mg_bike": [
+   3.96,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.42,
+   99
+  ],
+  "home_bike": [
+   8.74,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ],
+  "psqm": 53.1
+ },
+ {
+  "id": "f86563259",
+  "title": "Room in a renovated WG by Affoltern station",
+  "address": "8046 Zürich (next to Bahnhof Affoltern)",
+  "area": "Affoltern",
+  "price": 892,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Room in a WG with 3 men in their mid-20s",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "Take over the room, no end date stated",
+  "avail": "27 Dec 2026",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8046-zurich/86563259/",
+  "note": "2 bathrooms, 2 balconies, big living room, renovated 2 years ago. Migros and Denner by the station.",
+  "lat": 47.42284,
+  "lon": 8.5147,
+  "precise": 0,
+  "found": "2026-11-27",
+  "hb_walk": [
+   6.5,
+   87
+  ],
+  "hb_bike": [
+   6.92,
+   34
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.47,
+   46
+  ],
+  "mg_bike": [
+   4.0,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.46,
+   100
+  ],
+  "home_bike": [
+   8.78,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ],
+  "psqm": null
+ },
+ {
+  "id": "f86545898",
+  "title": "Room in a new 3-person flat (women only)",
+  "address": "8046 Zürich",
+  "area": "Affoltern",
+  "price": 870,
+  "util": "CHF 800 rent + CHF 70 utilities",
+  "type": "room",
+  "kind": "Room with two female PhD students",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8046-zurich/86545898/",
+  "note": "They want a female non-smoker aged 20–30.",
+  "lat": 47.42286,
+  "lon": 8.51477,
+  "precise": 0,
+  "found": "2026-11-27",
+  "hb_walk": [
+   6.5,
+   87
+  ],
+  "hb_bike": [
+   6.92,
+   34
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.48,
+   46
+  ],
+  "mg_bike": [
+   4.0,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.46,
+   100
+  ],
+  "home_bike": [
+   8.78,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ],
+  "psqm": null
+ },
+ {
+  "id": "f86542815",
+  "title": "Furnished WG room near Seebacherplatz",
+  "address": "8052 Zürich",
+  "area": "Seebach",
+  "price": 890,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Furnished WG room",
+  "rooms": "1",
+  "sqm": 13,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "1 Jan 2027",
+  "furn": true,
+  "url": "https://flatfox.ch/en/flat/8052-zurich/86542815/",
+  "note": "Ad: only female tenants who speak Chinese or another Asian language.",
+  "lat": 47.42328,
+  "lon": 8.54225,
+  "precise": 0,
+  "found": "2026-11-27",
+  "hb_walk": [
+   5.86,
+   78
+  ],
+  "hb_bike": [
+   7.1,
+   30
+  ],
+  "hb_pt": [
+   null,
+   20
+  ],
+  "mg_walk": [
+   1.65,
+   22
+  ],
+  "mg_bike": [
+   1.73,
+   10
+  ],
+  "mg_pt": [
+   null,
+   10
+  ],
+  "home_walk": [
+   6.64,
+   89
+  ],
+  "home_bike": [
+   7.09,
+   30
+  ],
+  "home_pt": [
+   null,
+   33
+  ],
+  "psqm": 68.5
+ },
+ {
+  "id": "f86504838",
+  "title": "Room with a view in a quiet flat",
+  "address": "8046 Zürich",
+  "area": "Affoltern",
+  "price": 650,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Room in a 103 m² flat with one woman",
+  "rooms": "1",
+  "sqm": 12,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "By agreement",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/8046-zurich/86504838/",
+  "note": "She wants a quiet female flatmate; priority if you are often away at weekends. Bus every 15 min.",
+  "lat": 47.4228,
+  "lon": 8.51477,
+  "precise": 0,
+  "found": "2026-11-27",
+  "hb_walk": [
+   6.5,
+   87
+  ],
+  "hb_bike": [
+   6.92,
+   34
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.48,
+   46
+  ],
+  "mg_bike": [
+   4.0,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.46,
+   100
+  ],
+  "home_bike": [
+   8.78,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ],
+  "psqm": 54.2
+ },
+ {
+  "id": "f86531907",
+  "title": "Student room near Affoltern station",
+  "address": "Schauenbergstrasse 35, 8046",
+  "area": "Affoltern",
+  "price": 790,
+  "util": "not stated",
+  "type": "room",
+  "kind": "Room in a 2-person flat with an ETH student",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "No end date stated",
+  "avail": "15 Jan 2027",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/schauenbergstrasse-35-8046-zurich/86531907/",
+  "note": "WFS property: you must be a student (student card and permit or passport). Furniture can be bought by agreement. 5 min walk to Bahnhof Affoltern.",
+  "lat": 47.41733,
+  "lon": 8.50736,
+  "precise": 1,
+  "found": "2026-11-27",
+  "hb_walk": [
+   5.99,
+   80
+  ],
+  "hb_bike": [
+   6.23,
+   30
+  ],
+  "hb_pt": [
+   null,
+   22
+  ],
+  "mg_walk": [
+   3.18,
+   42
+  ],
+  "mg_bike": [
+   3.48,
+   18
+  ],
+  "mg_pt": [
+   null,
+   12
+  ],
+  "home_walk": [
+   6.96,
+   93
+  ],
+  "home_bike": [
+   7.12,
+   33
+  ],
+  "home_pt": [
+   null,
+   35
+  ],
+  "psqm": null
+ },
+ {
+  "id": "f86580994",
+  "title": "Room with its own balcony in a 4-person WG",
+  "address": "Wehntalerstrasse 530, 8046",
+  "area": "Affoltern",
+  "price": 880,
+  "util": "incl. utilities on account; electricity and internet split extra",
+  "type": "room",
+  "kind": "Room in a 4-person WG (3 rooms free)",
+  "rooms": "1",
+  "sqm": null,
+  "lease": "open",
+  "leasetxt": "One room joins the main lease (stay 1+ year, steady income); the other two are sublets of at least 6 months",
+  "avail": "16 Dec 2026",
+  "furn": false,
+  "url": "https://flatfox.ch/en/flat/wehntalerstrasse-530-8046-zurich/86580994/",
+  "note": "CHF 880 is the cheapest of the 3 rooms. Ad: Bahnhof Affoltern 4 min walk, S6 to Oerlikon in 6 min and HB in 14 min. Dishwasher, own washer-dryer, lift.",
+  "lat": 47.41884,
+  "lon": 8.50808,
+  "precise": 1,
+  "found": "2026-11-27",
+  "hb_walk": [
+   6.07,
+   81
+  ],
+  "hb_bike": [
+   6.42,
+   31
+  ],
+  "hb_pt": [
+   null,
+   20
+  ],
+  "mg_walk": [
+   3.22,
+   43
+  ],
+  "mg_bike": [
+   3.54,
+   18
+  ],
+  "mg_pt": [
+   null,
+   10
+  ],
+  "home_walk": [
+   7.03,
+   94
+  ],
+  "home_bike": [
+   8.28,
+   33
+  ],
+  "home_pt": [
+   null,
+   33
+  ],
+  "psqm": null
  }
 ]

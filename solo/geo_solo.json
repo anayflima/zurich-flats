@@ -1,586 +1,535 @@
 {
  "_manegg": [
-  47.3378276,
-  8.5197354
+  47.41162,
+  8.54412
  ],
- "fluntern": {
-  "lat": 47.3763535,
-  "lon": 8.5594426,
-  "precise": 0,
-  "geo": "Kirche Fluntern, Vorderberg, Fluntern, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich,",
-  "hb_walk": [
-   2.05,
-   27
-  ],
-  "hb_bike": [
-   2.33,
-   13
-  ],
-  "hb_pt": [
-   null,
-   18
-  ],
-  "mg_walk": [
-   6.39,
-   85
-  ],
-  "mg_bike": [
-   7.28,
-   27
-  ],
-  "mg_pt": [
-   null,
-   31
-  ],
-  "home_walk": [
-   0.98,
-   13
-  ],
-  "home_bike": [
-   1.06,
-   5
-  ],
-  "home_pt": [
-   null,
-   11
-  ]
- },
- "leimbach": {
-  "lat": 47.3267067,
-  "lon": 8.5148191,
+ "_home": [
+  47.3706746,
+  8.554512
+ ],
+ "f86394846": {
+  "lat": 47.41892,
+  "lon": 8.54593,
   "precise": 1,
-  "geo": "215, Leimbachstrasse, Leimbach, Kreis 2, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
   "hb_walk": [
-   7.01,
-   93
+   5.33,
+   71
   ],
   "hb_bike": [
-   7.93,
+   6.57,
    28
   ],
   "hb_pt": [
    null,
-   31
+   15
   ],
   "mg_walk": [
-   1.64,
-   22
+   1.13,
+   15
   ],
   "mg_bike": [
-   1.76,
-   11
-  ],
-  "mg_pt": [
-   null,
-   9
-  ],
-  "home_walk": [
-   7.14,
-   95
-  ],
-  "home_bike": [
-   8.65,
-   33
-  ],
-  "home_pt": [
-   null,
-   34
-  ]
- },
- "obstgarten": {
-  "lat": 47.3827138,
-  "lon": 8.5425879,
-  "precise": 1,
-  "geo": "22, Obstgartenstrasse, Unterstrass, Kreis 6, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fc",
-  "hb_walk": [
-   0.84,
-   11
-  ],
-  "hb_bike": [
-   0.81,
+   1.2,
    7
   ],
-  "hb_pt": [
-   null,
-   9
-  ],
-  "mg_walk": [
-   6.22,
-   83
-  ],
-  "mg_bike": [
-   6.48,
-   22
-  ],
   "mg_pt": [
+   null,
+   6
+  ],
+  "home_walk": [
+   6.12,
+   82
+  ],
+  "home_bike": [
+   6.56,
+   27
+  ],
+  "home_pt": [
    null,
    31
-  ],
-  "home_walk": [
-   1.88,
-   25
-  ],
-  "home_bike": [
-   1.86,
-   8
-  ],
-  "home_pt": [
-   null,
-   16
   ]
  },
- "zschokke": {
-  "lat": 47.3954007,
-  "lon": 8.525509,
-  "precise": 1,
-  "geo": "5, Zschokkestrasse, Wipkingen, Kreis 10, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
-  "hb_walk": [
-   2.71,
-   36
-  ],
-  "hb_bike": [
-   3.25,
-   16
-  ],
-  "hb_pt": [
-   null,
-   13
-  ],
-  "mg_walk": [
-   7.65,
-   102
-  ],
-  "mg_bike": [
-   7.81,
-   30
-  ],
-  "mg_pt": [
-   null,
-   32
-  ],
-  "home_walk": [
-   3.96,
-   53
-  ],
-  "home_bike": [
-   4.52,
-   21
-  ],
-  "home_pt": [
-   null,
-   22
-  ]
- },
- "wydacker": {
-  "lat": 47.3692635,
-  "lon": 8.496236,
-  "precise": 1,
-  "geo": "77, Wyd\u00e4ckerring, Albisrieden, Kreis 9, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich,",
-  "hb_walk": [
-   3.84,
-   51
-  ],
-  "hb_bike": [
-   5.56,
-   23
-  ],
-  "hb_pt": [
-   null,
-   23
-  ],
-  "mg_walk": [
-   4.53,
-   60
-  ],
-  "mg_bike": [
-   5.69,
-   22
-  ],
-  "mg_pt": [
-   null,
-   27
-  ],
-  "home_walk": [
-   4.99,
-   67
-  ],
-  "home_bike": [
-   6.28,
-   27
-  ],
-  "home_pt": [
-   null,
-   34
-  ]
- },
- "gold": {
-  "lat": 47.3701442,
-  "lon": 8.5137671,
+ "f86588650": {
+  "lat": 47.41616,
+  "lon": 8.55641,
   "precise": 0,
-  "geo": "Goldbrunnenplatz, Alt-Wiedikon, Kreis 3, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
-  "hb_walk": [
-   2.42,
-   32
-  ],
-  "hb_bike": [
-   3.06,
-   16
-  ],
-  "hb_pt": [
-   null,
-   12
-  ],
-  "mg_walk": [
-   4.42,
-   59
-  ],
-  "mg_bike": [
-   4.57,
-   15
-  ],
-  "mg_pt": [
-   null,
-   20
-  ],
-  "home_walk": [
-   3.56,
-   48
-  ],
-  "home_bike": [
-   4.31,
-   20
-  ],
-  "home_pt": [
-   null,
-   24
-  ]
- },
- "rengger": {
-  "lat": 47.3436926,
-  "lon": 8.5337305,
-  "precise": 0,
-  "geo": "Renggerstrasse, Wollishofen, Kreis 2, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8",
-  "hb_walk": [
-   4.24,
-   56
-  ],
-  "hb_bike": [
-   6.15,
-   21
-  ],
-  "hb_pt": [
-   null,
-   17
-  ],
-  "mg_walk": [
-   1.64,
-   22
-  ],
-  "mg_bike": [
-   1.87,
-   9
-  ],
-  "mg_pt": [
-   null,
-   9
-  ],
-  "home_walk": [
-   4.33,
-   58
-  ],
-  "home_bike": [
-   4.45,
-   21
-  ],
-  "home_pt": [
-   null,
-   22
-  ]
- },
- "altstetter": {
-  "lat": 47.3883859,
-  "lon": 8.486757,
-  "precise": 0,
-  "geo": "Altstetterstrasse, Altstetten, Kreis 9, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich,",
-  "hb_walk": [
-   4.8,
-   64
-  ],
-  "hb_bike": [
-   5.44,
-   19
-  ],
-  "hb_pt": [
-   null,
-   13
-  ],
-  "mg_walk": [
-   7.14,
-   95
-  ],
-  "mg_bike": [
-   7.59,
-   28
-  ],
-  "mg_pt": [
-   null,
-   31
-  ],
-  "home_walk": [
-   6.03,
-   80
-  ],
-  "home_bike": [
-   7.55,
-   28
-  ],
-  "home_pt": [
-   null,
-   34
-  ]
- },
- "hongg": {
-  "lat": 47.4085765,
-  "lon": 8.5075367,
-  "precise": 0,
-  "geo": "ETH H\u00f6nggerberg, 5, Stefano-Franscini-Platz, H\u00f6ngg, Kreis 10, Z\u00fcrich, ",
-  "hb_walk": [
-   5.13,
-   68
-  ],
-  "hb_bike": [
-   5.78,
-   27
-  ],
-  "hb_pt": [
-   null,
-   28
-  ],
-  "mg_walk": [
-   9.93,
-   133
-  ],
-  "mg_bike": [
-   10.53,
-   39
-  ],
-  "mg_pt": [
-   null,
-   45
-  ],
-  "home_walk": [
-   6.54,
-   87
-  ],
-  "home_bike": [
-   6.83,
-   31
-  ],
-  "home_pt": [
-   null,
-   35
-  ]
- },
- "turner": {
-  "lat": 47.3864659,
-  "lon": 8.5428225,
-  "precise": 1,
-  "geo": "37, Turnerstrasse, Unterstrass, Kreis 6, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
-  "hb_walk": [
-   1.36,
-   18
-  ],
-  "hb_bike": [
-   1.61,
-   10
-  ],
-  "hb_pt": [
-   null,
-   15
-  ],
-  "mg_walk": [
-   6.73,
-   90
-  ],
-  "mg_bike": [
-   6.91,
-   24
-  ],
-  "mg_pt": [
-   null,
-   32
-  ],
-  "home_walk": [
-   2.16,
-   29
-  ],
-  "home_bike": [
-   2.09,
-   10
-  ],
-  "home_pt": [
-   null,
-   19
-  ]
- },
- "betahouse": {
-  "lat": 47.3732682,
-  "lon": 8.562956,
-  "precise": 1,
-  "geo": "55, Bergstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
-  "hb_walk": [
-   2.54,
-   34
-  ],
-  "hb_bike": [
-   2.53,
-   14
-  ],
-  "hb_pt": [
-   null,
-   24
-  ],
-  "mg_walk": [
-   6.58,
-   88
-  ],
-  "mg_bike": [
-   7.4,
-   27
-  ],
-  "mg_pt": [
-   null,
-   38
-  ],
-  "home_walk": [
-   0.92,
-   12
-  ],
-  "home_bike": [
-   0.97,
-   5
-  ],
-  "home_pt": [
-   null,
-   12
-  ]
- },
- "roland": {
-  "lat": 47.3793707,
-  "lon": 8.5260975,
-  "precise": 0,
-  "geo": "Rolandstrasse, Langstrasse, Kreis 4, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
-  "hb_walk": [
-   1.24,
-   17
-  ],
-  "hb_bike": [
-   1.51,
-   8
-  ],
-  "hb_pt": [
-   null,
-   10
-  ],
-  "mg_walk": [
-   5.64,
-   75
-  ],
-  "mg_bike": [
-   5.33,
-   18
-  ],
-  "mg_pt": [
-   null,
-   26
-  ],
-  "home_walk": [
-   2.78,
-   37
-  ],
-  "home_bike": [
-   3.61,
-   17
-  ],
-  "home_pt": [
-   null,
-   22
-  ]
- },
- "brugg": {
-  "lat": 47.4077787,
-  "lon": 8.5610645,
-  "precise": 1,
-  "geo": "35, Br\u00fcggli\u00e4cker, F\u00f6hrenhof, Saatlen, Kreis 12, Z\u00fcrich, Bezirk Z\u00fcrich,",
-  "hb_walk": [
-   4.49,
-   60
-  ],
-  "hb_bike": [
-   5.46,
-   23
-  ],
-  "hb_pt": [
-   null,
-   24
-  ],
-  "mg_walk": [
-   9.77,
-   130
-  ],
-  "mg_bike": [
-   10.59,
-   39
-  ],
-  "mg_pt": [
-   null,
-   45
-  ],
-  "home_walk": [
-   4.95,
-   66
-  ],
-  "home_bike": [
-   5.45,
-   23
-  ],
-  "home_pt": [
-   null,
-   30
-  ]
- },
- "regens": {
-  "lat": 47.4066339,
-  "lon": 8.4908564,
-  "precise": 0,
-  "geo": "Regensdorferstrasse, H\u00f6ngg, Kreis 10, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8",
   "hb_walk": [
    5.39,
    72
   ],
   "hb_bike": [
-   6.26,
-   24
+   7.26,
+   26
   ],
   "hb_pt": [
    null,
-   30
+   16
   ],
   "mg_walk": [
-   9.37,
-   125
+   1.35,
+   18
   ],
   "mg_bike": [
-   10.31,
-   36
+   1.91,
+   6
   ],
   "mg_pt": [
    null,
-   40
+   8
   ],
   "home_walk": [
-   6.8,
-   91
+   6.02,
+   81
+  ],
+  "home_bike": [
+   7.25,
+   26
+  ],
+  "home_pt": [
+   null,
+   33
+  ]
+ },
+ "f86535046": {
+  "lat": 47.41229,
+  "lon": 8.55722,
+  "precise": 0,
+  "hb_walk": [
+   4.91,
+   65
+  ],
+  "hb_bike": [
+   5.69,
+   25
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   1.17,
+   16
+  ],
+  "mg_bike": [
+   1.39,
+   5
+  ],
+  "mg_pt": [
+   null,
+   7
+  ],
+  "home_walk": [
+   5.41,
+   72
+  ],
+  "home_bike": [
+   5.68,
+   25
+  ],
+  "home_pt": [
+   null,
+   33
+  ]
+ },
+ "f86529700": {
+  "lat": 47.4123,
+  "lon": 8.5572,
+  "precise": 0,
+  "hb_walk": [
+   4.91,
+   65
+  ],
+  "hb_bike": [
+   5.7,
+   25
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   1.16,
+   16
+  ],
+  "mg_bike": [
+   1.4,
+   5
+  ],
+  "mg_pt": [
+   null,
+   7
+  ],
+  "home_walk": [
+   5.41,
+   72
+  ],
+  "home_bike": [
+   5.69,
+   25
+  ],
+  "home_pt": [
+   null,
+   33
+  ]
+ },
+ "f86534135": {
+  "lat": 47.41064,
+  "lon": 8.56225,
+  "precise": 1,
+  "hb_walk": [
+   4.92,
+   66
+  ],
+  "hb_bike": [
+   5.85,
+   26
+  ],
+  "hb_pt": [
+   null,
+   18
+  ],
+  "mg_walk": [
+   1.58,
+   21
+  ],
+  "mg_bike": [
+   1.75,
+   7
+  ],
+  "mg_pt": [
+   null,
+   6
+  ],
+  "home_walk": [
+   5.38,
+   71
+  ],
+  "home_bike": [
+   5.58,
+   25
+  ],
+  "home_pt": [
+   null,
+   32
+  ]
+ },
+ "f86499402": {
+  "lat": 47.42275,
+  "lon": 8.55201,
+  "precise": 1,
+  "hb_walk": [
+   5.83,
+   77
+  ],
+  "hb_bike": [
+   7.5,
+   30
+  ],
+  "hb_pt": [
+   null,
+   17
+  ],
+  "mg_walk": [
+   1.69,
+   23
+  ],
+  "mg_bike": [
+   2.15,
+   10
+  ],
+  "mg_pt": [
+   null,
+   9
+  ],
+  "home_walk": [
+   6.61,
+   87
+  ],
+  "home_bike": [
+   7.49,
+   30
+  ],
+  "home_pt": [
+   null,
+   33
+  ]
+ },
+ "f86433929": {
+  "lat": 47.39823,
+  "lon": 8.54687,
+  "precise": 0,
+  "hb_walk": [
+   2.79,
+   36
+  ],
+  "hb_bike": [
+   2.99,
+   16
+  ],
+  "hb_pt": [
+   null,
+   19
+  ],
+  "mg_walk": [
+   2.12,
+   25
+  ],
+  "mg_bike": [
+   2.84,
+   10
+  ],
+  "mg_pt": [
+   null,
+   13
+  ],
+  "home_walk": [
+   3.45,
+   45
+  ],
+  "home_bike": [
+   3.45,
+   15
+  ],
+  "home_pt": [
+   null,
+   21
+  ]
+ },
+ "f86569201": {
+  "lat": 47.39824,
+  "lon": 8.54694,
+  "precise": 0,
+  "hb_walk": [
+   2.8,
+   36
+  ],
+  "hb_bike": [
+   3.78,
+   16
+  ],
+  "hb_pt": [
+   null,
+   20
+  ],
+  "mg_walk": [
+   2.12,
+   25
+  ],
+  "mg_bike": [
+   2.28,
+   10
+  ],
+  "mg_pt": [
+   null,
+   14
+  ],
+  "home_walk": [
+   3.45,
+   45
+  ],
+  "home_bike": [
+   3.77,
+   16
+  ],
+  "home_pt": [
+   null,
+   21
+  ]
+ },
+ "f86531807": {
+  "lat": 47.3982,
+  "lon": 8.54691,
+  "precise": 0,
+  "hb_walk": [
+   2.79,
+   36
+  ],
+  "hb_bike": [
+   3.78,
+   16
+  ],
+  "hb_pt": [
+   null,
+   20
+  ],
+  "mg_walk": [
+   2.12,
+   25
+  ],
+  "mg_bike": [
+   2.28,
+   10
+  ],
+  "mg_pt": [
+   null,
+   14
+  ],
+  "home_walk": [
+   3.45,
+   45
+  ],
+  "home_bike": [
+   3.77,
+   16
+  ],
+  "home_pt": [
+   null,
+   21
+  ]
+ },
+ "f86585697": {
+  "lat": 47.42292,
+  "lon": 8.51474,
+  "precise": 0,
+  "hb_walk": [
+   6.46,
+   86
+  ],
+  "hb_bike": [
+   6.88,
+   33
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.43,
+   46
+  ],
+  "mg_bike": [
+   3.96,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.42,
+   99
+  ],
+  "home_bike": [
+   8.74,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ]
+ },
+ "f86563259": {
+  "lat": 47.42284,
+  "lon": 8.5147,
+  "precise": 0,
+  "hb_walk": [
+   6.5,
+   87
+  ],
+  "hb_bike": [
+   6.92,
+   34
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.47,
+   46
+  ],
+  "mg_bike": [
+   4.0,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.46,
+   100
+  ],
+  "home_bike": [
+   8.78,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ]
+ },
+ "f86545898": {
+  "lat": 47.42286,
+  "lon": 8.51477,
+  "precise": 0,
+  "hb_walk": [
+   6.5,
+   87
+  ],
+  "hb_bike": [
+   6.92,
+   34
+  ],
+  "hb_pt": [
+   null,
+   27
+  ],
+  "mg_walk": [
+   3.48,
+   46
+  ],
+  "mg_bike": [
+   4.0,
+   20
+  ],
+  "mg_pt": [
+   null,
+   19
+  ],
+  "home_walk": [
+   7.46,
+   100
+  ],
+  "home_bike": [
+   8.78,
+   36
+  ],
+  "home_pt": [
+   null,
+   40
+  ]
+ },
+ "f86542815": {
+  "lat": 47.42328,
+  "lon": 8.54225,
+  "precise": 0,
+  "hb_walk": [
+   5.86,
+   78
+  ],
+  "hb_bike": [
+   7.1,
+   30
+  ],
+  "hb_pt": [
+   null,
+   20
+  ],
+  "mg_walk": [
+   1.65,
+   22
+  ],
+  "mg_bike": [
+   1.73,
+   10
+  ],
+  "mg_pt": [
+   null,
+   10
+  ],
+  "home_walk": [
+   6.64,
+   89
   ],
   "home_bike": [
    7.09,
@@ -588,683 +537,130 @@
   ],
   "home_pt": [
    null,
-   31
-  ]
- },
- "_home": [
-  47.3706746,
-  8.554512
- ],
- "hohl": {
-  "lat": 47.3848261,
-  "lon": 8.5084679,
-  "precise": 1,
-  "geo": "365, Hohlstrasse, Hard, Kreis 4, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8004, ",
-  "hb_walk": [
-   2.82,
-   38
-  ],
-  "hb_bike": [
-   3.52,
-   13
-  ],
-  "hb_pt": [
-   null,
-   19
-  ],
-  "mg_walk": [
-   6.4,
-   85
-  ],
-  "mg_bike": [
-   6.4,
-   23
-  ],
-  "mg_pt": [
-   null,
-   28
-  ],
-  "home_walk": [
-   4.33,
-   58
-  ],
-  "home_bike": [
-   5.63,
-   22
-  ],
-  "home_pt": [
-   null,
-   27
-  ]
- },
- "grimsel": {
-  "lat": 47.3855328,
-  "lon": 8.4887354,
-  "precise": 0,
-  "geo": "Grimselstrasse, Altstetten, Kreis 9, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
-  "hb_walk": [
-   4.68,
-   63
-  ],
-  "hb_bike": [
-   5.47,
-   20
-  ],
-  "hb_pt": [
-   null,
-   17
-  ],
-  "mg_walk": [
-   6.7,
-   89
-  ],
-  "mg_bike": [
-   7.47,
-   27
-  ],
-  "mg_pt": [
-   null,
-   32
-  ],
-  "home_walk": [
-   5.88,
-   78
-  ],
-  "home_bike": [
-   7.58,
-   29
-  ],
-  "home_pt": [
-   null,
-   35
-  ]
- },
- "trotten": {
-  "lat": 47.3951865,
-  "lon": 8.5214922,
-  "precise": 1,
-  "geo": "33, Trottenstrasse, Wipkingen, Kreis 10, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
-  "hb_walk": [
-   2.78,
-   37
-  ],
-  "hb_bike": [
-   2.93,
-   14
-  ],
-  "hb_pt": [
-   null,
-   16
-  ],
-  "mg_walk": [
-   7.68,
-   102
-  ],
-  "mg_bike": [
-   7.5,
-   28
-  ],
-  "mg_pt": [
-   null,
-   37
-  ],
-  "home_walk": [
-   4.16,
-   55
-  ],
-  "home_bike": [
-   4.29,
-   19
-  ],
-  "home_pt": [
-   null,
-   24
-  ]
- },
- "reben": {
-  "lat": 47.3344788,
-  "lon": 8.5160472,
-  "precise": 1,
-  "geo": "54, Rebenstrasse, Leimbach, Kreis 2, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
-  "hb_walk": [
-   6.04,
-   81
-  ],
-  "hb_bike": [
-   6.85,
-   23
-  ],
-  "hb_pt": [
-   null,
-   28
-  ],
-  "mg_walk": [
-   0.66,
-   9
-  ],
-  "mg_bike": [
-   0.68,
-   6
-  ],
-  "mg_pt": [
-   null,
-   8
-  ],
-  "home_walk": [
-   6.17,
-   82
-  ],
-  "home_bike": [
-   7.57,
-   28
-  ],
-  "home_pt": [
-   null,
-   31
-  ]
- },
- "triemroom": {
-  "lat": 47.3669602,
-  "lon": 8.4955497,
-  "precise": 0,
-  "geo": "Triemli, Friesenberg, Kreis 3, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8063, Sc",
-  "hb_walk": [
-   3.93,
-   52
-  ],
-  "hb_bike": [
-   5.6,
-   22
-  ],
-  "hb_pt": [
-   null,
-   21
-  ],
-  "mg_walk": [
-   4.49,
-   60
-  ],
-  "mg_bike": [
-   5.74,
-   20
-  ],
-  "mg_pt": [
-   null,
-   25
-  ],
-  "home_walk": [
-   5.07,
-   68
-  ],
-  "home_bike": [
-   6.32,
-   26
-  ],
-  "home_pt": [
-   null,
-   32
-  ]
- },
- "letzi": {
-  "lat": 47.3717377,
-  "lon": 8.4945901,
-  "precise": 1,
-  "geo": "213, Letzigraben, Albisrieden, Kreis 9, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich,",
-  "hb_walk": [
-   4.23,
-   56
-  ],
-  "hb_bike": [
-   5.44,
-   23
-  ],
-  "hb_pt": [
-   null,
-   18
-  ],
-  "mg_walk": [
-   5.07,
-   68
-  ],
-  "mg_bike": [
-   6.48,
-   24
-  ],
-  "mg_pt": [
-   null,
-   25
-  ],
-  "home_walk": [
-   5.37,
-   72
-  ],
-  "home_bike": [
-   6.22,
-   29
-  ],
-  "home_pt": [
-   null,
-   35
-  ]
- },
- "juwo": {
-  "lat": 47.3604717,
-  "lon": 8.5674875,
-  "precise": 1,
-  "geo": "193, Forchstrasse, Hirslanden, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich,",
-  "hb_walk": [
-   3.29,
-   44
-  ],
-  "hb_bike": [
-   3.4,
-   19
-  ],
-  "hb_pt": [
-   null,
-   17
-  ],
-  "mg_walk": [
-   6.74,
-   90
-  ],
-  "mg_bike": [
-   8.23,
-   28
-  ],
-  "mg_pt": [
-   null,
    33
-  ],
-  "home_walk": [
-   1.59,
-   21
-  ],
-  "home_bike": [
-   1.56,
-   9
-  ],
-  "home_pt": [
-   null,
-   16
   ]
  },
- "luisen": {
-  "lat": 47.3838697,
-  "lon": 8.5295654,
-  "precise": 1,
-  "geo": "Haus zum Hecht, 31, Luisenstrasse, Gewerbeschule, Industriequartier, Z",
+ "f86504838": {
+  "lat": 47.4228,
+  "lon": 8.51477,
+  "precise": 0,
   "hb_walk": [
-   1.18,
-   16
+   6.5,
+   87
   ],
   "hb_bike": [
-   1.18,
-   6
-  ],
-  "hb_pt": [
-   null,
-   8
-  ],
-  "mg_walk": [
-   6.21,
-   82
-  ],
-  "mg_bike": [
-   6.38,
-   21
-  ],
-  "mg_pt": [
-   null,
-   27
-  ],
-  "home_walk": [
-   2.75,
-   37
-  ],
-  "home_bike": [
-   3.35,
-   15
-  ],
-  "home_pt": [
-   null,
-   23
-  ]
- },
- "hofacker": {
-  "lat": 47.3615297,
-  "lon": 8.5637224,
-  "precise": 1,
-  "geo": "25, Hofackerstrasse, Hirslanden, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcric",
-  "hb_walk": [
-   3.09,
-   41
-  ],
-  "hb_bike": [
-   3.13,
-   17
-  ],
-  "hb_pt": [
-   null,
-   17
-  ],
-  "mg_walk": [
-   6.49,
-   86
-  ],
-  "mg_bike": [
-   8.06,
-   26
-  ],
-  "mg_pt": [
-   null,
-   31
-  ],
-  "home_walk": [
-   1.48,
-   20
-  ],
-  "home_bike": [
-   1.73,
-   8
-  ],
-  "home_pt": [
-   null,
-   16
-  ]
- },
- "betahouse57": {
-  "lat": 47.3729749,
-  "lon": 8.563219,
-  "precise": 1,
-  "geo": "57, Bergstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
-  "hb_walk": [
-   2.55,
+   6.92,
    34
   ],
-  "hb_bike": [
-   2.56,
-   14
-  ],
   "hb_pt": [
-   null,
-   24
-  ],
-  "mg_walk": [
-   6.59,
-   88
-  ],
-  "mg_bike": [
-   7.38,
-   27
-  ],
-  "mg_pt": [
-   null,
-   38
-  ],
-  "home_walk": [
-   0.93,
-   12
-  ],
-  "home_bike": [
-   0.94,
-   5
-  ],
-  "home_pt": [
-   null,
-   12
-  ]
- },
- "oerlijuwo": {
-  "lat": 47.3999853,
-  "lon": 8.542619,
-  "precise": 1,
-  "geo": "3, Oerlikonerstrasse, Unterstrass, Kreis 6, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcr",
-  "hb_walk": [
-   2.87,
-   38
-  ],
-  "hb_bike": [
-   4.15,
-   16
-  ],
-  "hb_pt": [
-   null,
-   17
-  ],
-  "mg_walk": [
-   8.24,
-   110
-  ],
-  "mg_bike": [
-   9.29,
-   31
-  ],
-  "mg_pt": [
-   null,
-   39
-  ],
-  "home_walk": [
-   3.8,
-   51
-  ],
-  "home_bike": [
-   4.14,
-   15
-  ],
-  "home_pt": [
-   null,
-   24
-  ]
- },
- "betahouse53": {
-  "lat": 47.3731518,
-  "lon": 8.5627015,
-  "precise": 1,
-  "geo": "53, Bergstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 80",
-  "hb_walk": [
-   2.4,
-   32
-  ],
-  "hb_bike": [
-   2.52,
-   14
-  ],
-  "hb_pt": [
-   null,
-   21
-  ],
-  "mg_walk": [
-   6.45,
-   86
-  ],
-  "mg_bike": [
-   7.42,
-   28
-  ],
-  "mg_pt": [
-   null,
-   41
-  ],
-  "home_walk": [
-   0.78,
-   10
-  ],
-  "home_bike": [
-   0.88,
-   5
-  ],
-  "home_pt": [
-   null,
-   10
-  ]
- },
- "luisen31": {
-  "lat": 47.3838697,
-  "lon": 8.5295654,
-  "precise": 1,
-  "geo": "Haus zum Hecht, 31, Luisenstrasse, Gewerbeschule, Industriequartier, Z",
-  "hb_walk": [
-   1.18,
-   16
-  ],
-  "hb_bike": [
-   1.17,
-   6
-  ],
-  "hb_pt": [
-   null,
-   8
-  ],
-  "mg_walk": [
-   6.21,
-   82
-  ],
-  "mg_bike": [
-   6.38,
-   21
-  ],
-  "mg_pt": [
    null,
    27
   ],
-  "home_walk": [
-   2.75,
-   37
-  ],
-  "home_bike": [
-   3.35,
-   15
-  ],
-  "home_pt": [
-   null,
-   23
-  ]
- },
- "sihlfeld": {
-  "lat": 47.3806082,
-  "lon": 8.5156534,
-  "precise": 0,
-  "geo": "Sihlfeldstrasse, Hard, Kreis 4, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8004, S",
-  "hb_walk": [
-   2.25,
-   30
-  ],
-  "hb_bike": [
-   2.58,
-   13
-  ],
-  "hb_pt": [
-   null,
-   11
-  ],
   "mg_walk": [
-   5.64,
-   72
+   3.48,
+   46
   ],
   "mg_bike": [
-   5.42,
-   17
+   4.0,
+   20
   ],
   "mg_pt": [
    null,
-   25
+   19
   ],
   "home_walk": [
-   3.6,
-   48
+   7.46,
+   100
   ],
   "home_bike": [
-   4.78,
-   22
-  ],
-  "home_pt": [
-   null,
-   27
-  ]
- },
- "talwiesen": {
-  "lat": 47.368896,
-  "lon": 8.5110926,
-  "precise": 0,
-  "geo": "Talwiesenstrasse, Alt-Wiedikon, Kreis 3, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich",
-  "hb_walk": [
-   2.73,
+   8.78,
    36
   ],
-  "hb_bike": [
-   3.39,
-   17
-  ],
-  "hb_pt": [
-   null,
-   21
-  ],
-  "mg_walk": [
-   4.25,
-   57
-  ],
-  "mg_bike": [
-   4.9,
-   16
-  ],
-  "mg_pt": [
-   null,
-   23
-  ],
-  "home_walk": [
-   3.87,
-   52
-  ],
-  "home_bike": [
-   4.64,
-   22
-  ],
   "home_pt": [
    null,
-   27
+   40
   ]
  },
- "roemerhof": {
-  "lat": 47.3675971,
-  "lon": 8.560108,
-  "precise": 0,
-  "geo": "R\u00f6merhof, Klosbachstrasse, Hottingen, Kreis 7, Z\u00fcrich, Bezirk Z\u00fcrich, ",
+ "f86531907": {
+  "lat": 47.41733,
+  "lon": 8.50736,
+  "precise": 1,
   "hb_walk": [
-   2.36,
-   31
+   5.99,
+   80
   ],
   "hb_bike": [
-   2.35,
-   14
+   6.23,
+   30
   ],
   "hb_pt": [
    null,
-   14
+   22
   ],
   "mg_walk": [
-   6.09,
-   81
+   3.18,
+   42
   ],
   "mg_bike": [
-   7.08,
-   26
+   3.48,
+   18
   ],
   "mg_pt": [
    null,
-   29
+   12
   ],
   "home_walk": [
-   0.65,
-   9
+   6.96,
+   93
   ],
   "home_bike": [
-   0.67,
-   4
+   7.12,
+   33
   ],
   "home_pt": [
    null,
-   8
+   35
+  ]
+ },
+ "f86580994": {
+  "lat": 47.41884,
+  "lon": 8.50808,
+  "precise": 1,
+  "hb_walk": [
+   6.07,
+   81
+  ],
+  "hb_bike": [
+   6.42,
+   31
+  ],
+  "hb_pt": [
+   null,
+   20
+  ],
+  "mg_walk": [
+   3.22,
+   43
+  ],
+  "mg_bike": [
+   3.54,
+   18
+  ],
+  "mg_pt": [
+   null,
+   10
+  ],
+  "home_walk": [
+   7.03,
+   94
+  ],
+  "home_bike": [
+   8.28,
+   33
+  ],
+  "home_pt": [
+   null,
+   33
   ]
  }
 }
