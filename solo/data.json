@@ -470,5 +470,64 @@
    27
   ],
   "psqm": null
+ },
+ {
+  "id": "manegg155",
+  "title": "Room in a 4-person WG in Green City, Manegg",
+  "address": "Allmendstrasse 155, 8041",
+  "area": "Manegg (Green City)",
+  "price": 690,
+  "util": "incl. utilities, internet and Serafe",
+  "type": "room",
+  "kind": "Room in a 4-person WG in a new 5½-room flat",
+  "rooms": "1 of 5½",
+  "sqm": 14,
+  "lease": "open",
+  "leasetxt": "No end date stated (regular WG room)",
+  "avail": "1 Jan 2027",
+  "furn": false,
+  "url": "https://ronorp.net/market/posts/wg-zimmer-in-manegg-1",
+  "note": "From Ron Orp (posted 27 Nov 2026; listed CHF 700, ad text says CHF 690 incl. utilities, internet and Serafe). Green City cooperative, 6th floor, next to S4 station Manegg. Bright room, unfurnished or partly furnished (bed and dresser). Flat 126 m², 2 bathrooms, shared kitchen, covered balcony, big shared roof terrace, laundry. Flatmates Juliette (27), Martin (25) and Dominique (29) want someone 24+ who enjoys cooking together and WG life; write about yourself.",
+  "precise": 1,
+  "found": "2026-11-27",
+  "lat": 47.3378537,
+  "lon": 8.5194472,
+  "hb_walk": [
+   5.48,
+   73
+  ],
+  "hb_bike": [
+   6.14,
+   20
+  ],
+  "hb_pt": [
+   null,
+   26
+  ],
+  "mg_walk": [
+   0.2,
+   3
+  ],
+  "mg_bike": [
+   0.2,
+   3
+  ],
+  "mg_pt": [
+   null,
+   1
+  ],
+  "home_walk": [
+   5.63,
+   75
+  ],
+  "home_bike": [
+   6.86,
+   25
+  ],
+  "home_pt": [
+   null,
+   29
+  ],
+  "psqm": 49.3
  }
 ]
