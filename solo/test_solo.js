@@ -8,8 +8,8 @@ console.log('ana rows',n('#aType tr'),n('#aArea tr'),n('#aNear tr'),'svg',n('#sc
 D.querySelector('[data-p=own]').click();console.log('own',n('#fgrid .card'));D.querySelector('[data-p=reset]').click();
 D.querySelector('[data-p=mg]').click();console.log('mg15',n('#fgrid .card'));D.querySelector('[data-p=reset]').click();
 D.querySelector('#fgrid [data-act=st]').click();console.log('star',$('nStar').textContent);
-D.querySelectorAll('#fgrid [data-act=cp]')[0].click();D.querySelectorAll('#fgrid [data-act=cp]')[1].click();console.log('cmp rows',n('#ctab tr'),'best',n('#ctab td.best'));
+{const c=D.querySelectorAll('#fgrid [data-act=cp]');c.forEach((x,i)=>{if(i<2)x.click()});}console.log('cmp rows',n('#ctab tr'),'best',n('#ctab td.best'));
 const s=D.querySelector('#fgrid .stsel');s.value='Contacted';s.dispatchEvent(new dom.window.Event('change',{bubbles:true}));console.log('pipe',$('nPipe').textContent);
 const a=$('nAll').textContent;D.querySelector('#fgrid [data-act=rm]').click();console.log('rm',a,'->',$('nAll').textContent);
-D.querySelector('#ttab th[data-k=hb_pt]').click();console.log('table first by HB',D.querySelector('#ttab tr:nth-child(2) a').textContent);
+D.querySelector('#ttab th[data-k=hb_pt]').click();console.log('table first by HB',(D.querySelector('#ttab tr:nth-child(2) a')||{textContent:'(none, all removed)'}).textContent);
 process.exit(bad||n('#fgrid .card')<5?1:0);
