@@ -28,11 +28,12 @@ def pt(a,to):
         except Exception as e:
             time.sleep(3)
     return None
+GOH=tuple(float(v) for v in os.environ['GOH'].split(',')) if os.environ.get('GOH') else None
 for d in ROWS:
-    if d['id'] in ng and ng[d['id']].get('home_pt'): continue
+    if d['id'] in ng and ng[d['id']].get('home_pt') and (not GOH or ng[d['id']].get('goh_pt')): continue
     c=(d['lat'],d['lon'])
     x={'lat':c[0],'lon':c[1],'precise':d['precise']}
-    for n,t,tn in (('hb',HB,'Zürich HB'),('mg',OE,'Zürich Oerlikon'),('home',HOME,f'{HOME[0]},{HOME[1]}')):
+    for n,t,tn in (('hb',HB,'Zürich HB'),('mg',OE,'Zürich Oerlikon'),('home',HOME,f'{HOME[0]},{HOME[1]}'))+((('goh',GOH,f'{GOH[0]},{GOH[1]}'),) if GOH else ()):
         x[n+'_walk']=route(c,t,'foot');x[n+'_bike']=route(c,t,'bike');x[n+'_pt']=pt(c,tn)
     ng[d['id']]=x
     print(d['id'],'HB',x['hb_pt'],x['hb_bike'],'| OE',x['mg_pt'],x['mg_walk'],x['mg_bike'],'| home',x['home_pt'],x['home_bike'])
